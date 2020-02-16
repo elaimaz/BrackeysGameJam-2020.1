@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerOptimisedJump : MonoBehaviour
+public class PlayerJump : MonoBehaviour
 {
     [Range(1, 10)]
     public float jumpVelocity = 6f;
