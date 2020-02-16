@@ -21,16 +21,20 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     bool isGrounded = false;
 
+    private SpriteRenderer sprite;
+
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponentInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         movement.x = Input.GetAxis("Horizontal");
+        Flip(movement.x);
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
@@ -59,5 +63,16 @@ public class PlayerController : MonoBehaviour
             isGrounded =  true;
         else
             isGrounded =  false;
+    }
+
+    private void Flip(float movement)
+    {
+        if (movement > 0)
+        {
+            sprite.flipX = false;
+        } else if (movement < 0)
+        {
+            sprite.flipX = true;
+        }
     }
 }
