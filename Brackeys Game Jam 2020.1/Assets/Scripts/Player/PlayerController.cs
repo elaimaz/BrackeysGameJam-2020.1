@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
     Vector3 movement;
+    [SerializeField]
     bool isGrounded = false;
 
 
