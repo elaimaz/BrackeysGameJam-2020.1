@@ -4,31 +4,43 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    //Components
     private Rigidbody2D rb;
+
+    //Horizontal move variables
+    private float horizontalInput;
     [SerializeField]
     private float playerSpeed = 5.0f;
+
+    //Jump Variables
+    private bool resetJump = false;
     [SerializeField]
     private float jumpForce = 5.0f;
-    [SerializeField]
-    private bool resetJump = false;
-    void Start()
+    
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    private void Update()
+    {
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(ResetJumpRoutine());
+        }
+    }
+
+    private void FixedUpdate()
     {
         Movement();
     }
 
     private void Movement()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
+        if (resetJump == true && IsGrounded() == true)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            StartCoroutine(ResetJumpRoutine());
         }
         
         rb.velocity = new Vector2(horizontalInput * playerSpeed, rb.velocity.y);
@@ -46,7 +58,7 @@ public class PlayerScript : MonoBehaviour
         return false;
     }
 
-    IEnumerator ResetJumpRoutine()
+    private IEnumerator ResetJumpRoutine()
     {
         resetJump = true;
         yield return new WaitForSeconds(0.1f);
