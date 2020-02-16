@@ -2,23 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerJump : MonoBehaviour
+public class PlayerOptimisedJump : MonoBehaviour
 {
     [Range(1, 10)]
-    public float fallMultiplier = 3f;
-    public float lowJumpMultiplier = 2f;
-    
-    Rigidbody2D rb;
-//    
-    void Awake(){
-        rb = GetComponent<Rigidbody2D>();
-    }
+    public float jumpVelocity = 6f;
     
     void Update()
     {
-        if (rb.velocity.y <0)
+        if (Input.GetButtonDown("Jump"))
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
         }
     }
 }
