@@ -22,12 +22,13 @@ public class PlayerController : MonoBehaviour
     bool isGrounded = false;
 
     private SpriteRenderer sprite;
-
+    private PlayerAnimatorController playerAnimator;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponentInChildren<SpriteRenderer>();
+        playerAnimator = GetComponent<PlayerAnimatorController>();
     }
 
     // Update is called once per frame
@@ -55,6 +56,8 @@ public class PlayerController : MonoBehaviour
         }
 
         CheckGround();
+
+        playerAnimator.Move(movement.x);
     }
 
     private void CheckGround()
