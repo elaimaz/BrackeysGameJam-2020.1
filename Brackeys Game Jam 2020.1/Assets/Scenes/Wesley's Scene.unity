@@ -1095,3 +1095,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be40d263d56adc8438ee2814225048d1, type: 3}
+--- !u!1 &4820679996443690773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4820679996558223996, guid: be40d263d56adc8438ee2814225048d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4820679996443690772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4820679996443690774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4820679996443690773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1d4dc56a55f7b1391318f75ecad5e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rps: 2
+  firePoint: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  bulletForce: 30
+  gun: {fileID: 0}

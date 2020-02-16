@@ -8,8 +8,6 @@ public class PlayerJump : MonoBehaviour
     public float jumpVelocity = 6f;
     public LayerMask groundLayer;
     
-    bool prevGrounded = false;
-    
     void Update()
     {
         if (Input.GetButtonDown("Jump") && IsGrounded())
