@@ -246,6 +246,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpVelocity: 6
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &427076975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,8 +261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e3e8f8520278b68b5d59bf8b8c9565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
-  rb: {fileID: 427076969}
+  moveSpeed: 3
+  rb: {fileID: 0}
 --- !u!1 &1334553872
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +339,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334553872}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -435,7 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2008175454}
   - component: {fileID: 2008175453}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +464,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008175452}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -483,7 +486,7 @@ GameObject:
   - component: {fileID: 2042284917}
   - component: {fileID: 2042284916}
   - component: {fileID: 2042284915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -2,23 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerJump : MonoBehaviour
+public class PlayerOptimisedJump : MonoBehaviour
 {
     [Range(1, 10)]
-    public float fallMultiplier = 3f;
-    public float lowJumpMultiplier = 2f;
-    
-    Rigidbody2D rb;
-//    
-    void Awake(){
-        rb = GetComponent<Rigidbody2D>();
-    }
+    public float jumpVelocity = 6f;
+    public LayerMask groundLayer;
     
     void Update()
     {
-        if (rb.velocity.y <0)
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
         }
+    }
+    
+    //Copied from Assets/Scripts/PlayerScript.cs as temporary fix.
+    private bool IsGrounded()
+    {
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.down, 1.3f, groundLayer);
+        if (hitInfo.collider != null)
+        {
+            return true;
+        }
+        return false;
     }
 }
