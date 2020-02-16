@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 626800345744010744
     second: Space_Miner_Idle_Fixed_again_3
+  - first:
+      213: 7706445425883425917
+    second: Space_Miner_Idle_Fixed_again_0
+  - first:
+      213: -7204086733105166244
+    second: Space_Miner_Idle_Fixed_again_1
+  - first:
+      213: -2754240715398050903
+    second: Space_Miner_Idle_Fixed_again_2
+  - first:
+      213: 7530773611576449160
+    second: Space_Miner_Idle_Fixed_again_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -161,10 +173,10 @@ TextureImporter:
       name: Space_Miner_Idle_Fixed_again_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 398
-        width: 100
-        height: 100
+        x: 142
+        y: 436
+        width: 15
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0cd68e38c1ab05f0800000000000000
-      internalID: -789359428258833396
+      spriteID: d7c27bac84bc2fa60800000000000000
+      internalID: 7706445425883425917
       vertices: []
       indices: 
       edges: []
@@ -182,10 +194,10 @@ TextureImporter:
       name: Space_Miner_Idle_Fixed_again_1
       rect:
         serializedVersion: 2
-        x: 395
-        y: 397
-        width: 100
-        height: 100
+        x: 441
+        y: 436
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7388d52357bc9430800000000000000
-      internalID: 3791106554084230012
+      spriteID: c58892ef841f50c90800000000000000
+      internalID: -7204086733105166244
       vertices: []
       indices: 
       edges: []
@@ -203,10 +215,10 @@ TextureImporter:
       name: Space_Miner_Idle_Fixed_again_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 98
-        width: 100
-        height: 100
+        x: 142
+        y: 137
+        width: 15
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ba9aca7f3b57a70800000000000000
-      internalID: 8824156921237449507
+      spriteID: 9ab08c479a8f6c9d0800000000000000
+      internalID: -2754240715398050903
       vertices: []
       indices: 
       edges: []
@@ -224,10 +236,10 @@ TextureImporter:
       name: Space_Miner_Idle_Fixed_again_3
       rect:
         serializedVersion: 2
-        x: 400
-        y: 98
-        width: 100
-        height: 100
+        x: 441
+        y: 137
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fde921f797d2b800800000000000000
-      internalID: 626800345744010744
+      spriteID: 88856e133bea28860800000000000000
+      internalID: 7530773611576449160
       vertices: []
       indices: 
       edges: []
