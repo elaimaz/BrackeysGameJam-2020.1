@@ -10,4 +10,11 @@ public class FMODPlayer : MonoBehaviour
         Footsteps.start();
         Footsteps.release();
     }
+
+    void PlayJump(string path)
+    {
+        FMOD.Studio.EventInstance Jump = FMODUnity.RuntimeManager.CreateInstance(path);
+        Jump.start();
+        Jump.release();
+    }
 }
