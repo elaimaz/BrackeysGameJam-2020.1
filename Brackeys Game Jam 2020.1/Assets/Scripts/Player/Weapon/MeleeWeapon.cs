@@ -23,7 +23,7 @@ public class MeleeWeapon : MonoBehaviour
     {
         tLastFire += Time.deltaTime;
 
-        if(Input.GetButton("Fire1"))
+        if(Input.GetButtonDown("Fire1"))
         {
             if (tLastFire >= tNextFire)
             {
