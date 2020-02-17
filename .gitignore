@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# FMOD
+fmod_editor.log
+[Aa]ssets/Plugins/FMOD/Cache
+Brackeys Game Jam 2020.1/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
