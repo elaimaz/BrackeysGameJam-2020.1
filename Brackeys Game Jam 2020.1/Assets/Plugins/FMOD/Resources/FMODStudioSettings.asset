@@ -16,7 +16,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: F:\Projects\Git\BrackeysGameJam-2020.1\Brackeys Game Jam 2020.1\Assets\Audio\Desktop
+  sourceBankPath: Assets\Audio\Desktop
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -72,7 +72,9 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - FX
   BanksToLoad: []
   LiveUpdatePort: 9264
