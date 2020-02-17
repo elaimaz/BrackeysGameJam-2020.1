@@ -41,6 +41,12 @@ public class PlayerController : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
             playerAnimator.Jump(true);
         }
+
+        //Just for test, when we have a proper death mechanic change it. Right now it is just to show player death.
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            playerAnimator.Death();
+        }
     }
 
     private void FixedUpdate()
