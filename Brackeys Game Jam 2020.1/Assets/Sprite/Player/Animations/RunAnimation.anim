@@ -177,14 +177,14 @@ AnimationClip:
   m_Events:
   - time: 0.3
     functionName: PlayFootsteps
-    data: event:/Footsteps
+    data: event:/FX/Footsteps
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.7
     functionName: PlayFootsteps
-    data: event:/Footsteps
+    data: event:/FX/Footsteps
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
