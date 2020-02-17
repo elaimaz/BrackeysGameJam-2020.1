@@ -1,7 +1,208 @@
 fileFormatVersion: 2
 guid: 20a4cea675390ee48a43b7a53ad2df44
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2620139414826468676
+    second: Miner_Arm_Gun_Melee_Attack_0
+  - first:
+      213: 4468439079637843114
+    second: Miner_Arm_Gun_Melee_Attack_1
+  - first:
+      213: -3459397120661081103
+    second: Miner_Arm_Gun_Melee_Attack_2
+  - first:
+      213: -8682013865800492492
+    second: Miner_Arm_Gun_Melee_Attack_3
+  - first:
+      213: 3943516737693054603
+    second: Miner_Arm_Gun_Melee_Attack_4
+  - first:
+      213: -8705628181792431496
+    second: Miner_Arm_Gun_Melee_Attack_5
+  - first:
+      213: 5818895770576634455
+    second: Miner_Arm_Gun_Melee_Attack_6
+  - first:
+      213: -6681602429236364241
+    second: Miner_Arm_Gun_Melee_Attack_7
+  - first:
+      213: 6852236049315022216
+    second: Miner_Arm_Gun_Melee_Attack_8
+  - first:
+      213: 7984010882842084805
+    second: Miner_Arm_Gun_Melee_Attack_9
+  - first:
+      213: -4630903518002034342
+    second: Miner_Arm_Gun_Melee_Attack_10
+  - first:
+      213: 7761407481842187874
+    second: Miner_Arm_Gun_Melee_Attack_11
+  - first:
+      213: 3895899911491342062
+    second: Miner_Arm_Gun_Melee_Attack_12
+  - first:
+      213: 4846759882194929682
+    second: Miner_Arm_Gun_Melee_Attack_13
+  - first:
+      213: -5755311283243631817
+    second: Miner_Arm_Gun_Melee_Attack_14
+  - first:
+      213: -5072730931636432420
+    second: Miner_Arm_Gun_Melee_Attack_15
+  - first:
+      213: 3961119490034520093
+    second: Miner_Arm_Gun_Melee_Attack_16
+  - first:
+      213: -5608965586814911086
+    second: Miner_Arm_Gun_Melee_Attack_17
+  - first:
+      213: -4907681850310176860
+    second: Miner_Arm_Gun_Melee_Attack_18
+  - first:
+      213: -2279679378802316730
+    second: Miner_Arm_Gun_Melee_Attack_19
+  - first:
+      213: -8506888956389395548
+    second: Miner_Arm_Gun_Melee_Attack_0
+  - first:
+      213: 5621948840206657162
+    second: Miner_Arm_Gun_Melee_Attack_1
+  - first:
+      213: 1834711417795413472
+    second: Miner_Arm_Gun_Melee_Attack_2
+  - first:
+      213: -4764182707645960563
+    second: Miner_Arm_Gun_Melee_Attack_3
+  - first:
+      213: 8714287862301489076
+    second: Miner_Arm_Gun_Melee_Attack_4
+  - first:
+      213: 3863815464188959430
+    second: Miner_Arm_Gun_Melee_Attack_5
+  - first:
+      213: -3981670138110449133
+    second: Miner_Arm_Gun_Melee_Attack_6
+  - first:
+      213: 6733621622949753332
+    second: Miner_Arm_Gun_Melee_Attack_7
+  - first:
+      213: 1214647205547551228
+    second: Miner_Arm_Gun_Melee_Attack_8
+  - first:
+      213: -4936051471277290926
+    second: Miner_Arm_Gun_Melee_Attack_9
+  - first:
+      213: 4538708145664107385
+    second: Miner_Arm_Gun_Melee_Attack_10
+  - first:
+      213: -937706794348944456
+    second: Miner_Arm_Gun_Melee_Attack_11
+  - first:
+      213: 7555026117943570616
+    second: Miner_Arm_Gun_Melee_Attack_12
+  - first:
+      213: 8851338230676654857
+    second: Miner_Arm_Gun_Melee_Attack_13
+  - first:
+      213: -2086041486246283645
+    second: Miner_Arm_Gun_Melee_Attack_14
+  - first:
+      213: 7524855499292416696
+    second: Miner_Arm_Gun_Melee_Attack_15
+  - first:
+      213: -4142067251277889657
+    second: Miner_Arm_Gun_Melee_Attack_16
+  - first:
+      213: 4545328844591518737
+    second: Miner_Arm_Gun_Melee_Attack_17
+  - first:
+      213: 4860250453821562515
+    second: Miner_Arm_Gun_Melee_Attack_18
+  - first:
+      213: -5219637587761723341
+    second: Miner_Arm_Gun_Melee_Attack_19
+  - first:
+      213: -6890060001801189483
+    second: Miner_Arm_Gun_Melee_Attack_20
+  - first:
+      213: 4653940242853261227
+    second: Miner_Arm_Gun_Melee_Attack_21
+  - first:
+      213: -3230171859521407374
+    second: Miner_Arm_Gun_Melee_Attack_22
+  - first:
+      213: -2330793498087108527
+    second: Miner_Arm_Gun_Melee_Attack_23
+  - first:
+      213: 3773942083361110999
+    second: Miner_Arm_Gun_Melee_Attack_24
+  - first:
+      213: -5797154971567650606
+    second: Miner_Arm_Gun_Melee_Attack_25
+  - first:
+      213: -152213426104478665
+    second: Miner_Arm_Gun_Melee_Attack_26
+  - first:
+      213: -2937743648436002672
+    second: Miner_Arm_Gun_Melee_Attack_27
+  - first:
+      213: 3831605269222955399
+    second: Miner_Arm_Gun_Melee_Attack_28
+  - first:
+      213: -6107437760146856339
+    second: Miner_Arm_Gun_Melee_Attack_29
+  - first:
+      213: -819007806136574582
+    second: Miner_Arm_Gun_Melee_Attack_30
+  - first:
+      213: 2755568166082696652
+    second: Miner_Arm_Gun_Melee_Attack_31
+  - first:
+      213: -6699935120060929617
+    second: Miner_Arm_Gun_Melee_Attack_32
+  - first:
+      213: -2491431973709945123
+    second: Miner_Arm_Gun_Melee_Attack_33
+  - first:
+      213: 2972481204226928820
+    second: Miner_Arm_Gun_Melee_Attack_34
+  - first:
+      213: 3264115060835118854
+    second: Miner_Arm_Gun_Melee_Attack_35
+  - first:
+      213: -5800669945553536926
+    second: Miner_Arm_Gun_Melee_Attack_36
+  - first:
+      213: 7940849010389326826
+    second: Miner_Arm_Gun_Melee_Attack_37
+  - first:
+      213: 4025934222769978873
+    second: Miner_Arm_Gun_Melee_Attack_38
+  - first:
+      213: 7427626741344308415
+    second: Miner_Arm_Gun_Melee_Attack_39
+  - first:
+      213: -5365353660950031283
+    second: Miner_Arm_Gun_Melee_Attack_40
+  - first:
+      213: 767440411714831636
+    second: Miner_Arm_Gun_Melee_Attack_41
+  - first:
+      213: -8072963700330946753
+    second: Miner_Arm_Gun_Melee_Attack_42
+  - first:
+      213: 1610286720678497613
+    second: Miner_Arm_Gun_Melee_Attack_43
+  - first:
+      213: 7109635256347321140
+    second: Miner_Arm_Gun_Melee_Attack_44
+  - first:
+      213: -4133230386099829107
+    second: Miner_Arm_Gun_Melee_Attack_45
+  - first:
+      213: 3481037288226236596
+    second: Miner_Arm_Gun_Melee_Attack_46
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +241,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -82,9 +283,441 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 4845
+        width: 180
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a377bac09571f980800000000000000
+      internalID: -8506888956389395548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4845
+        width: 165
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86efed0fac250e40800000000000000
+      internalID: 5621948840206657162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 4335
+        width: 150
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e58c035054367910800000000000000
+      internalID: 1834711417795413472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4335
+        width: 150
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e24b1b11932edb0800000000000000
+      internalID: -4764182707645960563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 3822
+        width: 150
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77af6f3ae5fe870800000000000000
+      internalID: 8714287862301489076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3822
+        width: 165
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cad4ac71b70f9530800000000000000
+      internalID: 3863815464188959430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 3310
+        width: 180
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a652dea144eb8c0800000000000000
+      internalID: -3981670138110449133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3310
+        width: 198
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f13fc79031a27d50800000000000000
+      internalID: 6733621622949753332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2797
+        width: 198
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9251ea23b4bd010800000000000000
+      internalID: 1214647205547551228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2797
+        width: 198
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a0975d65f9f7bb0800000000000000
+      internalID: -4936051471277290926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2285
+        width: 198
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9732b79e20bbcfe30800000000000000
+      internalID: 4538708145664107385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2285
+        width: 198
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b36c5383a89cf2f0800000000000000
+      internalID: -937706794348944456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1775
+        width: 198
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b033dcd938d8d860800000000000000
+      internalID: 7555026117943570616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1775
+        width: 198
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b0152793546da70800000000000000
+      internalID: 8851338230676654857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1262
+        width: 198
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386ff811254ec03e0800000000000000
+      internalID: -2086041486246283645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1262
+        width: 198
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba187d4538ad6860800000000000000
+      internalID: 7524855499292416696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 750
+        width: 198
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f7dc3d7cb6486c0800000000000000
+      internalID: -4142067251277889657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 750
+        width: 180
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114d6318080441f30800000000000000
+      internalID: 4545328844591518737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 237
+        width: 180
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e177b7904137340800000000000000
+      internalID: 4860250453821562515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Melee_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 237
+        width: 180
+        height: 53
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3388f2dc44f1097b0800000000000000
+      internalID: -5219637587761723341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
