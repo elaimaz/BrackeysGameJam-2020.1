@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Audio/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637175810021904086
+  lastModified: 637175736617746245
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -107,7 +107,7 @@ MonoBehaviour:
   Path: event:/FX/Land
   guid: 92bf112b53a8314ab5e40494f6e6262d
   Banks:
-  - {fileID: -5569668499669399101}
+  - {fileID: 2759296048225025506}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -277,18 +277,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -9191782543997375709}
-  - {fileID: -5569668499669399101}
-  - {fileID: -7548985899761957157}
+  - {fileID: 2759296048225025506}
+  - {fileID: 2461857057693876820}
   EditorEvents:
   - {fileID: 6550516242713143435}
   - {fileID: 854686847336240285}
   - {fileID: -5639295639621704837}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7548985899761957157}
+  - {fileID: 2461857057693876820}
   StringsBanks:
   - {fileID: -9191782543997375709}
-  stringsBankWriteTime: 637175810021904086
+  stringsBankWriteTime: 637175736617746245
   cacheVersion: 3
 --- !u!114 &854686847336240285
 MonoBehaviour:
@@ -305,7 +305,7 @@ MonoBehaviour:
   Path: event:/FX/Jump
   guid: 5ebcc3ff1e93b444990711e6eb06eaf9
   Banks:
-  - {fileID: -5569668499669399101}
+  - {fileID: 2759296048225025506}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -331,6 +331,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &2461857057693876820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637175736617746245
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2759296048225025506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637175736618018843
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3257848650195066335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +454,7 @@ MonoBehaviour:
   Path: event:/FX/Footsteps
   guid: 08378745d594a14ead2489e7de7aefa3
   Banks:
-  - {fileID: -5569668499669399101}
+  - {fileID: 2759296048225025506}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

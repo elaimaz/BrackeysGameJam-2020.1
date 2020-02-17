@@ -12,6 +12,11 @@ public class EnemyBase : MonoBehaviour
     public float longRange;
     public float longDamage;
     public float health;
+
+    [Header("While Taking Damage")]
+    public float tStartDazed;
+    private float tDazed;
+    private float oriSpeed;
     public bool isPlayerInRange = false;
 
     private Animator anime;
@@ -23,6 +28,7 @@ public class EnemyBase : MonoBehaviour
             PlayerPos = GameObject.FindGameObjectWithTag("Player").transform;
         }
         anime = GetComponent<Animator>();
+        oriSpeed = speed;
     }
 
     private void Update()
@@ -37,10 +43,21 @@ public class EnemyBase : MonoBehaviour
             anime.SetBool("isInRange", false);
             isPlayerInRange = false;
         }
+
+        if(tDazed <= 0)
+        {
+            speed = oriSpeed;
+        }
+        else
+        {
+            speed = 0;
+            tDazed -= Time.deltaTime;
+        }
     }
 
     public virtual void OnDamageTaken(int damage)
     {
         anime.SetTrigger("isTakingDamage");
+        tDazed = tStartDazed;
     }
 }
