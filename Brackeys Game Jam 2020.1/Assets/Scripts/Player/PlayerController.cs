@@ -78,13 +78,12 @@ public class PlayerController : MonoBehaviour
 
     private void Flip(float movement)
     {
-        if (movement > 0 && transform.localScale.x < 0)
+        if (movement > 0)
         {
-            transform.localScale = new Vector3(5,5,1);
-        } else if (movement < 0 && transform.localScale.x > 0)
+            sprite.flipX = false;
+        } else if (movement < 0)
         {
-            transform.localScale = new Vector3(-5, 5, 1);
-            //sprite.flipX = true;
+            sprite.flipX = true;
         }
     }
 }
