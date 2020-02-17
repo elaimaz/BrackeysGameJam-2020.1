@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Audio/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637175799001635573
+  lastModified: 637175801778400925
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -74,6 +74,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3519070445467460727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637175801036876333
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3382222845592087794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +107,7 @@ MonoBehaviour:
   Path: event:/Jump
   guid: 5ebcc3ff1e93b444990711e6eb06eaf9
   Banks:
-  - {fileID: 7563548407018411759}
+  - {fileID: 1547647583524662529}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -150,6 +168,24 @@ MonoBehaviour:
   lastModified: 637175799001615570
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-1497986884746397816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637175801778380787
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-1494086883566592322
 MonoBehaviour:
@@ -183,18 +219,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -9191782543997375709}
-  - {fileID: 7563548407018411759}
-  - {fileID: -1894119741429106024}
+  - {fileID: 1547647583524662529}
+  - {fileID: -1497986884746397816}
   EditorEvents:
   - {fileID: 8960944311642703324}
   - {fileID: -3382222845592087794}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1894119741429106024}
+  - {fileID: -1497986884746397816}
   StringsBanks:
   - {fileID: -9191782543997375709}
-  stringsBankWriteTime: 637175799001635573
+  stringsBankWriteTime: 637175801778400925
   cacheVersion: 3
+--- !u!114 &1547647583524662529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637175801778300839
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3257848650195066335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,6 +282,24 @@ MonoBehaviour:
   Path: Assets/Audio/Desktop/FX.bank
   SubDir: 
   lastModified: 637175547278689281
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6026592241861618248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637175801036746326
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -266,7 +338,7 @@ MonoBehaviour:
   lastModified: 637175799001515573
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &8013172022680729083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,7 +372,7 @@ MonoBehaviour:
   Path: event:/Footsteps
   guid: 08378745d594a14ead2489e7de7aefa3
   Banks:
-  - {fileID: 7563548407018411759}
+  - {fileID: 1547647583524662529}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
