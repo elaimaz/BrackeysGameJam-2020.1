@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Audio/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637175801778400925
+  lastModified: 637175810021904086
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 826
+    Value: 864
   Exists: 1
 --- !u!114 &-8407274117459251756
 MonoBehaviour:
@@ -56,6 +56,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7548985899761957157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637175810021874078
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5841236500892889136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +92,47 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5639295639621704837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Land
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Land
+  guid: 92bf112b53a8314ab5e40494f6e6262d
+  Banks:
+  - {fileID: -5569668499669399101}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 380
+--- !u!114 &-5569668499669399101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637175810021754086
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3519070445467460727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,8 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Jump
   guid: 5ebcc3ff1e93b444990711e6eb06eaf9
-  Banks:
-  - {fileID: 1547647583524662529}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -186,7 +244,7 @@ MonoBehaviour:
   lastModified: 637175801778380787
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1494086883566592322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,18 +277,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -9191782543997375709}
-  - {fileID: 1547647583524662529}
-  - {fileID: -1497986884746397816}
+  - {fileID: -5569668499669399101}
+  - {fileID: -7548985899761957157}
   EditorEvents:
-  - {fileID: 8960944311642703324}
-  - {fileID: -3382222845592087794}
+  - {fileID: 6550516242713143435}
+  - {fileID: 854686847336240285}
+  - {fileID: -5639295639621704837}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1497986884746397816}
+  - {fileID: -7548985899761957157}
   StringsBanks:
   - {fileID: -9191782543997375709}
-  stringsBankWriteTime: 637175801778400925
+  stringsBankWriteTime: 637175810021904086
   cacheVersion: 3
+--- !u!114 &854686847336240285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Jump
+  guid: 5ebcc3ff1e93b444990711e6eb06eaf9
+  Banks:
+  - {fileID: -5569668499669399101}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 255
 --- !u!114 &1547647583524662529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +330,7 @@ MonoBehaviour:
   lastModified: 637175801778300839
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &3257848650195066335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,6 +403,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6550516242713143435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Footsteps
+  guid: 08378745d594a14ead2489e7de7aefa3
+  Banks:
+  - {fileID: -5569668499669399101}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 250
 --- !u!114 &7563548407018411759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,8 +476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Footsteps
   guid: 08378745d594a14ead2489e7de7aefa3
-  Banks:
-  - {fileID: 1547647583524662529}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
