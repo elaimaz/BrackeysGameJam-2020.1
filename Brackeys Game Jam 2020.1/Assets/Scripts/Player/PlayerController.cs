@@ -66,7 +66,10 @@ public class PlayerController : MonoBehaviour
         if ((Physics2D.OverlapCircle(transform.GetChild(0).position, 0.2f, groundLayer) != null ))
         {
             if(isGrounded == false)
+            {
                 playerAnimator.Jump(false);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Land");
+            }
             isGrounded =  true;
         }
         else if(isGrounded == true)
