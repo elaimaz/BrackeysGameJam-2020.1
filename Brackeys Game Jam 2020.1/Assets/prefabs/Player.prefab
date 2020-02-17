@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081734459169474593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.1228, z: 0}
+  m_LocalPosition: {x: 0, y: -0.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5291474184486412972}
@@ -39,10 +39,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5291474184486412972}
-  - component: {fileID: 5291474184486412973}
-  - component: {fileID: 5291474184486412970}
+  - component: {fileID: 1804161301780506149}
   - component: {fileID: 5291474184486412971}
   - component: {fileID: 8769125258832151386}
+  - component: {fileID: 5291474184486412973}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -66,28 +66,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5291474184486412973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291474184486412968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3ec250b75024934c9e23c157fddcebd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  jumpVelocity: 6
-  fallMultiplier: 3
-  lowJumpMultiplier: 2
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  isGrounded: 0
---- !u!61 &5291474184486412970
-BoxCollider2D:
+--- !u!70 &1804161301780506149
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -99,19 +79,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009554341, y: 0.008232728}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.25}
-    newSize: {x: 0.15, y: 0.26}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1430207, y: 0.26227185}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.12, y: 0.25}
+  m_Direction: 0
 --- !u!50 &5291474184486412971
 Rigidbody2D:
   serializedVersion: 4
@@ -145,6 +115,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b51a0b848dd204547866d1fb3b8d59c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5291474184486412973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291474184486412968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ec250b75024934c9e23c157fddcebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  jumpVelocity: 6
+  fallMultiplier: 3
+  lowJumpMultiplier: 2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  isGrounded: 0
 --- !u!1 &8329848165285316059
 GameObject:
   m_ObjectHideFlags: 0

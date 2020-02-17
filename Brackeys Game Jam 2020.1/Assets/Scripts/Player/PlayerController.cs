@@ -63,14 +63,16 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGround()
     {
-        if (Physics2D.OverlapCircle(transform.GetChild(0).position, 0.2f, groundLayer) != null)
+        if ((Physics2D.OverlapCircle(transform.GetChild(0).position, 0.2f, groundLayer) != null ))
         {
-            Debug.Log(isGrounded);
+            if(isGrounded == false)
+                playerAnimator.Jump(false);
             isGrounded =  true;
         }
-        else
+        else if(isGrounded == true)
         {
             isGrounded =  false;
+            
         }
     }
 

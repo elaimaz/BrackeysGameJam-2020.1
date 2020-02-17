@@ -55,7 +55,7 @@ public class PlayerAimingAndFire : MonoBehaviour
         Rigidbody2D rb_projectile = newProjectile.GetComponent<Rigidbody2D>();
         rb_projectile.AddForce( firePoint.transform.right * bulletForce, ForceMode2D.Impulse);
         
-        Destroy (newProjectile, 5f);
+        Destroy(newProjectile, 5f);
     }
     
 }
