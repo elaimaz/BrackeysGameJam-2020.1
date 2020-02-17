@@ -21,4 +21,9 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         animator.SetBool("Jumping", jumping);
     }
+
+    public void Death()
+    {
+        animator.SetTrigger("Death");
+    }
 }
