@@ -20,14 +20,11 @@ public class PlayerController : MonoBehaviour
     Vector3 movement;
     [SerializeField]
     bool isGrounded = false;
-
-    private SpriteRenderer sprite;
     private PlayerAnimatorController playerAnimator;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        sprite = GetComponentInChildren<SpriteRenderer>();
         playerAnimator = GetComponent<PlayerAnimatorController>();
     }
 
@@ -81,12 +78,12 @@ public class PlayerController : MonoBehaviour
 
     private void Flip(float movement)
     {
-        if (movement > 0)
+        if (movement > 0 && transform.localScale.x < 0)
         {
-            sprite.flipX = false;
-        } else if (movement < 0)
+            transform.localScale = new Vector3(1, 1, 1);
+        } else if (movement < 0 && transform.localScale.x > 0)
         {
-            sprite.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
         }
     }
 }
