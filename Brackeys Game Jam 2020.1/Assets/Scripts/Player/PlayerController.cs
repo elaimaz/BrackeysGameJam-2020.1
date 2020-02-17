@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
+            playerAnimator.Jump(true);
         }
     }
 
@@ -63,9 +64,14 @@ public class PlayerController : MonoBehaviour
     private void CheckGround()
     {
         if (Physics2D.OverlapCircle(transform.GetChild(0).position, 0.2f, groundLayer) != null)
+        {
+            Debug.Log(isGrounded);
             isGrounded =  true;
+        }
         else
+        {
             isGrounded =  false;
+        }
     }
 
     private void Flip(float movement)

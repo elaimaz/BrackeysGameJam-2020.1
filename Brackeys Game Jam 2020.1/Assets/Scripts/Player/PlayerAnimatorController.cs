@@ -16,4 +16,9 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         animator.SetFloat("Move", Mathf.Abs(move));
     }
+
+    public void Jump(bool jumping)
+    {
+        animator.SetBool("Jumping", jumping);
+    }
 }
