@@ -172,6 +172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7710125639191959400}
+  - component: {fileID: 1216861537865577853}
   m_Layer: 0
   m_Name: Weapon Holder
   m_TagString: Untagged
@@ -195,6 +196,18 @@ Transform:
   m_Father: {fileID: 5291474184486412972}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216861537865577853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713798114721599187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06f054117d82f24e8801549a91e8019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1081734459169474593
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdc1e0d4114c9a744b707cdefc991e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rps: 2
+  rps: 1.2
   damage: 10
   DetectionZone: {x: 0.72, y: 0.31}
   AttackOrigin: {fileID: 5635832547513478576}
@@ -508,6 +521,7 @@ GameObject:
   - component: {fileID: 4177826904850581753}
   - component: {fileID: 3723926590086450272}
   - component: {fileID: 8993853372481946421}
+  - component: {fileID: 3340312989595580574}
   m_Layer: 0
   m_Name: RangedWeapon
   m_TagString: Untagged
@@ -636,6 +650,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06f054117d82f24e8801549a91e8019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3340312989595580574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3784091033606010580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06f054117d82f24e8801549a91e8019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5291474184486412968
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,7 +676,8 @@ GameObject:
   - component: {fileID: 8769125258832151386}
   - component: {fileID: 5291474184486412973}
   - component: {fileID: 6574192945758908345}
-  m_Layer: 0
+  - component: {fileID: 4664588625238447445}
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -761,24 +788,29 @@ MonoBehaviour:
   currWeapon: 0
   MeleeWeapon: {fileID: 1091719375631032925}
   RangedWeapon: {fileID: 3784091033606010580}
-  ArrowRef: {fileID: 3621867963890765023}
-  tStartChargeUp: 2
-  MinDamage: 2
-  MaxDamage: 25
-  shootEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3723926590086450272}
-        m_MethodName: Shoot
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+--- !u!114 &4664588625238447445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291474184486412968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Music/Area1Music
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &8329848165285316059
 GameObject:
   m_ObjectHideFlags: 0
