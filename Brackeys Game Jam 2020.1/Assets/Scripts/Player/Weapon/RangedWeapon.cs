@@ -1,21 +1,23 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeleeWeapon : MonoBehaviour
+public class RangedWeapon : MonoBehaviour
 {
     public float rps;
     public int damage;
-    public Vector2 DetectionZone;
+    public float BulleteSpeed;
     public Transform AttackOrigin;
+    public GameObject BulletPrefab;
     public LayerMask ememyLayer;
 
     public Animator playerAnime;
     public Animator anime;
-
+    public float angle;
     private float tLastFire;
     private float tNextFire;
+    private Vector3 mousePos;
+    private Vector3 lookDir;
 
 
     // Update is called once per frame
@@ -23,7 +25,12 @@ public class MeleeWeapon : MonoBehaviour
     {
         tLastFire += Time.deltaTime;
 
-        if(Input.GetButton("Fire1"))
+        lookDir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+     
+        angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+
+        if (Input.GetButton("Fire1"))
         {
             if (tLastFire >= tNextFire)
             {
@@ -34,24 +41,15 @@ public class MeleeWeapon : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireCube(AttackOrigin.position, DetectionZone);
-    }
-
     private void Shoot()
     {
         anime.SetTrigger("isAttacking");
         playerAnime.SetTrigger("isAttacking");
-    }
+    }   
+    
 
-    public void CheckForHit()
+    public void ShootBullet()
     {
-        //GetComponent<BoxCollider2D>().enabled = true;
-        Collider2D coll = Physics2D.OverlapBox(AttackOrigin.position, DetectionZone, 0 , ememyLayer);
-        if ( coll != null)
-        {
-            coll.GetComponent<EnemyBase>().OnDamageTaken(damage);
-        }
+        Instantiate(BulletPrefab, AttackOrigin.position, AttackOrigin.rotation).GetComponent<BulletScript>().SetBullete(damage,BulleteSpeed);
     }
 }

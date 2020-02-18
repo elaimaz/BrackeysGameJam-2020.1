@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool canMove = true;
+    
     [Range(1, 10)]
     public float moveSpeed = 3f;
     [Range(1, 10)]
@@ -20,6 +19,8 @@ public class PlayerController : MonoBehaviour
     Vector3 movement;
     [SerializeField]
     bool isGrounded = false;
+    private bool isFacingRight = true;
+    
     private PlayerAnimatorController playerAnimator;
 
     private void Start()
@@ -32,36 +33,56 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         movement.x = Input.GetAxis("Horizontal");
-        Flip(movement.x);
-        if (Input.GetButtonDown("Jump") && isGrounded == true)
+        if(movement.x > 0 && !isFacingRight)
         {
-            GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
-            playerAnimator.Jump(true);
+            Flip();
         }
-
+        if(movement.x <0 && isFacingRight)
+        {
+            Flip();
+        }
+        if (canMove == true)
+        {
+            if (Input.GetButtonDown("Jump") && isGrounded == true)
+            {
+                GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
+                playerAnimator.Jump(true);
+            }
+        }
+        
         //Just for test, when we have a proper death mechanic change it. Right now it is just to show player death.
         if (Input.GetKeyDown(KeyCode.H))
         {
             playerAnimator.Death();
         }
+
+        //Just for test, when we have a proper portal mechanic change it. Right now it is just to show player jump portal animation.
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            playerAnimator.JumpPortal();
+            FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+        }
     }
 
     private void FixedUpdate()
     {
-        transform.position += movement * moveSpeed * Time.fixedDeltaTime;
-
-        if (rb.velocity.y < 0)
+        if (canMove == true)
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }
-        else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
-        {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-        }
+            transform.position += movement * moveSpeed * Time.fixedDeltaTime;
 
-        CheckGround();
+            if (rb.velocity.y < 0)
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            }
+            else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+            }
 
-        playerAnimator.Move(movement.x);
+            CheckGround();
+
+            playerAnimator.Move(movement.x);
+        }
     }
 
     private void CheckGround()
@@ -82,14 +103,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Flip(float movement)
+    private void Flip()
     {
-        if (movement > 0 && transform.localScale.x < 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        } else if (movement < 0 && transform.localScale.x > 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
+        isFacingRight = !isFacingRight;
+
+        transform.Rotate(0f, 180f, 0f);
     }
 }

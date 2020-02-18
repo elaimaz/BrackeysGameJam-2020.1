@@ -26,4 +26,9 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         animator.SetTrigger("Death");
     }
+
+    public void JumpPortal()
+    {
+        animator.SetTrigger("JumpPortal");
+    }
 }

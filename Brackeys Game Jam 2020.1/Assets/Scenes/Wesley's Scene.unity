@@ -121,6 +121,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &959218925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1754980916, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336270237}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &959218926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959218925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d17004d7c792e6443a0299842c312642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1334553872
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,10 +327,39 @@ PrefabInstance:
     - target: {fileID: 5692226299861660782, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: rps
-      value: 2
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b77efe118d8e154282f2bb2d84b33a2, type: 3}
+--- !u!1 &1336270238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5291474184486412968, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336270237}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1336270239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336270238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Music/Area1Music
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &1351147174 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5291474184486412972, guid: 1b77efe118d8e154282f2bb2d84b33a2,
