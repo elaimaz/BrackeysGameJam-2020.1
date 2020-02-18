@@ -25,5 +25,10 @@ public class BlobTests : MonoBehaviour
 
         float horizontalINput = Input.GetAxis("Horizontal");
         animator.SetFloat("Move", Mathf.Abs(horizontalINput));
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetTrigger("Attack");
+        }
     }
 }
