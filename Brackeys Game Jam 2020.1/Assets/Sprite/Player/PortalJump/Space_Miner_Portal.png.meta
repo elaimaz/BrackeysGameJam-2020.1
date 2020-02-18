@@ -1,7 +1,238 @@
 fileFormatVersion: 2
 guid: e2c70d5cd5c04bf439ff328b5bf0dfd6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4899358520877053614
+    second: Space_Miner_Portal_0
+  - first:
+      213: 2675835217296511660
+    second: Space_Miner_Portal_1
+  - first:
+      213: 8887950223865321131
+    second: Space_Miner_Portal_2
+  - first:
+      213: 1381754125291270004
+    second: Space_Miner_Portal_3
+  - first:
+      213: 5864847122041196215
+    second: Space_Miner_Portal_4
+  - first:
+      213: -4272409684236005007
+    second: Space_Miner_Portal_5
+  - first:
+      213: -1282384199742175116
+    second: Space_Miner_Portal_6
+  - first:
+      213: 3357839030932186432
+    second: Space_Miner_Portal_7
+  - first:
+      213: 9167877115296882636
+    second: Space_Miner_Portal_8
+  - first:
+      213: 5515293175152390726
+    second: Space_Miner_Portal_9
+  - first:
+      213: 1996496931952660652
+    second: Space_Miner_Portal_10
+  - first:
+      213: 9110968972368386872
+    second: Space_Miner_Portal_11
+  - first:
+      213: -7329126218555235583
+    second: Space_Miner_Portal_12
+  - first:
+      213: 2918544970080431912
+    second: Space_Miner_Portal_13
+  - first:
+      213: 3911153185053391648
+    second: Space_Miner_Portal_14
+  - first:
+      213: 7346949155962518856
+    second: Space_Miner_Portal_15
+  - first:
+      213: -2366271640752743714
+    second: Space_Miner_Portal_16
+  - first:
+      213: 8825248411541710151
+    second: Space_Miner_Portal_17
+  - first:
+      213: -8747180442086953209
+    second: Space_Miner_Portal_18
+  - first:
+      213: 2461471197285737735
+    second: Space_Miner_Portal_0
+  - first:
+      213: 5023730865214985605
+    second: Space_Miner_Portal_1
+  - first:
+      213: -8514410554839705514
+    second: Space_Miner_Portal_2
+  - first:
+      213: 8145263563869427986
+    second: Space_Miner_Portal_3
+  - first:
+      213: 4059190142999171831
+    second: Space_Miner_Portal_4
+  - first:
+      213: 4806828730008338875
+    second: Space_Miner_Portal_5
+  - first:
+      213: -8958734477849426559
+    second: Space_Miner_Portal_6
+  - first:
+      213: 3848214901664900065
+    second: Space_Miner_Portal_7
+  - first:
+      213: 7379460699226559727
+    second: Space_Miner_Portal_8
+  - first:
+      213: 2200642393955449060
+    second: Space_Miner_Portal_9
+  - first:
+      213: -5817741533375437665
+    second: Space_Miner_Portal_10
+  - first:
+      213: -4821929480949508089
+    second: Space_Miner_Portal_11
+  - first:
+      213: -5675194759039311670
+    second: Space_Miner_Portal_12
+  - first:
+      213: 7786006621521204118
+    second: Space_Miner_Portal_13
+  - first:
+      213: 5660480186603418042
+    second: Space_Miner_Portal_14
+  - first:
+      213: -2833734516805443782
+    second: Space_Miner_Portal_15
+  - first:
+      213: 8993738799282194193
+    second: Space_Miner_Portal_16
+  - first:
+      213: -3689993303968409575
+    second: Space_Miner_Portal_17
+  - first:
+      213: -738227660935975523
+    second: Space_Miner_Portal_18
+  - first:
+      213: -6853275069547390002
+    second: Space_Miner_Portal_19
+  - first:
+      213: 2273307622676377343
+    second: Space_Miner_Portal_20
+  - first:
+      213: 6972842179753836429
+    second: Space_Miner_Portal_21
+  - first:
+      213: 3849500550783284690
+    second: Space_Miner_Portal_22
+  - first:
+      213: -4319823277811221662
+    second: Space_Miner_Portal_23
+  - first:
+      213: 9117728020582824110
+    second: Space_Miner_Portal_24
+  - first:
+      213: -6052194207177941187
+    second: Space_Miner_Portal_25
+  - first:
+      213: -5083908331984738834
+    second: Space_Miner_Portal_26
+  - first:
+      213: 8148474999366950642
+    second: Space_Miner_Portal_27
+  - first:
+      213: -7602544328735261672
+    second: Space_Miner_Portal_28
+  - first:
+      213: -6853684740608583646
+    second: Space_Miner_Portal_29
+  - first:
+      213: -9076012567426753912
+    second: Space_Miner_Portal_19
+  - first:
+      213: -981983701836209098
+    second: Space_Miner_Portal_20
+  - first:
+      213: 451919598678084201
+    second: Space_Miner_Portal_21
+  - first:
+      213: -7686835266975322354
+    second: Space_Miner_Portal_22
+  - first:
+      213: 3033002137024005688
+    second: Space_Miner_Portal_23
+  - first:
+      213: -6970925211373001592
+    second: Space_Miner_Portal_24
+  - first:
+      213: 938566868133087480
+    second: Space_Miner_Portal_25
+  - first:
+      213: -2322147144108558871
+    second: Space_Miner_Portal_26
+  - first:
+      213: 5322379945467607708
+    second: Space_Miner_Portal_27
+  - first:
+      213: -5894112521574549265
+    second: Space_Miner_Portal_28
+  - first:
+      213: 521580637812352837
+    second: Space_Miner_Portal_30
+  - first:
+      213: 302188077929242291
+    second: Space_Miner_Portal_31
+  - first:
+      213: -4802677442283863240
+    second: Space_Miner_Portal_32
+  - first:
+      213: 1060839488451596116
+    second: Space_Miner_Portal_33
+  - first:
+      213: 2158314101529476151
+    second: Space_Miner_Portal_34
+  - first:
+      213: -7863525279149933330
+    second: Space_Miner_Portal_35
+  - first:
+      213: -1617736982887704585
+    second: Space_Miner_Portal_36
+  - first:
+      213: -7604287452735812354
+    second: Space_Miner_Portal_37
+  - first:
+      213: 847530484751592944
+    second: Space_Miner_Portal_38
+  - first:
+      213: 1791522137825522131
+    second: Space_Miner_Portal_39
+  - first:
+      213: -8473225659769815862
+    second: Space_Miner_Portal_40
+  - first:
+      213: -7812175646217153346
+    second: Space_Miner_Portal_41
+  - first:
+      213: -2675137809613088443
+    second: Space_Miner_Portal_42
+  - first:
+      213: 6871641175878465567
+    second: Space_Miner_Portal_43
+  - first:
+      213: 6157044998690297468
+    second: Space_Miner_Portal_44
+  - first:
+      213: -8939535604767824648
+    second: Space_Miner_Portal_45
+  - first:
+      213: -4067209044260413749
+    second: Space_Miner_Portal_46
+  - first:
+      213: -8952108709767291652
+    second: Space_Miner_Portal_47
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +262,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +271,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +301,1089 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Space_Miner_Portal_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 642
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70562133307e82220800000000000000
+      internalID: 2461471197285737735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 642
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5851e44ea90e7b540800000000000000
+      internalID: 5023730865214985605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 642
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65851fe26bcb6d980800000000000000
+      internalID: -8514410554839705514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 642
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2199e5e4e0ac90170800000000000000
+      internalID: 8145263563869427986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 542
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f29b35bde3255830800000000000000
+      internalID: 4059190142999171831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 542
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb10a44234945b240800000000000000
+      internalID: 4806828730008338875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 544
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1858db2357e2ca380800000000000000
+      internalID: -8958734477849426559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 544
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3e919701b976530800000000000000
+      internalID: 3848214901664900065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 447
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4da5b686c196660800000000000000
+      internalID: 7379460699226559727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 450
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8316909904a8e10800000000000000
+      internalID: 2200642393955449060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_10
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 451
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ee1c26ea334fa0800000000000000
+      internalID: -5817741533375437665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 450
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708550c4fa0151db0800000000000000
+      internalID: -4821929480949508089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 348
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0ad446f68ad31b0800000000000000
+      internalID: -5675194759039311670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 345
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6935c9e25c37d0c60800000000000000
+      internalID: 7786006621521204118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 343
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab132ac3db01e8e40800000000000000
+      internalID: 5660480186603418042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_15
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 343
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f5c02887d8ca8d0800000000000000
+      internalID: -2833734516805443782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 243
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1170ddd79cd20dc70800000000000000
+      internalID: 8993738799282194193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 243
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9189465f3a28accc0800000000000000
+      internalID: -3689993303968409575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 243
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d2b8a8ad941c5f0800000000000000
+      internalID: -738227660935975523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 243
+        width: 3
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a1c8d18a68b0280800000000000000
+      internalID: -9076012567426753912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 642
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63464d4a60b4f52f0800000000000000
+      internalID: -981983701836209098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_21
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 642
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a8e3a0b7a854600800000000000000
+      internalID: 451919598678084201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 642
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fadf02d00e25590800000000000000
+      internalID: -7686835266975322354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 642
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8360154cf53671a20800000000000000
+      internalID: 3033002137024005688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_24
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 542
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8842c4c247c424f90800000000000000
+      internalID: -6970925211373001592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_25
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 542
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f806050895760d00800000000000000
+      internalID: 938566868133087480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 542
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5b837c97316cfd0800000000000000
+      internalID: -2322147144108558871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_27
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 542
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a72497c54ecd940800000000000000
+      internalID: 5322379945467607708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 442
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8fd55d3e7e33ea0800000000000000
+      internalID: -5894112521574549265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_29
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 442
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22892817a02d2e0a0800000000000000
+      internalID: -6853684740608583646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_30
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 442
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547e68e93d60d3700800000000000000
+      internalID: 521580637812352837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_31
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 442
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be9450b476913400800000000000000
+      internalID: 302188077929242291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_32
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 342
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83383e9df46795db0800000000000000
+      internalID: -4802677442283863240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_33
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 342
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f4dd8e4ebd8be00800000000000000
+      internalID: 1060839488451596116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 342
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c71677d3fd3fd10800000000000000
+      internalID: 2158314101529476151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_35
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 342
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecb6fddb652fd290800000000000000
+      internalID: -7863525279149933330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_36
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 242
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f757f209c4ac89e0800000000000000
+      internalID: -1617736982887704585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_37
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 242
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcc8b9d9d4287690800000000000000
+      internalID: -7604287452735812354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 242
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdeee74c7803cb00800000000000000
+      internalID: 847530484751592944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_39
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 242
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1b65874e3ccd810800000000000000
+      internalID: 1791522137825522131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 142
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accf1bfc72e096a80800000000000000
+      internalID: -8473225659769815862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_41
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 142
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4d444f3a3959390800000000000000
+      internalID: -7812175646217153346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_42
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 142
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5499bcce55000ead0800000000000000
+      internalID: -2675137809613088443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_43
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 142
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18fe20fd39fc5f50800000000000000
+      internalID: 6871641175878465567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_44
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 42
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76d70d0ec7327550800000000000000
+      internalID: 6157044998690297468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_45
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 42
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f46bdc2bb360f380800000000000000
+      internalID: -8939535604767824648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_46
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 42
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce1a995cee5e87c0800000000000000
+      internalID: -4067209044260413749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space_Miner_Portal_47
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 42
+        width: 12
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcd3ab0f88b3c380800000000000000
+      internalID: -8952108709767291652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
