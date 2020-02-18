@@ -12,11 +12,14 @@ public class PlayerAnimatorController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
     }
 
-    public void Move(float move)
+    public void Move(bool t)
     {
-        animator.SetFloat("Move", Mathf.Abs(move));
+        animator.SetBool("isMoving", t);
     }
-
+    public void Flip(int m)
+    {
+        animator.SetFloat("Multipler", m);
+    }
     public void Jump(bool jumping)
     {
         animator.SetBool("Jumping", jumping);

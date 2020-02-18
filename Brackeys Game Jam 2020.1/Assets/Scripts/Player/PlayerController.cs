@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     
     private PlayerAnimatorController playerAnimator;
+    private Vector3 mousePos;
 
     private void Start()
     {
@@ -33,14 +34,23 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         movement.x = Input.GetAxis("Horizontal");
-        if(movement.x > 0 && !isFacingRight)
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if(transform.position.x > mousePos.x && isFacingRight)
         {
             Flip();
         }
-        if(movement.x <0 && isFacingRight)
+        else if(transform.position.x < mousePos.x && !isFacingRight)
         {
             Flip();
         }
+        //if(movement.x > 0 && !isFacingRight)
+        //{
+        //    Flip();
+        //}
+        //if(movement.x <0 && isFacingRight)
+        //{
+        //    Flip();
+        //}
         if (canMove == true)
         {
             if (Input.GetButtonDown("Jump") && isGrounded == true)
@@ -81,7 +91,14 @@ public class PlayerController : MonoBehaviour
 
             CheckGround();
 
-            playerAnimator.Move(movement.x);
+            playerAnimator.Move(movement.x != 0);
+            int m = 1;
+            if (isFacingRight && movement.x < 0 || !isFacingRight && movement.x > 0)
+            {
+                m = -1;
+                Debug.Log("revers");
+            }
+            playerAnimator.Flip(m);
         }
     }
 
@@ -99,14 +116,12 @@ public class PlayerController : MonoBehaviour
         else if(isGrounded == true)
         {
             isGrounded =  false;
-            
         }
     }
 
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-
         transform.Rotate(0f, 180f, 0f);
     }
 }
