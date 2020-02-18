@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour
     public float fallMultiplier = 3f;
     [Range(1, 10)]
     public float lowJumpMultiplier = 2f;
-
+    [Header("Weapon")]
+    public int currWeap = 0;
     public LayerMask groundLayer;
 
     Rigidbody2D rb;
@@ -29,28 +30,37 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<PlayerAnimatorController>();
     }
+    
 
-    // Update is called once per frame
     void Update()
     {
         movement.x = Input.GetAxis("Horizontal");
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        if(transform.position.x > mousePos.x && isFacingRight)
+
+        if (Input.GetMouseButtonDown(1))
         {
-            Flip();
+            currWeap = 1;
         }
-        else if(transform.position.x < mousePos.x && !isFacingRight)
+        else if (Input.GetMouseButtonUp(1))
         {
-            Flip();
+            currWeap = 0;
         }
-        //if(movement.x > 0 && !isFacingRight)
-        //{
-        //    Flip();
-        //}
-        //if(movement.x <0 && isFacingRight)
-        //{
-        //    Flip();
-        //}
+
+        if (currWeap != 0)
+        {
+            if (transform.position.x > mousePos.x && isFacingRight || transform.position.x < mousePos.x && !isFacingRight)
+            {
+                Flip();
+            }
+        }
+        else
+        {
+            if (movement.x > 0 && !isFacingRight || movement.x < 0 && isFacingRight)
+            {
+                Flip();
+            }
+        }
+
         if (canMove == true)
         {
             if (Input.GetButtonDown("Jump") && isGrounded == true)
@@ -96,7 +106,6 @@ public class PlayerController : MonoBehaviour
             if (isFacingRight && movement.x < 0 || !isFacingRight && movement.x > 0)
             {
                 m = -1;
-                Debug.Log("revers");
             }
             playerAnimator.Flip(m);
         }
