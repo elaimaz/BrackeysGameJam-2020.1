@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,6 +19,7 @@ public class PlayerController : MonoBehaviour
     Vector3 movement;
     [SerializeField]
     bool isGrounded = false;
+    private bool isFacingRight = true;
     
     private PlayerAnimatorController playerAnimator;
 
@@ -35,7 +33,14 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         movement.x = Input.GetAxis("Horizontal");
-        Flip(movement.x);
+        if(movement.x > 0 && !isFacingRight)
+        {
+            Flip();
+        }
+        if(movement.x <0 && isFacingRight)
+        {
+            Flip();
+        }
         if (canMove == true)
         {
             if (Input.GetButtonDown("Jump") && isGrounded == true)
@@ -98,14 +103,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Flip(float movement)
+    private void Flip()
     {
-        if (movement > 0 && transform.localScale.x < 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        } else if (movement < 0 && transform.localScale.x > 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
+        isFacingRight = !isFacingRight;
+
+        transform.Rotate(0f, 180f, 0f);
     }
 }

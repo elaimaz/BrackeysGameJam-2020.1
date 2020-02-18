@@ -55,9 +55,10 @@ public class EnemyBase : MonoBehaviour
         }
     }
 
-    public virtual void OnDamageTaken(int damage)
+    public virtual void OnDamageTaken(float damage)
     {
         anime.SetTrigger("isTakingDamage");
         tDazed = tStartDazed;
+       
     }
 }
