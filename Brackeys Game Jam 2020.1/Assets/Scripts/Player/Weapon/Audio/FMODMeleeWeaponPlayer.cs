@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FMODWeaponPlayer : MonoBehaviour
+public class FMODMeleeWeaponPlayer : MonoBehaviour
 {
     void PlayMelee(string path)
     {
