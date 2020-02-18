@@ -44,6 +44,12 @@ public class PlayerController : MonoBehaviour
         {
             playerAnimator.Death();
         }
+
+        //Just for test, when we have a proper portal mechanic change it. Right now it is just to show player jump portal animation.
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            playerAnimator.JumpPortal();
+        }
     }
 
     private void FixedUpdate()
