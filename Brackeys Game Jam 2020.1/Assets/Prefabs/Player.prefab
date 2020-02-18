@@ -237,14 +237,14 @@ GameObject:
   - component: {fileID: 2600036524388648292}
   - component: {fileID: 8385859438168763063}
   - component: {fileID: 5692226299861660782}
-  - component: {fileID: 9001661653878573173}
+  - component: {fileID: 3103084034547446912}
   m_Layer: 0
   m_Name: MeleeWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6115761301017036345
 Transform:
   m_ObjectHideFlags: 0
@@ -351,7 +351,7 @@ MonoBehaviour:
     m_Bits: 512
   playerAnime: {fileID: 487811023}
   anime: {fileID: 8385859438168763063}
---- !u!114 &9001661653878573173
+--- !u!114 &3103084034547446912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1091719375631032925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c06f054117d82f24e8801549a91e8019, type: 3}
+  m_Script: {fileID: 11500000, guid: a61cd41632b7f504ea52805331c490e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1459695687737919521
@@ -405,13 +405,14 @@ GameObject:
   - component: {fileID: 3755251643920818232}
   - component: {fileID: 4177826904850581753}
   - component: {fileID: 3723926590086450272}
+  - component: {fileID: 8993853372481946421}
   m_Layer: 0
   m_Name: RangedWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3015427065787820593
 Transform:
   m_ObjectHideFlags: 0
@@ -510,6 +511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rps: 0
   damage: 0
+  BulleteSpeed: 0
   AttackOrigin: {fileID: 8547019952117966239}
   BulletPrefab: {fileID: 0}
   ememyLayer:
@@ -518,6 +520,18 @@ MonoBehaviour:
   playerAnime: {fileID: 487811023}
   anime: {fileID: 4177826904850581753}
   angle: 0
+--- !u!114 &8993853372481946421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3784091033606010580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06f054117d82f24e8801549a91e8019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5291474184486412968
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +640,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  g: {fileID: 3015427065787820593}
   isGrounded: 0
 --- !u!114 &6574192945758908345
 MonoBehaviour:
