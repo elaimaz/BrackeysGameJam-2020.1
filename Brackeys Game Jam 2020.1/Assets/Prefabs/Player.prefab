@@ -627,7 +627,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rps: 1
-  damage: 10
   BulleteSpeed: 10
   AttackOrigin: {fileID: 8547019952117966239}
   BulletPrefab: {fileID: 1839456711131942573, guid: f3f7a05aab7c86d44847bdfee5150417,
@@ -788,6 +787,24 @@ MonoBehaviour:
   currWeapon: 0
   MeleeWeapon: {fileID: 1091719375631032925}
   RangedWeapon: {fileID: 3784091033606010580}
+  ArrowRef: {fileID: 3621867963890765023}
+  tStartChargeUp: 1.2
+  MinDamage: 2
+  MaxDamage: 20
+  shootEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3723926590086450272}
+        m_MethodName: Shoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4664588625238447445
 MonoBehaviour:
   m_ObjectHideFlags: 0
