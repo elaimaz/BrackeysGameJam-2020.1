@@ -257,7 +257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6115761301017036345
 Transform:
   m_ObjectHideFlags: 0
@@ -416,13 +416,14 @@ GameObject:
   m_Component:
   - component: {fileID: 217881559612718801}
   - component: {fileID: 7680244505815005526}
+  - component: {fileID: 8407145672392307736}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &217881559612718801
 Transform:
   m_ObjectHideFlags: 0
@@ -431,8 +432,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3621867963890765023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.034, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 3015427065787820593}
   m_RootOrder: 1
@@ -476,17 +477,37 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 2137432256180562117, guid: c3e82d604efc2364691bd96d928e332d,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.185, y: 0.1900464}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &8407145672392307736
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621867963890765023}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 537acf8f6e995564faf6d155e0ea6e3c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3784091033606010580
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3015427065787820593
 Transform:
   m_ObjectHideFlags: 0
@@ -606,7 +627,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rps: 1
-  damage: 10
   BulleteSpeed: 10
   AttackOrigin: {fileID: 8547019952117966239}
   BulletPrefab: {fileID: 1839456711131942573, guid: f3f7a05aab7c86d44847bdfee5150417,
@@ -747,6 +767,7 @@ MonoBehaviour:
   jumpVelocity: 6
   fallMultiplier: 3
   lowJumpMultiplier: 2
+  currWeap: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -766,6 +787,24 @@ MonoBehaviour:
   currWeapon: 0
   MeleeWeapon: {fileID: 1091719375631032925}
   RangedWeapon: {fileID: 3784091033606010580}
+  ArrowRef: {fileID: 3621867963890765023}
+  tStartChargeUp: 1.2
+  MinDamage: 2
+  MaxDamage: 20
+  shootEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3723926590086450272}
+        m_MethodName: Shoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4664588625238447445
 MonoBehaviour:
   m_ObjectHideFlags: 0
