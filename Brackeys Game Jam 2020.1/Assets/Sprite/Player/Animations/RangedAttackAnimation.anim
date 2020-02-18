@@ -111,16 +111,16 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.2
-    functionName: ShootBullet
-    data: 
+  - time: 0.1
+    functionName: PlayRanged
+    data: event:/FX/Ranged
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.25
-    functionName: PlayRanged
-    data: event:/FX/Ranged
+  - time: 0.15
+    functionName: ShootBullet
+    data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

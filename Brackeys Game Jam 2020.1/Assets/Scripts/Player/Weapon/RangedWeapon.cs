@@ -5,7 +5,7 @@ using UnityEngine;
 public class RangedWeapon : MonoBehaviour
 {
     public float rps;
-    public int damage;
+    private int damage;
     public float BulleteSpeed;
     public Transform AttackOrigin;
     public GameObject BulletPrefab;
@@ -29,20 +29,11 @@ public class RangedWeapon : MonoBehaviour
      
         angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-
-        if (Input.GetButton("Fire1"))
-        {
-            if (tLastFire >= tNextFire)
-            {
-                tNextFire = 1f / rps;
-                tLastFire = 0.0F;
-                Shoot();
-            }
-        }
     }
 
-    private void Shoot()
+    public void Shoot(float damage)
     {
+        this.damage = (int)damage;
         anime.SetTrigger("isAttacking");
         playerAnime.SetTrigger("isAttacking");
     }   
@@ -50,6 +41,6 @@ public class RangedWeapon : MonoBehaviour
 
     public void ShootBullet()
     {
-        Instantiate(BulletPrefab, AttackOrigin.position, AttackOrigin.rotation).GetComponent<BulletScript>().SetBullete(damage,BulleteSpeed);
+        Instantiate(BulletPrefab, AttackOrigin.position, AttackOrigin.rotation).GetComponent<BulletScript>().SetBullete(damage, BulleteSpeed);
     }
 }
