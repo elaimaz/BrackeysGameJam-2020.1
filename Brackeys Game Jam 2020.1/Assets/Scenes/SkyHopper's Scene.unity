@@ -314,6 +314,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621867963890765023, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3723926590086450272, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: rps
@@ -344,6 +349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137777654821935946, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5291474184486412968, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
@@ -410,6 +420,26 @@ PrefabInstance:
       propertyPath: g
       value: 
       objectReference: {fileID: 1569811150}
+    - target: {fileID: 5538887952486345585, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574192945758908345, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: MinDamage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574192945758908345, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: MaxDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574192945758908345, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: tStartChargeUp
+      value: 1.3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 920031022, guid: 1b77efe118d8e154282f2bb2d84b33a2, type: 3}
     - {fileID: 9001661653878573173, guid: 1b77efe118d8e154282f2bb2d84b33a2, type: 3}
