@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
     public bool canMove = true;
-    
+    private bool jumpPowerCooldown = true;
+
     [Range(1, 10)]
     public float moveSpeed = 3f;
     [Range(1, 10)]
@@ -66,11 +68,14 @@ public class PlayerController : MonoBehaviour
             playerAnimator.Death();
         }
 
-        //Just for test, when we have a proper portal mechanic change it. Right now it is just to show player jump portal animation.
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && jumpPowerCooldown == true)
         {
+            jumpVelocity = 10.0f;
+            jumpPowerCooldown = false;
             playerAnimator.JumpPortal();
             FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+            StartCoroutine(ResetJumpAtribute());
+            StartCoroutine(JumpPortalRoutine());
         }
     }
 
@@ -123,5 +128,17 @@ public class PlayerController : MonoBehaviour
     {
         isFacingRight = !isFacingRight;
         transform.Rotate(0f, 180f, 0f);
+    }
+
+    private IEnumerator ResetJumpAtribute()
+    {
+        yield return new WaitForSeconds(10.0f);
+        jumpVelocity = 6.0f;
+    }
+
+    private IEnumerator JumpPortalRoutine()
+    {
+        yield return new WaitForSeconds(20.0f);
+        jumpPowerCooldown = true;
     }
 }
