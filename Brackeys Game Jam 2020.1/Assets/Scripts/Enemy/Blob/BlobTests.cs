@@ -22,5 +22,8 @@ public class BlobTests : MonoBehaviour
             count++;
             animator.SetTrigger("Death");
         }
+
+        float horizontalINput = Input.GetAxis("Horizontal");
+        animator.SetFloat("Move", Mathf.Abs(horizontalINput));
     }
 }

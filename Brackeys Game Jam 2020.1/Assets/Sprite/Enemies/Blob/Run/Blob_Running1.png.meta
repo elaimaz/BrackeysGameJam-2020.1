@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: f3ecd6e0e01a7cc4a951fc852f751f99
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8410505926909271127
+    second: Blob_Running1_0
+  - first:
+      213: 339740048098239157
+    second: Blob_Running1_1
+  - first:
+      213: 2393436560865646564
+    second: Blob_Running1_2
+  - first:
+      213: 6567405993034426561
+    second: Blob_Running1_3
+  - first:
+      213: -6238161069064071887
+    second: Blob_Running1_4
+  - first:
+      213: 7524767697615169751
+    second: Blob_Running1_5
+  - first:
+      213: -5294119763464654433
+    second: Blob_Running1_6
+  - first:
+      213: -1726000357773662505
+    second: Blob_Running1_7
+  - first:
+      213: -6496352759799156960
+    second: Blob_Running1_8
+  - first:
+      213: -7307213156473616724
+    second: Blob_Running1_9
+  - first:
+      213: 4795676007551693436
+    second: Blob_Running1_10
+  - first:
+      213: 6294173810186750815
+    second: Blob_Running1_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -144,7 +180,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Blob_Running1_0
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 8747
+        width: 216
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a361459b61e74b80800000000000000
+      internalID: -8410505926909271127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_1
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 8747
+        width: 230
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2aed216cff6b400800000000000000
+      internalID: 339740048098239157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_2
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 7148
+        width: 202
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e754d20fd1373120800000000000000
+      internalID: 2393436560865646564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_3
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 7148
+        width: 183
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8a69e74fc142b50800000000000000
+      internalID: 6567405993034426561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_4
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 5550
+        width: 230
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135d3c21f899d69a0800000000000000
+      internalID: -6238161069064071887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_5
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 5550
+        width: 230
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8afa16a585d6860800000000000000
+      internalID: 7524767697615169751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_6
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3947
+        width: 230
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f917054ef128786b0800000000000000
+      internalID: -5294119763464654433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_7
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 3947
+        width: 216
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d624b0c1d30c08e0800000000000000
+      internalID: -1726000357773662505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_8
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2348
+        width: 216
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fea88859158d5a0800000000000000
+      internalID: -6496352759799156960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_9
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 2348
+        width: 262
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca644567950979a90800000000000000
+      internalID: -7307213156473616724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_10
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 750
+        width: 244
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c727bf79be9ad8240800000000000000
+      internalID: 4795676007551693436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob_Running1_11
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 778
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b8fbe7bb5695750800000000000000
+      internalID: 6294173810186750815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
