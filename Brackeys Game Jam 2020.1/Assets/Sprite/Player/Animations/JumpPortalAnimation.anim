@@ -1354,6 +1354,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: StopPlayerMove
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.15
     functionName: ShowPortal
     data: 
@@ -1370,6 +1377,13 @@ AnimationClip:
     messageOptions: 0
   - time: 1.4
     functionName: HidePortal
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.4
+    functionName: StartPlayerMove
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
