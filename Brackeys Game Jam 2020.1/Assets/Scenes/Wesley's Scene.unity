@@ -311,6 +311,21 @@ PrefabInstance:
       propertyPath: rps
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7901805933476946343, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7901805933476946343, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7901805933476946343, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b77efe118d8e154282f2bb2d84b33a2, type: 3}
 --- !u!4 &1351147174 stripped
