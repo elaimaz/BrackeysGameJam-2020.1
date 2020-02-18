@@ -17,4 +17,10 @@ public class FMODPlayer : MonoBehaviour
         Jump.start();
         Jump.release();
     }
+    void PlayDeath(string path)
+    {
+        FMOD.Studio.EventInstance Death = FMODUnity.RuntimeManager.CreateInstance(path);
+        Death.start();
+        Death.release();
+    }
 }
