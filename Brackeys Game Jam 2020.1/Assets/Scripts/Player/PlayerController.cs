@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool canMove = true;
+    
     [Range(1, 10)]
     public float moveSpeed = 3f;
     [Range(1, 10)]
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour
     Vector3 movement;
     [SerializeField]
     bool isGrounded = false;
+    
     private PlayerAnimatorController playerAnimator;
 
     private void Start()
@@ -33,35 +36,47 @@ public class PlayerController : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         Flip(movement.x);
-        if (Input.GetButtonDown("Jump") && isGrounded == true)
+        if (canMove == true)
         {
-            GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
-            playerAnimator.Jump(true);
+            if (Input.GetButtonDown("Jump") && isGrounded == true)
+            {
+                GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
+                playerAnimator.Jump(true);
+            }
         }
-
+        
         //Just for test, when we have a proper death mechanic change it. Right now it is just to show player death.
         if (Input.GetKeyDown(KeyCode.H))
         {
             playerAnimator.Death();
         }
+
+        //Just for test, when we have a proper portal mechanic change it. Right now it is just to show player jump portal animation.
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            playerAnimator.JumpPortal();
+        }
     }
 
     private void FixedUpdate()
     {
-        transform.position += movement * moveSpeed * Time.fixedDeltaTime;
-
-        if (rb.velocity.y < 0)
+        if (canMove == true)
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }
-        else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
-        {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-        }
+            transform.position += movement * moveSpeed * Time.fixedDeltaTime;
 
-        CheckGround();
+            if (rb.velocity.y < 0)
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            }
+            else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+            }
 
-        playerAnimator.Move(movement.x);
+            CheckGround();
+
+            playerAnimator.Move(movement.x);
+        }
     }
 
     private void CheckGround()
