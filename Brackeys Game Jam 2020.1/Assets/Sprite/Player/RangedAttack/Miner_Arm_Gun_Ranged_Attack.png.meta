@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: a5868895dbb963643a0e0ce6238bba6d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2212570476178646278
+    second: Miner_Arm_Gun_Ranged_Attack_0
+  - first:
+      213: -6142876946059256554
+    second: Miner_Arm_Gun_Ranged_Attack_1
+  - first:
+      213: 617788029428710813
+    second: Miner_Arm_Gun_Ranged_Attack_2
+  - first:
+      213: 2919768319059119865
+    second: Miner_Arm_Gun_Ranged_Attack_3
+  - first:
+      213: -2794633043070301595
+    second: Miner_Arm_Gun_Ranged_Attack_4
+  - first:
+      213: 2266382735901408836
+    second: Miner_Arm_Gun_Ranged_Attack_5
+  - first:
+      213: -8847986213744345923
+    second: Miner_Arm_Gun_Ranged_Attack_6
+  - first:
+      213: 4220402868989641987
+    second: Miner_Arm_Gun_Ranged_Attack_7
+  - first:
+      213: -5720856086925656353
+    second: Miner_Arm_Gun_Ranged_Attack_8
+  - first:
+      213: -4824266508769507820
+    second: Miner_Arm_Gun_Ranged_Attack_9
+  - first:
+      213: 6964655635146204446
+    second: Miner_Arm_Gun_Ranged_Attack_10
+  - first:
+      213: -4465261938135976142
+    second: Miner_Arm_Gun_Ranged_Attack_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +76,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -82,9 +118,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2799
+        width: 178
+        height: 49
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afadad6efde5b41e0800000000000000
+      internalID: -2212570476178646278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2799
+        width: 164
+        height: 49
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d9333c6fd10caa0800000000000000
+      internalID: -6142876946059256554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2287
+        width: 147
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d369880f2d29800800000000000000
+      internalID: 617788029428710813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2287
+        width: 147
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe45fb01d9158820800000000000000
+      internalID: 2919768319059119865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1774
+        width: 147
+        height: 51
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ac93ecd087739d0800000000000000
+      internalID: -2794633043070301595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1774
+        width: 164
+        height: 51
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e3b7a271fc37f10800000000000000
+      internalID: 2266382735901408836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1263
+        width: 178
+        height: 49
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcf630da63a53580800000000000000
+      internalID: -8847986213744345923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1263
+        width: 195
+        height: 49
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305ca277c02e19a30800000000000000
+      internalID: 4220402868989641987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 718
+        width: 354
+        height: 114
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde3aa703bf6b90b0800000000000000
+      internalID: -5720856086925656353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 735
+        width: 323
+        height: 82
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416cafa9b23cc0db0800000000000000
+      internalID: -4824266508769507820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 238
+        width: 178
+        height: 51
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15efcb566d67a060800000000000000
+      internalID: 6964655635146204446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miner_Arm_Gun_Ranged_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 238
+        width: 179
+        height: 51
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237355cdce33802c0800000000000000
+      internalID: -4465261938135976142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
