@@ -6,6 +6,12 @@ public class WeaponHandler : MonoBehaviour
 {
     public SpriteRenderer weaponSpriteRenderer;
     public GameObject groundPortal;
+    private PlayerController playerController;
+
+    private void Start()
+    {
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+    }
 
     public void HideWeapon()
     {
@@ -25,5 +31,15 @@ public class WeaponHandler : MonoBehaviour
     public void ShowPortal()
     {
         groundPortal.SetActive(true);
+    }
+
+    public void StopPlayerMove()
+    {
+        playerController.canMove = false;
+    }
+
+    public void StartPlayerMove()
+    {
+        playerController.canMove = true;
     }
 }
