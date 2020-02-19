@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyBase : MonoBehaviour
 {
     public static Transform PlayerPos;
+    public LayerMask PlayerLayer;
     public float speed;
     public float searchRange;
     public float meleeRange;
@@ -19,7 +20,7 @@ public class EnemyBase : MonoBehaviour
     private float oriSpeed;
     public bool isPlayerInRange = false;
 
-    private Animator anime;
+    protected Animator anime;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +54,11 @@ public class EnemyBase : MonoBehaviour
             speed = 0;
             tDazed -= Time.deltaTime;
         }
+    }
+
+    public virtual void OnMeleeAttackDone()
+    {
+
     }
 
     public virtual void OnDamageTaken(float damage)

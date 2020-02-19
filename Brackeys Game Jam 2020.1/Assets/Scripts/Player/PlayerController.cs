@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,6 +26,12 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     
     private PlayerAnimatorController playerAnimator;
+
+    public void TakeDamage(float meleeDamage)
+    {
+        throw new NotImplementedException();
+    }
+
     private Vector3 mousePos;
 
     //0 Jump, 1 Time, 2 Shield.
