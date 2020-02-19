@@ -9,7 +9,7 @@ public class BasicEnemy_Follow : StateMachineBehaviour
     public float meleeAttackRange;
     public float damage;
     private Transform PlayerPos;
-    
+    private bool isFacingRight = true;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -24,12 +24,20 @@ public class BasicEnemy_Follow : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.transform.position = Vector2.MoveTowards(animator.transform.position, PlayerPos.position, speed * Time.deltaTime);
-        if(Vector2.Distance(animator.transform.position,PlayerPos.position) < meleeAttackRange)
+        if(PlayerPos.position.x > animator.transform.position.x && isFacingRight == false
+                || PlayerPos.position.x < animator.transform.position.x && isFacingRight == true)
         {
-            Debug.Log("Attacking");
+            animator.transform.Rotate(0f, 180f, 0f);
+            isFacingRight = !isFacingRight;
+        }
+
+        if (Vector2.Distance(animator.transform.position,PlayerPos.position) < meleeAttackRange)
+        {
+            //Debug.Log("Attacking");
             animator.SetTrigger("isMeleeAttacking");
             //TODO: Call DamageTaken(damage)
         }
+
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

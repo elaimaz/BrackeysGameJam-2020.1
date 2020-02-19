@@ -11,6 +11,19 @@ public class BasicEnemy : EnemyBase
         health -= damage;
         Debug.Log("Taken " + damage + " health : " + health);
         if (health <= 0)
-            Destroy(gameObject);
+        {
+            anime.SetTrigger("Death");
+            Destroy(gameObject, 0.50f);
+        }
+    }
+
+    public override void OnMeleeAttackDone()
+    {
+        base.OnMeleeAttackDone();
+        Collider2D coll = Physics2D.OverlapCircle(transform.position, meleeRange, PlayerLayer);
+        if(coll != null)
+        {
+            coll.GetComponent<PlayerController>().TakeDamage(meleeDamage);
+        }
     }
 }
