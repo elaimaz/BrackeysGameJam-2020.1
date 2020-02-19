@@ -30,6 +30,8 @@ public class PlayerManager : MonoBehaviour
     {
         if (OnSetMaxHealth != null)
             OnSetMaxHealth.Invoke(MaxPlayerHealth);
+        if (OnHealthChanged != null)
+            OnHealthChanged.Invoke((int)PlayerHealth);
             
     }
 
@@ -39,4 +41,13 @@ public class PlayerManager : MonoBehaviour
         if(OnHealthChanged != null) 
             OnHealthChanged.Invoke((int)PlayerHealth);
     }
+
+    public void GainHealth(float health)
+    {
+        PlayerHealth = Mathf.Clamp(PlayerHealth + health, 0, MaxPlayerHealth);
+        if (OnHealthChanged != null)
+            OnHealthChanged.Invoke((int)PlayerHealth);
+    }
+
+    
 }
