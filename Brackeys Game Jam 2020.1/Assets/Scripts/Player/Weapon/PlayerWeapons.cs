@@ -21,11 +21,19 @@ public class PlayerWeapons : MonoBehaviour
     private float tChargeUp;
     private bool isHolding;
 
+    [FMODUnity.EventRef]
+    public string ChargeStateEvent = "";
+    FMOD.Studio.EventInstance chargeState;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        chargeState = FMODUnity.RuntimeManager.CreateInstance(ChargeStateEvent);
+    }
+
+    void OnDestroy()
+    {
+        chargeState.release();
     }
 
     // Update is called once per frame
@@ -49,6 +57,10 @@ public class PlayerWeapons : MonoBehaviour
             tChargeUp = tStartChargeUp;
             isHolding = true;
             ArrowRef.SetActive(true);
+            if (currWeapon == 1)
+            {
+                chargeState.start();
+            }
         }
         else if(Input.GetMouseButtonDown(0))
         {
@@ -57,7 +69,10 @@ public class PlayerWeapons : MonoBehaviour
         else if(Input.GetMouseButtonUp(0))
         {
             if(isHolding)
+            {
+                chargeState.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 shootEvent.Invoke(Remap(tStartChargeUp - tChargeUp, 0, tStartChargeUp, MinDamage, MaxDamage));
+            }
             isHolding = false;
             ArrowRef.SetActive(false);
         }
@@ -66,7 +81,10 @@ public class PlayerWeapons : MonoBehaviour
         {
             //Do Shoot With full power
             if (isHolding)
+            {
+                chargeState.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 shootEvent.Invoke(Remap(tStartChargeUp - tChargeUp, 0, tStartChargeUp, MinDamage, MaxDamage));
+            }
             isHolding = false;
             ArrowRef.SetActive(false);
         }
@@ -82,7 +100,7 @@ public class PlayerWeapons : MonoBehaviour
     private void ChangeWeapon()
     {
         //TODO: ADD Gun Changing sound here
-        if(currWeapon == 0)
+        if (currWeapon == 0)
         {
             RangedWeapon.SetActive(false);
             MeleeWeapon.SetActive(true);
