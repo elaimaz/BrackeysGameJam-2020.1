@@ -166,4 +166,17 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(20.0f);
         jumpPowerCooldown = true;
     }
+
+    public void PushPlayer(Vector2 dir)
+    {
+        Debug.Log("PushPlayer");
+        rb.AddForce(dir * -100);
+    }
+
+    public IEnumerator StopPlayerMove()
+    {
+        canMove = false;
+        yield return new WaitForSeconds(0.2f);
+        canMove = true;
+    }
 }
