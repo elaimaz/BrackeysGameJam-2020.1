@@ -27,6 +27,9 @@ public class PlayerController : MonoBehaviour
     private PlayerAnimatorController playerAnimator;
     private Vector3 mousePos;
 
+    //0 Jump, 1 Time, 2 Shield.
+    public int activePortal = 0;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -86,6 +89,17 @@ public class PlayerController : MonoBehaviour
             FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
             StartCoroutine(ResetJumpAtribute());
             StartCoroutine(JumpPortalRoutine());
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.Tab))
+        {
+            activePortal++;
+            if (activePortal > 2)
+            {
+                activePortal = 0;
+            }
+            Debug.Log(activePortal);
         }
     }
 
