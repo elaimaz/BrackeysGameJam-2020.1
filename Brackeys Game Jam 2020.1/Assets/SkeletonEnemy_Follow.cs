@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasicEnemy_Follow : StateMachineBehaviour
+public class SkeletonEnemy_Follow : StateMachineBehaviour
 {
 
     public float speed;
-    public float meleeAttackRange;
     public float rangedAttackRange;
     public float damage;
     private Transform PlayerPos;
     private bool isFacingRight = true;
+    private Vector3 lookDir;
+    private float angle;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -18,25 +19,25 @@ public class BasicEnemy_Follow : StateMachineBehaviour
         EnemyBase eb = animator.GetComponent<EnemyBase>();
         PlayerPos = EnemyBase.PlayerPos;
         speed = eb.speed;
-        meleeAttackRange = eb.meleeRange;
-        rangedAttackRange = eb.longDamage;
-        damage = eb.meleeDamage;
+        rangedAttackRange = eb.longRange;
+        damage = eb.longDamage;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.transform.position = Vector2.MoveTowards(animator.transform.position, PlayerPos.position, speed * Time.deltaTime);
-        if(PlayerPos.position.x > animator.transform.position.x && isFacingRight == false
+
+        lookDir = PlayerPos.position - animator.transform.GetChild(0).position;
+
+        angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        animator.transform.GetChild(0).rotation = Quaternion.Euler(new Vector3(0, 0, angle + Random.Range(-15f, 15f)));
+
+        if (PlayerPos.position.x > animator.transform.position.x && isFacingRight == false
                 || PlayerPos.position.x < animator.transform.position.x && isFacingRight == true)
         {
             animator.transform.Rotate(0f, 180f, 0f);
             isFacingRight = !isFacingRight;
-        }
-
-        if (Vector2.Distance(animator.transform.position,PlayerPos.position) < meleeAttackRange)
-        {
-            animator.SetTrigger("isMeleeAttacking");
         }
 
         if (Vector2.Distance(animator.transform.position, PlayerPos.position) < rangedAttackRange)
@@ -45,22 +46,4 @@ public class BasicEnemy_Follow : StateMachineBehaviour
         }
 
     }
-
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-
-    }
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }

@@ -15,6 +15,10 @@ public class BasicEnemy : EnemyBase
             anime.SetTrigger("Death");
             Destroy(gameObject, 0.50f);
         }
+        else
+        {
+            anime.SetTrigger("isTakingDamage");
+        }
     }
 
     public override void OnMeleeAttackDone()

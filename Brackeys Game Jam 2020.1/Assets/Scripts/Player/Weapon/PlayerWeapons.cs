@@ -19,7 +19,7 @@ public class PlayerWeapons : MonoBehaviour
 
     public FloatEvent shootEvent;
     private float tChargeUp;
-    private bool isHolding;
+    private bool isHolding = false;
 
     [FMODUnity.EventRef]
     public string ChargeStateEvent = "";
@@ -79,7 +79,7 @@ public class PlayerWeapons : MonoBehaviour
 
         if (tChargeUp <= 0 || tChargeUp > tStartChargeUp)
         {
-            //Do Shoot With full power
+            //Do nothing please
             if (isHolding)
             {
                 chargeState.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
