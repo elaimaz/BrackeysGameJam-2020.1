@@ -44,4 +44,10 @@ public class HealthBar : MonoBehaviour
         
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
+
+    public void HealthChanged(int health)
+    {
+        slider.value = Mathf.Clamp(health, 0, slider.maxValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
+    }
 }
