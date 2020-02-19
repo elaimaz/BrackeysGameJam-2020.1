@@ -5,7 +5,7 @@ using UnityEngine;
 public class BasicEnemy : EnemyBase
 {
 
-    public override void OnDamageTaken(float damage)
+    public override void OnDamageTaken(int damage)
     {
         base.OnDamageTaken(damage);
         health -= damage;

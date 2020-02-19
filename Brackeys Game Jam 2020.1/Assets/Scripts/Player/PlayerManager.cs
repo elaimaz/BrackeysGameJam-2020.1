@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager instance;
     public int MaxPlayerHealth;
-    public float PlayerHealth;
+    public int PlayerHealth;
 
     [System.Serializable]
     public class IntEvent : UnityEvent<int> { }
@@ -26,27 +26,14 @@ public class PlayerManager : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private void Start()
-    {
-        if (OnSetMaxHealth != null)
-            OnSetMaxHealth.Invoke(MaxPlayerHealth);
-        if (OnHealthChanged != null)
-            OnHealthChanged.Invoke((int)PlayerHealth);
-            
-    }
-
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         PlayerHealth = Mathf.Clamp(PlayerHealth - damage, 0, MaxPlayerHealth);
-        if(OnHealthChanged != null) 
-            OnHealthChanged.Invoke((int)PlayerHealth);
     }
 
-    public void GainHealth(float health)
+    public void GainHealth(int health)
     {
         PlayerHealth = Mathf.Clamp(PlayerHealth + health, 0, MaxPlayerHealth);
-        if (OnHealthChanged != null)
-            OnHealthChanged.Invoke((int)PlayerHealth);
     }
 
     
