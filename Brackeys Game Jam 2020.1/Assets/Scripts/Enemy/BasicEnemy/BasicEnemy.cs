@@ -23,7 +23,7 @@ public class BasicEnemy : EnemyBase
         Collider2D coll = Physics2D.OverlapCircle(transform.position, meleeRange, PlayerLayer);
         if(coll != null)
         {
-            coll.GetComponent<PlayerController>().TakeDamage(meleeDamage);
+            coll.GetComponent<PlayerManager>().TakeDamage(meleeDamage);
         }
     }
 }

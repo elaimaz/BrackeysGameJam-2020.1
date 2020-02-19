@@ -121,7 +121,7 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 1024
-  speed: 1.2
+  speed: 1.5
   searchRange: 4
   meleeRange: 0.9
   meleeDamage: 10

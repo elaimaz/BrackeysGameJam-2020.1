@@ -27,11 +27,6 @@ public class PlayerController : MonoBehaviour
     
     private PlayerAnimatorController playerAnimator;
 
-    public void TakeDamage(float meleeDamage)
-    {
-        throw new NotImplementedException();
-    }
-
     private Vector3 mousePos;
 
     //0 Jump, 1 Time, 2 Shield.
