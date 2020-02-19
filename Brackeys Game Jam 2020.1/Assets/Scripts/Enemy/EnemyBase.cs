@@ -63,7 +63,7 @@ public class EnemyBase : MonoBehaviour
 
     public virtual void OnDamageTaken(float damage)
     {
-        anime.SetTrigger("isTakingDamage");
+        //anime.SetTrigger("isTakingDamage");
         tDazed = tStartDazed;
        
     }
