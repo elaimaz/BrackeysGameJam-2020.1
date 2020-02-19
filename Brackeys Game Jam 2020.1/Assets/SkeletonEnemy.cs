@@ -6,7 +6,7 @@ public class SkeletonEnemy : EnemyBase
 {
     public GameObject BonePrefab;
     public float BoneSpeed;
-    public override void OnDamageTaken(float damage)
+    public override void OnDamageTaken(int damage)
     {
         base.OnDamageTaken(damage);
         health -= damage;
