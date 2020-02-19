@@ -10,4 +10,11 @@ public class FMODBlob : MonoBehaviour
         Footsteps.start();
         Footsteps.release();
     }
+    void PlayDeath(string path)
+    {
+        Debug.Log(path);
+        FMOD.Studio.EventInstance Death = FMODUnity.RuntimeManager.CreateInstance(path);
+        Death.start();
+        Death.release();
+    }
 }
