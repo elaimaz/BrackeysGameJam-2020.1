@@ -9,10 +9,10 @@ public class EnemyBase : MonoBehaviour
     public float speed;
     public float searchRange;
     public float meleeRange;
-    public float meleeDamage;
+    public int meleeDamage;
     public float longRange;
     public float longDamage;
-    public float health;
+    public int health;
 
     [Header("While Taking Damage")]
     public float tStartDazed;
@@ -61,7 +61,7 @@ public class EnemyBase : MonoBehaviour
 
     }
 
-    public virtual void OnDamageTaken(float damage)
+    public virtual void OnDamageTaken(int damage)
     {
         anime.SetTrigger("isTakingDamage");
         tDazed = tStartDazed;
