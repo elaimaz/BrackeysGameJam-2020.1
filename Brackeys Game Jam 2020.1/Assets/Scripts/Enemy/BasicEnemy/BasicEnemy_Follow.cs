@@ -7,7 +7,7 @@ public class BasicEnemy_Follow : StateMachineBehaviour
 
     public float speed;
     public float meleeAttackRange;
-    public float damage;
+    public int damage;
     private Transform PlayerPos;
     private bool isFacingRight = true;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
