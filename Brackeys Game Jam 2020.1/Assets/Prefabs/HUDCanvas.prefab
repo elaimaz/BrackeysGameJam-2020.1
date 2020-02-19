@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 1810033209847595574}
   - component: {fileID: 1810033209847595569}
   m_Layer: 5
-  m_Name: Health Bar (1)
+  m_Name: PowerUp Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
