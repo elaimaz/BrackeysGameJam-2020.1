@@ -292,6 +292,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6574192945758908345, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: PlayerStateEvent
+      value: event:/FX/RangedCharge
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574192945758908345, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: ChargeStateEvent
+      value: event:/FX/RangedCharge
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b77efe118d8e154282f2bb2d84b33a2, type: 3}
 --- !u!1 &563761262
@@ -2296,6 +2306,7 @@ MonoBehaviour:
   shootEvent:
     m_PersistentCalls:
       m_Calls: []
+  ChargeStateEvent: 
 --- !u!212 &7680244506978575563
 SpriteRenderer:
   m_ObjectHideFlags: 0
