@@ -11,20 +11,20 @@ public class HealthBar : MonoBehaviour
     public Image fill;
     
     public void Start(){
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void SetMaxHealth(int health){
     
         slider.maxValue = health;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void SetHealth(int health){
         slider.value = health;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void AddHealth(int health){
@@ -33,7 +33,7 @@ public class HealthBar : MonoBehaviour
         }
         else slider.value += health;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void RemoveHealth(int health){
@@ -42,6 +42,6 @@ public class HealthBar : MonoBehaviour
         }
         else slider.value -= health;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 }
