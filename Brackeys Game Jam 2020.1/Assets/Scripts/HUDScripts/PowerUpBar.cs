@@ -10,6 +10,15 @@ public class PowerUpBar : MonoBehaviour
     public Gradient gradient;
     public Image fill;
     
+    public string KeyPressToActivate;
+    
+    public void OnGUI(){
+//        if Input.GetKeyDown(KeyPressToActivate){
+//            //do stuff here
+//        }
+        
+    }
+    
     public void Start(){
         fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
     }
