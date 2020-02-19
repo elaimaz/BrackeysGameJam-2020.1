@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
 
-    public float Damage;
+    public int Damage;
     public void SetBullete(int _damage, float BulleteSpeed)
     {
         GetComponent<Rigidbody2D>().velocity = transform.right * BulleteSpeed;

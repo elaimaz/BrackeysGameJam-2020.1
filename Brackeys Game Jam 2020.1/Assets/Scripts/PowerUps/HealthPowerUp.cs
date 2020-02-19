@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthPowerUp : BasePowerUp
 {
-    public float AddHealth;
+    public int AddHealth;
     public override void OnPowerUpPickedUp(GameObject playerObject)
     {
         playerObject.GetComponent<PlayerManager>().GainHealth(AddHealth);
