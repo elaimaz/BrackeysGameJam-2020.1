@@ -6,6 +6,7 @@ public class FMODRangedWeaponPlayer : MonoBehaviour
 {
     void PlayRanged(string path)
     {
+        Debug.Log("play charged");
         FMOD.Studio.EventInstance PlayRanged = FMODUnity.RuntimeManager.CreateInstance(path);
         PlayRanged.start();
         PlayRanged.release();
