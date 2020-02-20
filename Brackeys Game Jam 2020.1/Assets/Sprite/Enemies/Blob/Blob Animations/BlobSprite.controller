@@ -14,7 +14,7 @@ AnimatorState:
   - {fileID: 5801818821212791242}
   - {fileID: -6948798698447220359}
   m_StateMachineBehaviours:
-  - {fileID: -802644548443827372}
+  - {fileID: -6315628571849878052}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -80,6 +80,21 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-6315628571849878052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800064b581cdbd4418ad75b80714dfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanDoMelee: 1
+  CanDoRanged: 0
+  tFlip: 0.2
 --- !u!1101 &-4999421493415910146
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -105,21 +120,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!114 &-802644548443827372
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69ac5b4fdc7b54548aee93be494f0f43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  meleeAttackRange: 2
-  damage: 22
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0

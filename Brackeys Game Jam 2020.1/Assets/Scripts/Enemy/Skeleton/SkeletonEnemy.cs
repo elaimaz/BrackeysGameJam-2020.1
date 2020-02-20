@@ -26,6 +26,6 @@ public class SkeletonEnemy : EnemyBase
     public override void OnRangedAttackDone()
     {
         base.OnRangedAttackDone();
-        Instantiate(BonePrefab, transform.GetChild(0).position, transform.GetChild(0).rotation).GetComponent<BoneScript>().SetBone((int)longDamage,BoneSpeed);
+        Instantiate(BonePrefab, transform.GetChild(0).position, transform.GetChild(0).rotation).GetComponent<ProjectileScript>().SetProjectile((int)longDamage,BoneSpeed);
     }
 }

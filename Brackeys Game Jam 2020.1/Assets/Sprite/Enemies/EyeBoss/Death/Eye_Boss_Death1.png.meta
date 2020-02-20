@@ -245,6 +245,45 @@ TextureImporter:
   - first:
       213: -8361110026487967060
     second: Eye_Boss_Death1_80
+  - first:
+      213: 1736650961343411519
+    second: Eye_Boss_Death1_0
+  - first:
+      213: -4685983625441264518
+    second: Eye_Boss_Death1_1
+  - first:
+      213: 8959169826498673252
+    second: Eye_Boss_Death1_2
+  - first:
+      213: -8076568304817030833
+    second: Eye_Boss_Death1_3
+  - first:
+      213: -6882498728429625616
+    second: Eye_Boss_Death1_4
+  - first:
+      213: -8710539865657430302
+    second: Eye_Boss_Death1_5
+  - first:
+      213: -9219143316828389659
+    second: Eye_Boss_Death1_6
+  - first:
+      213: -8365170536437023512
+    second: Eye_Boss_Death1_7
+  - first:
+      213: -367847721727006166
+    second: Eye_Boss_Death1_8
+  - first:
+      213: -7069887369379830632
+    second: Eye_Boss_Death1_9
+  - first:
+      213: -7393227707261465327
+    second: Eye_Boss_Death1_10
+  - first:
+      213: 5032312225871947378
+    second: Eye_Boss_Death1_11
+  - first:
+      213: -1900008882134359147
+    second: Eye_Boss_Death1_12
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -288,7 +327,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -392,19 +431,19 @@ TextureImporter:
       name: Eye_Boss_Death1_0
       rect:
         serializedVersion: 2
-        x: 654
+        x: 653
         y: 5453
-        width: 308
+        width: 310
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b8d89269d368a1b0800000000000000
-      internalID: -5645152347595679559
+      spriteID: f35f6b129d2d91810800000000000000
+      internalID: 1736650961343411519
       vertices: []
       indices: 
       edges: []
@@ -415,17 +454,17 @@ TextureImporter:
         serializedVersion: 2
         x: 2253
         y: 5453
-        width: 309
+        width: 310
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411df3b18b6c86910800000000000000
-      internalID: 1830931742559555860
+      spriteID: a7cb64658ba08feb0800000000000000
+      internalID: -4685983625441264518
       vertices: []
       indices: 
       edges: []
@@ -436,17 +475,17 @@ TextureImporter:
         serializedVersion: 2
         x: 3853
         y: 5453
-        width: 309
+        width: 310
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 964e5ab1df8a1c370800000000000000
-      internalID: 8341133789910918249
+      spriteID: 46af9de4d7d555c70800000000000000
+      internalID: 8959169826498673252
       vertices: []
       indices: 
       edges: []
@@ -455,19 +494,19 @@ TextureImporter:
       name: Eye_Boss_Death1_3
       rect:
         serializedVersion: 2
-        x: 5469
+        x: 5453
         y: 5453
-        width: 293
+        width: 310
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7c758324c595d070800000000000000
-      internalID: 8130569371929377915
+      spriteID: f49b3331be34aef80800000000000000
+      internalID: -8076568304817030833
       vertices: []
       indices: 
       edges: []
@@ -478,17 +517,17 @@ TextureImporter:
         serializedVersion: 2
         x: 653
         y: 3853
-        width: 309
+        width: 310
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 725f105ae125f5520800000000000000
-      internalID: 2692961393761711399
+      spriteID: 0fedfdc1fd37c70a0800000000000000
+      internalID: -6882498728429625616
       vertices: []
       indices: 
       edges: []
@@ -499,17 +538,17 @@ TextureImporter:
         serializedVersion: 2
         x: 2253
         y: 3853
-        width: 309
+        width: 310
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db28ce817509abe90800000000000000
-      internalID: -7009131166294048067
+      spriteID: 2ee2c918422fd1780800000000000000
+      internalID: -8710539865657430302
       vertices: []
       indices: 
       edges: []
@@ -520,17 +559,17 @@ TextureImporter:
         serializedVersion: 2
         x: 3853
         y: 3853
-        width: 309
+        width: 310
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 134e51f2644f52c40800000000000000
-      internalID: 5487060303295669297
+      spriteID: 5eef60b9ff50f0080800000000000000
+      internalID: -9219143316828389659
       vertices: []
       indices: 
       edges: []
@@ -541,17 +580,17 @@ TextureImporter:
         serializedVersion: 2
         x: 5469
         y: 3853
-        width: 293
+        width: 294
         height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b96f5c92e34171a0800000000000000
-      internalID: -6813590120669681223
+      spriteID: 8ec7b1ab7b1f8eb80800000000000000
+      internalID: -8365170536437023512
       vertices: []
       indices: 
       edges: []
@@ -561,18 +600,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 669
-        y: 2253
-        width: 293
-        height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2350
+        width: 294
+        height: 309
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5591dd632a7fa570800000000000000
-      internalID: 8480130915946829146
+      spriteID: a2a660f227425eaf0800000000000000
+      internalID: -367847721727006166
       vertices: []
       indices: 
       edges: []
@@ -581,19 +620,19 @@ TextureImporter:
       name: Eye_Boss_Death1_9
       rect:
         serializedVersion: 2
-        x: 2269
-        y: 2253
-        width: 294
-        height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2366
+        y: 2572
+        width: 37
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ecb4b2079b2b80c0800000000000000
-      internalID: -4572513069079151389
+      spriteID: 894281a35e6b2ed90800000000000000
+      internalID: -7069887369379830632
       vertices: []
       indices: 
       edges: []
@@ -602,19 +641,19 @@ TextureImporter:
       name: Eye_Boss_Death1_10
       rect:
         serializedVersion: 2
-        x: 3869
-        y: 2253
-        width: 293
-        height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2413
+        y: 2606
+        width: 68
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d46f64fcc6657cfb0800000000000000
-      internalID: -4627635066765904307
+      spriteID: 11dca1d329af56990800000000000000
+      internalID: -7393227707261465327
       vertices: []
       indices: 
       edges: []
@@ -623,19 +662,19 @@ TextureImporter:
       name: Eye_Boss_Death1_11
       rect:
         serializedVersion: 2
-        x: 5469
-        y: 2254
-        width: 293
-        height: 387
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2494
+        y: 2606
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c13b0091973273e20800000000000000
-      internalID: 3330169452481262364
+      spriteID: 276e3fd9e4d56d540800000000000000
+      internalID: 5032312225871947378
       vertices: []
       indices: 
       edges: []
@@ -644,19 +683,1447 @@ TextureImporter:
       name: Eye_Boss_Death1_12
       rect:
         serializedVersion: 2
-        x: 669
-        y: 669
-        width: 293
-        height: 356
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3966
+        y: 2572
+        width: 37
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c58693b1fdcfbe30800000000000000
-      internalID: 4521558988887066055
+      spriteID: 5936b460dffc1a5e0800000000000000
+      internalID: -1900008882134359147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_13
+      rect:
+        serializedVersion: 2
+        x: 4013
+        y: 2606
+        width: 37
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42432ba62420b5510800000000000000
+      internalID: 1538826181958317092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_14
+      rect:
+        serializedVersion: 2
+        x: 4063
+        y: 2622
+        width: 18
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb7cb66b5a882060800000000000000
+      internalID: 6928940151879793588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_15
+      rect:
+        serializedVersion: 2
+        x: 4094
+        y: 2606
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e8b693987074240800000000000000
+      internalID: 4775794215804964433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_16
+      rect:
+        serializedVersion: 2
+        x: 5566
+        y: 2606
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac58fb3bd8797ba40800000000000000
+      internalID: 5383938514406573514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_17
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 2622
+        width: 18
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7c7e938881bf260800000000000000
+      internalID: 7132321408237422511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_18
+      rect:
+        serializedVersion: 2
+        x: 5694
+        y: 2606
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ccd68fb05b59d00800000000000000
+      internalID: 978887557040163843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_19
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 2431
+        width: 150
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b72b15e097437d0800000000000000
+      internalID: -2939591554358936828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_20
+      rect:
+        serializedVersion: 2
+        x: 4013
+        y: 2559
+        width: 37
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d0756ef1630ab50800000000000000
+      internalID: 6602336564361497923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_21
+      rect:
+        serializedVersion: 2
+        x: 4063
+        y: 2572
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb582ddb98288b940800000000000000
+      internalID: 5312139288590321083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_22
+      rect:
+        serializedVersion: 2
+        x: 4125
+        y: 2509
+        width: 38
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604a8aa459963ecb0800000000000000
+      internalID: -4835905484942171130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_23
+      rect:
+        serializedVersion: 2
+        x: 5613
+        y: 2559
+        width: 21
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae221ac404b63f0800000000000000
+      internalID: -906560202119910837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_24
+      rect:
+        serializedVersion: 2
+        x: 5725
+        y: 2509
+        width: 38
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eca09df5efb8c8c0800000000000000
+      internalID: -3978719276259300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_25
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 2397
+        width: 84
+        height: 166
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c90e8e98f78d9ea0800000000000000
+      internalID: -5864381637884769850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_26
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 2525
+        width: 53
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04bc4277ddc466b0800000000000000
+      internalID: -5303888135916309493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_27
+      rect:
+        serializedVersion: 2
+        x: 4013
+        y: 2447
+        width: 103
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aa2b9d32206bc80800000000000000
+      internalID: -8307450109638825393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_28
+      rect:
+        serializedVersion: 2
+        x: 5581
+        y: 2525
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e99fac5a7dfdc20800000000000000
+      internalID: 3233540164550237799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_29
+      rect:
+        serializedVersion: 2
+        x: 5631
+        y: 2463
+        width: 50
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7247dcf85a731c0800000000000000
+      internalID: -4523965263624525847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_30
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2463
+        width: 38
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e27c01fd5edd400800000000000000
+      internalID: 350689092226723335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_31
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 2478
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f243644ec5c04060800000000000000
+      internalID: 6935760915851854578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_32
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 2413
+        width: 84
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc434411f44314c00800000000000000
+      internalID: 883044516138071244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_33
+      rect:
+        serializedVersion: 2
+        x: 5484
+        y: 2478
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef847ee097fdd7c30800000000000000
+      internalID: 4358885725398583550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_34
+      rect:
+        serializedVersion: 2
+        x: 5566
+        y: 2463
+        width: 37
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facb04b3366206050800000000000000
+      internalID: 5791671328436173999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_35
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2366
+        width: 37
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2469f35c23f14b2e0800000000000000
+      internalID: -2111028022411815358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_36
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 2397
+        width: 53
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755eebcf987bf1480800000000000000
+      internalID: -8926214133146262185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_37
+      rect:
+        serializedVersion: 2
+        x: 3869
+        y: 2366
+        width: 37
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca79c19bba143d690800000000000000
+      internalID: -7578641542133540948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_38
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 2397
+        width: 53
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2d184465878a6c0800000000000000
+      internalID: -4131920346200550696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_39
+      rect:
+        serializedVersion: 2
+        x: 4109
+        y: 2431
+        width: 38
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212b4dc7ece31bd60800000000000000
+      internalID: 7904167877590430226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_40
+      rect:
+        serializedVersion: 2
+        x: 5581
+        y: 2431
+        width: 22
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becb2c7f7dd82dfb0800000000000000
+      internalID: -4624477908641858325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_41
+      rect:
+        serializedVersion: 2
+        x: 5709
+        y: 2431
+        width: 38
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5bc9d3868e174b0800000000000000
+      internalID: -5444314940106295818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_42
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 2397
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1035bccde2160eca0800000000000000
+      internalID: -5989680650502057215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_43
+      rect:
+        serializedVersion: 2
+        x: 4013
+        y: 2397
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d79eeca967f9360800000000000000
+      internalID: 7178586738320309551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_44
+      rect:
+        serializedVersion: 2
+        x: 5469
+        y: 2397
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e714e6808e21043e0800000000000000
+      internalID: -2071635040807272066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_45
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2269
+        width: 69
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c76567ac8303ef30800000000000000
+      internalID: 4603527146741524420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_46
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2253
+        width: 131
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07f598dad0c22330800000000000000
+      internalID: 3684719491311597322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_47
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2269
+        width: 54
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503cea76d9f09db00800000000000000
+      internalID: 853730773087208197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_48
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2253
+        width: 100
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf55d9bf9b7c4980800000000000000
+      internalID: -8553325666335629368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_49
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 2269
+        width: 54
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2499513fe0d1bfb0800000000000000
+      internalID: -4633692815843814356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_50
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 2253
+        width: 100
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33916484e31afdcd0800000000000000
+      internalID: -2531127176686331597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_51
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 2334
+        width: 22
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b81769e0141e410800000000000000
+      internalID: 1504555281427827525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_52
+      rect:
+        serializedVersion: 2
+        x: 5597
+        y: 2350
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c629e3c3286bdd60800000000000000
+      internalID: 7916035272853759684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_53
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 2284
+        width: 22
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf1509070b82950800000000000000
+      internalID: 6424578865948130031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_54
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2284
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c508f0089d2fd76d0800000000000000
+      internalID: -2990967561533816740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_55
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 2284
+        width: 22
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f597046a33202afc0800000000000000
+      internalID: -3485220740775511713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_56
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 2284
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28cbc23ab4a3280800000000000000
+      internalID: -9062848135927397653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_57
+      rect:
+        serializedVersion: 2
+        x: 4094
+        y: 2284
+        width: 22
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf0798f8c302e020800000000000000
+      internalID: 2369460515649294283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_58
+      rect:
+        serializedVersion: 2
+        x: 5484
+        y: 2269
+        width: 54
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e503a7c09ead740800000000000000
+      internalID: 5177706961414676102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_59
+      rect:
+        serializedVersion: 2
+        x: 5550
+        y: 2284
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab00e0efac26a110800000000000000
+      internalID: 1271753078682422191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_60
+      rect:
+        serializedVersion: 2
+        x: 5581
+        y: 2253
+        width: 53
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac727af0407c17430800000000000000
+      internalID: 3779020382596966346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_61
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 2300
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f05cc1b438215f0800000000000000
+      internalID: -787422626207953107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_62
+      rect:
+        serializedVersion: 2
+        x: 5694
+        y: 2284
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6fb55ee6cf8ce70800000000000000
+      internalID: 9135829397345662652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_63
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2253
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be94e03599e939960800000000000000
+      internalID: 7607598576919529963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_64
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 2253
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566a1a02fa1e6e330800000000000000
+      internalID: 3739924682860766821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_65
+      rect:
+        serializedVersion: 2
+        x: 5550
+        y: 2253
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9a6223a3feb8fa0800000000000000
+      internalID: -5797277062080845384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_66
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 2269
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578bb03c6f5a54e90800000000000000
+      internalID: -7042039963071039371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_67
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1006
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed7b104adaa5f2a0800000000000000
+      internalID: -6704264615915979296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_68
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 925
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bd6b5066e6f0bf0800000000000000
+      internalID: -355944461077390451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_69
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 925
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecab1102709c4500800000000000000
+      internalID: 381838887738911971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_70
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 941
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10558e0199967eff0800000000000000
+      internalID: -6920768283192063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_71
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 894
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408502c8464cab200800000000000000
+      internalID: 196685469870741508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_72
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 909
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5d6f25ff5f122d0800000000000000
+      internalID: -3305090174555859518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_73
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 831
+        width: 22
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fed2f9a8f01fd00800000000000000
+      internalID: 1004601279930822429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_74
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 847
+        width: 22
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d75b56559dfc080800000000000000
+      internalID: -9164867755873829628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_75
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 797
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eabb73f63e7d7020800000000000000
+      internalID: 2341166155780831971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_76
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 734
+        width: 22
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89138b10d1dccaf90800000000000000
+      internalID: -6940947401218182760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_77
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 669
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717525250946f6ff0800000000000000
+      internalID: -40703300603848937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_78
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 684
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a98797c2d79bf340800000000000000
+      internalID: 4898675951243069860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_79
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 669
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824826129d42849d0800000000000000
+      internalID: -2789939454169414616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_80
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 684
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca25a3fdabe57fb80800000000000000
+      internalID: -8361110026487967060
       vertices: []
       indices: 
       edges: []

@@ -34,11 +34,6 @@ public class MeleeWeapon : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireCube(AttackOrigin.position, DetectionZone);
-    }
-
     private void Shoot()
     {
         anime.SetTrigger("isAttacking");
