@@ -40,8 +40,4 @@ public class EyeBossEnemy : EnemyBase
         Instantiate(ProjectilePrefab, transform.GetChild(0).position, transform.GetChild(0).rotation).GetComponent<ProjectileScript>().SetProjectile((int)longDamage, ProjectileSpeed);
     }
 
-    public void DestroyEyeBoss()
-    {
-        Destroy(gameObject);
-    }
 }

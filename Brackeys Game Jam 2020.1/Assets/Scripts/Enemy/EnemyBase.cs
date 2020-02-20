@@ -70,4 +70,9 @@ public class EnemyBase : MonoBehaviour
         tDazed = tStartDazed;
        
     }
+
+    public virtual void DestroyEnemy()
+    {
+        Destroy(gameObject);
+    }
 }
