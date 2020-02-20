@@ -1,7 +1,508 @@
 fileFormatVersion: 2
 guid: dcbfd6d70a123b3419eb22b8ed6baf33
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6033427967742041089
+    second: Drill_Boss_Death_0
+  - first:
+      213: -5749761041505131146
+    second: Drill_Boss_Death_1
+  - first:
+      213: -2662396741651584210
+    second: Drill_Boss_Death_2
+  - first:
+      213: 6284980215049046335
+    second: Drill_Boss_Death_3
+  - first:
+      213: -8838250934365322360
+    second: Drill_Boss_Death_4
+  - first:
+      213: 6668058118725969249
+    second: Drill_Boss_Death_5
+  - first:
+      213: 3189862389915654784
+    second: Drill_Boss_Death_6
+  - first:
+      213: -7610894604320288028
+    second: Drill_Boss_Death_7
+  - first:
+      213: 9153791555749193277
+    second: Drill_Boss_Death_8
+  - first:
+      213: -1965214189122414584
+    second: Drill_Boss_Death_9
+  - first:
+      213: -3877007803904366201
+    second: Drill_Boss_Death_10
+  - first:
+      213: 7120655994491820368
+    second: Drill_Boss_Death_11
+  - first:
+      213: 1624662218328870189
+    second: Drill_Boss_Death_12
+  - first:
+      213: 3074061615642359218
+    second: Drill_Boss_Death_13
+  - first:
+      213: 9192296708237411555
+    second: Drill_Boss_Death_14
+  - first:
+      213: -528188294540898235
+    second: Drill_Boss_Death_15
+  - first:
+      213: -1667557178593887862
+    second: Drill_Boss_Death_16
+  - first:
+      213: -7865391409110850266
+    second: Drill_Boss_Death_17
+  - first:
+      213: -5051161385218492535
+    second: Drill_Boss_Death_18
+  - first:
+      213: 6432942842480582872
+    second: Drill_Boss_Death_19
+  - first:
+      213: 7747648998297719686
+    second: Drill_Boss_Death_20
+  - first:
+      213: 5911880134096922054
+    second: Drill_Boss_Death_21
+  - first:
+      213: -8811218355197795347
+    second: Drill_Boss_Death_22
+  - first:
+      213: 5422170599639026778
+    second: Drill_Boss_Death_23
+  - first:
+      213: -3309526349239754564
+    second: Drill_Boss_Death_24
+  - first:
+      213: 6386013074913216621
+    second: Drill_Boss_Death_25
+  - first:
+      213: -6368801146754403347
+    second: Drill_Boss_Death_26
+  - first:
+      213: 2026042850592854847
+    second: Drill_Boss_Death_27
+  - first:
+      213: -9126314871316302676
+    second: Drill_Boss_Death_28
+  - first:
+      213: -7118988934007627121
+    second: Drill_Boss_Death_29
+  - first:
+      213: -6415127978583940709
+    second: Drill_Boss_Death_30
+  - first:
+      213: -8339840664079810797
+    second: Drill_Boss_Death_31
+  - first:
+      213: -2439619242303224907
+    second: Drill_Boss_Death_32
+  - first:
+      213: -1798902879142115317
+    second: Drill_Boss_Death_33
+  - first:
+      213: -4284890582037496269
+    second: Drill_Boss_Death_34
+  - first:
+      213: 2069104368659046158
+    second: Drill_Boss_Death_35
+  - first:
+      213: -3468240170073063249
+    second: Drill_Boss_Death_36
+  - first:
+      213: 6418407647450648037
+    second: Drill_Boss_Death_37
+  - first:
+      213: 7536754720438175661
+    second: Drill_Boss_Death_38
+  - first:
+      213: 817636757961982994
+    second: Drill_Boss_Death_39
+  - first:
+      213: 5942674364291340960
+    second: Drill_Boss_Death_40
+  - first:
+      213: -8488575477649790061
+    second: Drill_Boss_Death_41
+  - first:
+      213: 1877627499290482606
+    second: Drill_Boss_Death_42
+  - first:
+      213: -4170481588236198647
+    second: Drill_Boss_Death_43
+  - first:
+      213: -5885259623341638638
+    second: Drill_Boss_Death_44
+  - first:
+      213: 6065903074347762831
+    second: Drill_Boss_Death_45
+  - first:
+      213: 4397165870240726226
+    second: Drill_Boss_Death_46
+  - first:
+      213: -6222723768943020662
+    second: Drill_Boss_Death_47
+  - first:
+      213: -3800601223465801480
+    second: Drill_Boss_Death_48
+  - first:
+      213: -2172554268867783145
+    second: Drill_Boss_Death_49
+  - first:
+      213: -3301579034748246496
+    second: Drill_Boss_Death_50
+  - first:
+      213: -3158964042910874382
+    second: Drill_Boss_Death_51
+  - first:
+      213: -1740170747800819652
+    second: Drill_Boss_Death_52
+  - first:
+      213: -5205565129023476855
+    second: Drill_Boss_Death_53
+  - first:
+      213: 641159206877879428
+    second: Drill_Boss_Death_54
+  - first:
+      213: -6570546840792863316
+    second: Drill_Boss_Death_55
+  - first:
+      213: 1791154544855961437
+    second: Drill_Boss_Death_56
+  - first:
+      213: -5898851071260021495
+    second: Drill_Boss_Death_57
+  - first:
+      213: -6582023838012974723
+    second: Drill_Boss_Death_58
+  - first:
+      213: -8503588526473455158
+    second: Drill_Boss_Death_59
+  - first:
+      213: 7971089301831272589
+    second: Drill_Boss_Death_60
+  - first:
+      213: 7477852356507368833
+    second: Drill_Boss_Death_61
+  - first:
+      213: 3351264838708775687
+    second: Drill_Boss_Death_62
+  - first:
+      213: 841765270515143527
+    second: Drill_Boss_Death_63
+  - first:
+      213: 6519736445588540639
+    second: Drill_Boss_Death_64
+  - first:
+      213: 1960588533847727149
+    second: Drill_Boss_Death_65
+  - first:
+      213: 3418084129076331447
+    second: Drill_Boss_Death_66
+  - first:
+      213: -5154908103112266941
+    second: Drill_Boss_Death_67
+  - first:
+      213: -8008921264535052943
+    second: Drill_Boss_Death_68
+  - first:
+      213: 5337873719549355721
+    second: Drill_Boss_Death_69
+  - first:
+      213: -8147618917538134018
+    second: Drill_Boss_Death_70
+  - first:
+      213: -735206030077483238
+    second: Drill_Boss_Death_71
+  - first:
+      213: -2599163005251806007
+    second: Drill_Boss_Death_72
+  - first:
+      213: 1387556526553873881
+    second: Drill_Boss_Death_73
+  - first:
+      213: 559303351456587794
+    second: Drill_Boss_Death_74
+  - first:
+      213: 378103578859447751
+    second: Drill_Boss_Death_75
+  - first:
+      213: -8009264532624927246
+    second: Drill_Boss_Death_76
+  - first:
+      213: -4817969073032019713
+    second: Drill_Boss_Death_77
+  - first:
+      213: -3021123020116937063
+    second: Drill_Boss_Death_78
+  - first:
+      213: 3509290713895008455
+    second: Drill_Boss_Death_79
+  - first:
+      213: -835179936999458283
+    second: Drill_Boss_Death_80
+  - first:
+      213: -6667222835388982742
+    second: Drill_Boss_Death_81
+  - first:
+      213: 2923677421254572808
+    second: Drill_Boss_Death_82
+  - first:
+      213: 897273515794585422
+    second: Drill_Boss_Death_83
+  - first:
+      213: -1388947053617403913
+    second: Drill_Boss_Death_84
+  - first:
+      213: 6643163994842260685
+    second: Drill_Boss_Death_85
+  - first:
+      213: -1077068492054881312
+    second: Drill_Boss_Death_86
+  - first:
+      213: 6019663524219722928
+    second: Drill_Boss_Death_87
+  - first:
+      213: -7487175558974233158
+    second: Drill_Boss_Death_88
+  - first:
+      213: -8645898622634029609
+    second: Drill_Boss_Death_89
+  - first:
+      213: 3743107325477153116
+    second: Drill_Boss_Death_90
+  - first:
+      213: -3728406030417933737
+    second: Drill_Boss_Death_91
+  - first:
+      213: -7690632950096302396
+    second: Drill_Boss_Death_92
+  - first:
+      213: -4514673017709333171
+    second: Drill_Boss_Death_93
+  - first:
+      213: -5030950936123508508
+    second: Drill_Boss_Death_94
+  - first:
+      213: -720515801083919806
+    second: Drill_Boss_Death_95
+  - first:
+      213: 8326585041296367067
+    second: Drill_Boss_Death_96
+  - first:
+      213: -7235116546310436498
+    second: Drill_Boss_Death_97
+  - first:
+      213: 2929643470754903412
+    second: Drill_Boss_Death_98
+  - first:
+      213: 5761800853316109613
+    second: Drill_Boss_Death_99
+  - first:
+      213: -8764270924742308481
+    second: Drill_Boss_Death_100
+  - first:
+      213: 704611257645396663
+    second: Drill_Boss_Death_101
+  - first:
+      213: 9153579874527237290
+    second: Drill_Boss_Death_102
+  - first:
+      213: -8991625338857545725
+    second: Drill_Boss_Death_103
+  - first:
+      213: -7249685767279137749
+    second: Drill_Boss_Death_104
+  - first:
+      213: -2143097692686199723
+    second: Drill_Boss_Death_105
+  - first:
+      213: 4182818847672489998
+    second: Drill_Boss_Death_106
+  - first:
+      213: 3891588248313389175
+    second: Drill_Boss_Death_107
+  - first:
+      213: -2534927938245162073
+    second: Drill_Boss_Death_108
+  - first:
+      213: -6966480907153774358
+    second: Drill_Boss_Death_109
+  - first:
+      213: 515461096785874290
+    second: Drill_Boss_Death_110
+  - first:
+      213: -9208392842767874033
+    second: Drill_Boss_Death_111
+  - first:
+      213: -6910495077233668095
+    second: Drill_Boss_Death_112
+  - first:
+      213: 4345083420996312627
+    second: Drill_Boss_Death_113
+  - first:
+      213: -884204429801965472
+    second: Drill_Boss_Death_114
+  - first:
+      213: 8594262643721633618
+    second: Drill_Boss_Death_115
+  - first:
+      213: 2457164963251327156
+    second: Drill_Boss_Death_116
+  - first:
+      213: -3106343446343781730
+    second: Drill_Boss_Death_117
+  - first:
+      213: 6885856875672152043
+    second: Drill_Boss_Death_118
+  - first:
+      213: -935059028035574189
+    second: Drill_Boss_Death_119
+  - first:
+      213: 7380771339324831473
+    second: Drill_Boss_Death_120
+  - first:
+      213: -5364618865040341008
+    second: Drill_Boss_Death_121
+  - first:
+      213: 7232876062706373345
+    second: Drill_Boss_Death_122
+  - first:
+      213: -7343294323160295212
+    second: Drill_Boss_Death_123
+  - first:
+      213: -2633780022882653230
+    second: Drill_Boss_Death_124
+  - first:
+      213: -2027050150994514192
+    second: Drill_Boss_Death_125
+  - first:
+      213: -8132777602111308635
+    second: Drill_Boss_Death_126
+  - first:
+      213: 8376608878056090581
+    second: Drill_Boss_Death_127
+  - first:
+      213: -8604974457619410501
+    second: Drill_Boss_Death_128
+  - first:
+      213: 3917001713059179034
+    second: Drill_Boss_Death_129
+  - first:
+      213: -4407790324450380030
+    second: Drill_Boss_Death_130
+  - first:
+      213: -8970704540183820818
+    second: Drill_Boss_Death_131
+  - first:
+      213: 2939291764423662170
+    second: Drill_Boss_Death_132
+  - first:
+      213: 4266904971750875234
+    second: Drill_Boss_Death_133
+  - first:
+      213: 911418293528449231
+    second: Drill_Boss_Death_134
+  - first:
+      213: 2768201941958079635
+    second: Drill_Boss_Death_135
+  - first:
+      213: -5625076916653096391
+    second: Drill_Boss_Death_136
+  - first:
+      213: 7753781440539296374
+    second: Drill_Boss_Death_137
+  - first:
+      213: -7045701562301274620
+    second: Drill_Boss_Death_138
+  - first:
+      213: 3201933009099714895
+    second: Drill_Boss_Death_139
+  - first:
+      213: -4635738258325857823
+    second: Drill_Boss_Death_140
+  - first:
+      213: -7312602485933437848
+    second: Drill_Boss_Death_141
+  - first:
+      213: 1590149675291453999
+    second: Drill_Boss_Death_142
+  - first:
+      213: -8325938731925807647
+    second: Drill_Boss_Death_143
+  - first:
+      213: -6093140587454056498
+    second: Drill_Boss_Death_144
+  - first:
+      213: -968646081888551185
+    second: Drill_Boss_Death_145
+  - first:
+      213: -2743877500403405221
+    second: Drill_Boss_Death_146
+  - first:
+      213: 6073644667805549219
+    second: Drill_Boss_Death_147
+  - first:
+      213: -4308115585916833226
+    second: Drill_Boss_Death_148
+  - first:
+      213: 2955003386001315153
+    second: Drill_Boss_Death_149
+  - first:
+      213: 1901899094165441584
+    second: Drill_Boss_Death_150
+  - first:
+      213: -515077151090440716
+    second: Drill_Boss_Death_151
+  - first:
+      213: 1879178584636428970
+    second: Drill_Boss_Death_152
+  - first:
+      213: 7979320934790329363
+    second: Drill_Boss_Death_153
+  - first:
+      213: -74940962727349259
+    second: Drill_Boss_Death_154
+  - first:
+      213: -8525238361816914388
+    second: Drill_Boss_Death_155
+  - first:
+      213: 4272169781921527124
+    second: Drill_Boss_Death_156
+  - first:
+      213: -6624491077806428396
+    second: Drill_Boss_Death_157
+  - first:
+      213: 1826385064282797749
+    second: Drill_Boss_Death_158
+  - first:
+      213: -1366842819395782180
+    second: Drill_Boss_Death_159
+  - first:
+      213: 2548295665372844947
+    second: Drill_Boss_Death_160
+  - first:
+      213: -3388329146740327421
+    second: Drill_Boss_Death_161
+  - first:
+      213: 1509017748166184763
+    second: Drill_Boss_Death_162
+  - first:
+      213: 2508167675373390009
+    second: Drill_Boss_Death_163
+  - first:
+      213: -4563119856000169086
+    second: Drill_Boss_Death_164
+  - first:
+      213: 3481801456949972825
+    second: Drill_Boss_Death_165
+  - first:
+      213: 7673035236640530392
+    second: Drill_Boss_Death_166
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +541,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +645,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Drill_Boss_Death_0
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 6989
+        width: 421
+        height: 518
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cdb2b25ca0bb350800000000000000
+      internalID: 6033427967742041089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_1
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 6989
+        width: 417
+        height: 518
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675e4b9dbceb430b0800000000000000
+      internalID: -5749761041505131146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5391
+        width: 421
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b23baf4444d0bd0800000000000000
+      internalID: -2662396741651584210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_3
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 5340
+        width: 597
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f394b52d43cb83750800000000000000
+      internalID: 6284980215049046335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 3676
+        width: 691
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883046d2a99385580800000000000000
+      internalID: -8838250934365322360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_5
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 3676
+        width: 693
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1652254b783b98c50800000000000000
+      internalID: 6668058118725969249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_6
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2079
+        width: 691
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a1d4961faa44c20800000000000000
+      internalID: 3189862389915654784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_7
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2079
+        width: 695
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e25d8e7eaba06690800000000000000
+      internalID: -7610894604320288028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Death_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 477
+        width: 675
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36a66ccbecc80f70800000000000000
+      internalID: 9153791555749193277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
