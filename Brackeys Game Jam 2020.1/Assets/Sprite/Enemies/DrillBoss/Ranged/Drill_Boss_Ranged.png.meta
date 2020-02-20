@@ -1,0 +1,1195 @@
+fileFormatVersion: 2
+guid: 24e234d923cbb5b4fa88cf9b1ff84c25
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2503404645169809417
+    second: Drill_Boss_Ranged_0
+  - first:
+      213: -323006707139371215
+    second: Drill_Boss_Ranged_1
+  - first:
+      213: -8027991747701648759
+    second: Drill_Boss_Ranged_2
+  - first:
+      213: -7038766346422082091
+    second: Drill_Boss_Ranged_3
+  - first:
+      213: -1642665510788669428
+    second: Drill_Boss_Ranged_4
+  - first:
+      213: -6205628334185138795
+    second: Drill_Boss_Ranged_5
+  - first:
+      213: -5517456180625978930
+    second: Drill_Boss_Ranged_6
+  - first:
+      213: 1545936967790664761
+    second: Drill_Boss_Ranged_7
+  - first:
+      213: -7928272122386299351
+    second: Drill_Boss_Ranged_8
+  - first:
+      213: 728745467549841299
+    second: Drill_Boss_Ranged_9
+  - first:
+      213: -2188087185302366151
+    second: Drill_Boss_Ranged_10
+  - first:
+      213: -7362500505589184226
+    second: Drill_Boss_Ranged_11
+  - first:
+      213: 2835862344898823704
+    second: Drill_Boss_Ranged_12
+  - first:
+      213: 8368050541182012166
+    second: Drill_Boss_Ranged_13
+  - first:
+      213: 5494664465585703930
+    second: Drill_Boss_Ranged_14
+  - first:
+      213: 9054314492551974258
+    second: Drill_Boss_Ranged_15
+  - first:
+      213: -5435696768741754803
+    second: Drill_Boss_Ranged_16
+  - first:
+      213: 2430882949381750276
+    second: Drill_Boss_Ranged_17
+  - first:
+      213: 7400529103708931324
+    second: Drill_Boss_Ranged_18
+  - first:
+      213: -2796936785320834674
+    second: Drill_Boss_Ranged_19
+  - first:
+      213: -7416801056766713247
+    second: Drill_Boss_Ranged_20
+  - first:
+      213: 6438080823781620552
+    second: Drill_Boss_Ranged_21
+  - first:
+      213: 9124471223133118099
+    second: Drill_Boss_Ranged_22
+  - first:
+      213: 7195872429885613087
+    second: Drill_Boss_Ranged_23
+  - first:
+      213: 4199501948710149667
+    second: Drill_Boss_Ranged_24
+  - first:
+      213: -771111096110383665
+    second: Drill_Boss_Ranged_25
+  - first:
+      213: -9216272476736947008
+    second: Drill_Boss_Ranged_26
+  - first:
+      213: 1107483073904278339
+    second: Drill_Boss_Ranged_27
+  - first:
+      213: 5308630904359508286
+    second: Drill_Boss_Ranged_28
+  - first:
+      213: 8281334740118113318
+    second: Drill_Boss_Ranged_29
+  - first:
+      213: 533630636365062911
+    second: Drill_Boss_Ranged_30
+  - first:
+      213: 2289563081188674963
+    second: Drill_Boss_Ranged_31
+  - first:
+      213: -2651232176981127588
+    second: Drill_Boss_Ranged_32
+  - first:
+      213: 625396607550848456
+    second: Drill_Boss_Ranged_33
+  - first:
+      213: -3853569005776724717
+    second: Drill_Boss_Ranged_34
+  - first:
+      213: 7166055601479918354
+    second: Drill_Boss_Ranged_35
+  - first:
+      213: 1224948334991049961
+    second: Drill_Boss_Ranged_36
+  - first:
+      213: 1654464718499842987
+    second: Drill_Boss_Ranged_37
+  - first:
+      213: -2505916254385752390
+    second: Drill_Boss_Ranged_38
+  - first:
+      213: 4058701633865594784
+    second: Drill_Boss_Ranged_39
+  - first:
+      213: -6625754667275111381
+    second: Drill_Boss_Ranged_40
+  - first:
+      213: 450208021577309706
+    second: Drill_Boss_Ranged_41
+  - first:
+      213: -5702108363308481849
+    second: Drill_Boss_Ranged_42
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_0
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 5094
+        width: 213
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908c86cd241edb220800000000000000
+      internalID: 2503404645169809417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_1
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 5094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f93e87c13748bf0800000000000000
+      internalID: -323006707139371215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_2
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 5094
+        width: 213
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982d9722a08d69090800000000000000
+      internalID: -8027991747701648759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_3
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 5094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5a9880d47415e90800000000000000
+      internalID: -7038766346422082091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_4
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 5094
+        width: 213
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00e7a0db641439e0800000000000000
+      internalID: -1642665510788669428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_5
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 5094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595bbcca8ed21e9a0800000000000000
+      internalID: -6205628334185138795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 4293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9410226de0e63b0800000000000000
+      internalID: -5517456180625978930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_7
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 4293
+        width: 214
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c9e424b75447510800000000000000
+      internalID: 1545936967790664761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_8
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 4293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926488ea28e19f190800000000000000
+      internalID: -7928272122386299351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_9
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 4293
+        width: 214
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397fbf444260d1a00800000000000000
+      internalID: 728745467549841299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_10
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 4293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938d7764c4a52a1e0800000000000000
+      internalID: -2188087185302366151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_11
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 4293
+        width: 214
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1909b16cc423d990800000000000000
+      internalID: -7362500505589184226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 3495
+        width: 213
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816c99317c10b5720800000000000000
+      internalID: 2835862344898823704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_13
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 3495
+        width: 214
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b4ba1a1a9412470800000000000000
+      internalID: 8368050541182012166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_14
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 3495
+        width: 213
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb823f2838f04c40800000000000000
+      internalID: 5494664465585703930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_15
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 3495
+        width: 214
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d4b352f0367ad70800000000000000
+      internalID: 9054314492551974258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_16
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 3495
+        width: 213
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48b860a6968094b0800000000000000
+      internalID: -5435696768741754803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_17
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 3495
+        width: 214
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef370c92b3cb120800000000000000
+      internalID: 2430882949381750276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_18
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2693
+        width: 213
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4c2889206f3b660800000000000000
+      internalID: 7400529103708931324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_19
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 2693
+        width: 140
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e898ab300d84f29d0800000000000000
+      internalID: -2796936785320834674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_20
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 2693
+        width: 142
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162ada91cba321990800000000000000
+      internalID: -7416801056766713247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_21
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 2693
+        width: 140
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bf1c81668a85950800000000000000
+      internalID: 6438080823781620552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_22
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 2693
+        width: 142
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e9f12eb32a0ae70800000000000000
+      internalID: 9124471223133118099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_23
+      rect:
+        serializedVersion: 2
+        x: 4310
+        y: 2693
+        width: 140
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14eb5089dfdcd360800000000000000
+      internalID: 7195872429885613087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1895
+        width: 142
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32edd6eb5c0a74a30800000000000000
+      internalID: 4199501948710149667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_25
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1895
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd7af92b867c45f0800000000000000
+      internalID: -771111096110383665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_26
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1895
+        width: 140
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc72e62309391080800000000000000
+      internalID: -9216272476736947008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_27
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1895
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b72deecf19e5f00800000000000000
+      internalID: 1107483073904278339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_28
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1895
+        width: 142
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3952026eab0ca940800000000000000
+      internalID: 5308630904359508286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_29
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 1895
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c87dad1163de270800000000000000
+      internalID: 8281334740118113318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_30
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1895
+        width: 140
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff22ec98c36d76700800000000000000
+      internalID: 533630636365062911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_31
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 1895
+        width: 142
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d8911ed7926cf10800000000000000
+      internalID: 2289563081188674963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_32
+      rect:
+        serializedVersion: 2
+        x: 4310
+        y: 1895
+        width: 140
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e44f1c16ee43bd0800000000000000
+      internalID: -2651232176981127588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_33
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1094
+        width: 142
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd7dcca6eadda800800000000000000
+      internalID: 625396607550848456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_34
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1094
+        width: 140
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d1935086f558ac0800000000000000
+      internalID: -3853569005776724717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_35
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1094
+        width: 235
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213a8e62a91f27360800000000000000
+      internalID: 7166055601479918354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_36
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 1094
+        width: 230
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e409574504eff010800000000000000
+      internalID: 1224948334991049961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_37
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 1094
+        width: 213
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab899f45e6d5f610800000000000000
+      internalID: 1654464718499842987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_38
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 1094
+        width: 214
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6b57c8172393dd0800000000000000
+      internalID: -2505916254385752390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a73bdfc1a7635830800000000000000
+      internalID: 4058701633865594784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_40
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 293
+        width: 214
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b243e202c379c04a0800000000000000
+      internalID: -6625754667275111381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_41
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e95217fc57f3600800000000000000
+      internalID: 450208021577309706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Ranged_42
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 293
+        width: 214
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2c63697aa0ed0b0800000000000000
+      internalID: -5702108363308481849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

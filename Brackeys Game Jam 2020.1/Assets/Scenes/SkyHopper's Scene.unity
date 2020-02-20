@@ -234,7 +234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436590596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00000047683716, y: -1.5500002, z: -10}
+  m_LocalPosition: {x: -0.00000023841858, y: -1.5500002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -797,6 +797,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DrillBoss (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5323900000033448988, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2, type: 3}
 --- !u!1001 &1352227411
@@ -1176,6 +1181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DrillBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 5323900000033448988, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2, type: 3}
 --- !u!1001 &2427691178813889609
@@ -1400,7 +1410,7 @@ PrefabInstance:
     - target: {fileID: 8726430972032790112, guid: c9c414f287ced7347bd9ce58a4570d46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00000047683716
+      value: -0.00000023841858
       objectReference: {fileID: 0}
     - target: {fileID: 8726430972032790112, guid: c9c414f287ced7347bd9ce58a4570d46,
         type: 3}
