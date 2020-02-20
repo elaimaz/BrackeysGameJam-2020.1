@@ -28,7 +28,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6306187939750454286}
-  - {fileID: 6701758544545996090}
   m_Father: {fileID: 5291474184486412972}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -722,6 +721,7 @@ GameObject:
   - component: {fileID: 6574192945758908345}
   - component: {fileID: 4664588625238447445}
   - component: {fileID: 1180385421087652299}
+  - component: {fileID: 8353793046457436623}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -896,6 +896,22 @@ MonoBehaviour:
   OnHealthChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!70 &8353793046457436623
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291474184486412968}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.03, y: 1.71}
+  m_Direction: 0
 --- !u!1 &8329848165285316059
 GameObject:
   m_ObjectHideFlags: 0

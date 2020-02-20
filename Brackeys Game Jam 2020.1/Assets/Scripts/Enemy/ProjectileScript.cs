@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoneScript : MonoBehaviour
+public class ProjectileScript : MonoBehaviour
 {
     public int Damage;
-    public void SetBone(int _damage, float Speed)
+    public void SetProjectile(int _damage, float Speed)
     {
         GetComponent<Rigidbody2D>().velocity = transform.right * Speed;
         Damage = _damage;
