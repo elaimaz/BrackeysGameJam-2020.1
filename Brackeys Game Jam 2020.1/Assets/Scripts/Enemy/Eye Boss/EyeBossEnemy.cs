@@ -16,7 +16,7 @@ public class EyeBossEnemy : EnemyBase
         if (health <= 0)
         {
             anime.SetTrigger("Death");
-            Destroy(gameObject, 0.50f);
+            //Destroy(gameObject, 0.50f);
         }
         else
         {
@@ -38,5 +38,10 @@ public class EyeBossEnemy : EnemyBase
     {
         base.OnRangedAttackDone();
         Instantiate(ProjectilePrefab, transform.GetChild(0).position, transform.GetChild(0).rotation).GetComponent<ProjectileScript>().SetProjectile((int)longDamage, ProjectileSpeed);
+    }
+
+    public void DestroyEyeBoss()
+    {
+        Destroy(gameObject);
     }
 }
