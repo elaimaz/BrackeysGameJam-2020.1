@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: c604713d89580384ab5954e4fcc4a506
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8229610234467183227
+    second: Shield_Boss_Ranged_Attack_0
+  - first:
+      213: -3123511234789689657
+    second: Shield_Boss_Ranged_Attack_1
+  - first:
+      213: -1436312827098571674
+    second: Shield_Boss_Ranged_Attack_2
+  - first:
+      213: 6270419454644702643
+    second: Shield_Boss_Ranged_Attack_3
+  - first:
+      213: -3666385658340147108
+    second: Shield_Boss_Ranged_Attack_4
+  - first:
+      213: 3850631306254887405
+    second: Shield_Boss_Ranged_Attack_5
+  - first:
+      213: -6976206400616518522
+    second: Shield_Boss_Ranged_Attack_6
+  - first:
+      213: -1257196948606210494
+    second: Shield_Boss_Ranged_Attack_7
+  - first:
+      213: -1193446524656030270
+    second: Shield_Boss_Ranged_Attack_8
+  - first:
+      213: -5028390907394411946
+    second: Shield_Boss_Ranged_Attack_9
+  - first:
+      213: 3353383818716331647
+    second: Shield_Boss_Ranged_Attack_10
+  - first:
+      213: 4029993368713945675
+    second: Shield_Boss_Ranged_Attack_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -144,7 +180,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 13099
+        width: 401
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5851aa6181d8acd80800000000000000
+      internalID: -8229610234467183227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 13099
+        width: 393
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c63b6eb41f07a4d0800000000000000
+      internalID: -3123511234789689657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 10702
+        width: 401
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cd37af711311ce0800000000000000
+      internalID: -1436312827098571674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 10702
+        width: 393
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdcbca9541050750800000000000000
+      internalID: 6270419454644702643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 8297
+        width: 401
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c508c094ba16e1dc0800000000000000
+      internalID: -3666385658340147108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 8297
+        width: 393
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9225285c0307530800000000000000
+      internalID: 3850631306254887405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 5899
+        width: 401
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c227b7d398f2f90800000000000000
+      internalID: -6976206400616518522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 5899
+        width: 393
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2f91490a8d8ee0800000000000000
+      internalID: -1257196948606210494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3502
+        width: 401
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cde37f75b6007fe0800000000000000
+      internalID: -1193446524656030270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 3502
+        width: 393
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652b3fc7c11973ab0800000000000000
+      internalID: -5028390907394411946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1097
+        width: 401
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e312ee0dc998e20800000000000000
+      internalID: 3353383818716331647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Ranged_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1097
+        width: 393
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42ef55fd996de730800000000000000
+      internalID: 4029993368713945675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
