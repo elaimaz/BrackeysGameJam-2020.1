@@ -903,6 +903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DrillBoss (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5323900000033448988, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2, type: 3}
 --- !u!1001 &1352227411
@@ -1273,6 +1278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DrillBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5323900000033448988, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2, type: 3}
