@@ -1264,6 +1264,11 @@ PrefabInstance:
       propertyPath: AddHealth
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 9147501558474173012, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
+        type: 3}
+      propertyPath: FMODEvent
+      value: event:/FX/HealthPowerUp
+      objectReference: {fileID: 0}
     - target: {fileID: 9147501558474173015, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
         type: 3}
       propertyPath: m_LocalPosition.x
