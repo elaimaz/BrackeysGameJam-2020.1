@@ -60,10 +60,13 @@ public class EnemyBase : MonoBehaviour
     {
 
     }
+    public virtual void OnRangedAttackDone()
+    {
+
+    }
 
     public virtual void OnDamageTaken(int damage)
     {
-        anime.SetTrigger("isTakingDamage");
         tDazed = tStartDazed;
        
     }
