@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 8d38712b639ab6e44ae7cf02e1895837
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9086596019300030437
+    second: Drill_Boss_Idle1_0
+  - first:
+      213: -4165907645997046365
+    second: Drill_Boss_Idle1_1
+  - first:
+      213: 4695974037144298986
+    second: Drill_Boss_Idle1_2
+  - first:
+      213: 8955133695783060659
+    second: Drill_Boss_Idle1_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +52,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +156,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Drill_Boss_Idle1_0
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 4381
+        width: 837
+        height: 1028
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18a424301de5e180800000000000000
+      internalID: -9086596019300030437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Idle1_1
+      rect:
+        serializedVersion: 2
+        x: 4413
+        y: 4381
+        width: 837
+        height: 997
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a523416119bf26c0800000000000000
+      internalID: -4165907645997046365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Idle1_2
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1181
+        width: 837
+        height: 966
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae56176a1837b2140800000000000000
+      internalID: 4695974037144298986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Idle1_3
+      rect:
+        serializedVersion: 2
+        x: 4413
+        y: 1181
+        width: 837
+        height: 997
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4c74566a6074c70800000000000000
+      internalID: 8955133695783060659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
