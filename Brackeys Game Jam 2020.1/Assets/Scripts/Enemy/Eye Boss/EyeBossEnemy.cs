@@ -8,6 +8,8 @@ public class EyeBossEnemy : EnemyBase
     public float MeleeAttackDamageRadius;
     public float ProjectileSpeed;
 
+    private bool isDead = false;
+
     public override void OnDamageTaken(int damage)
     {
         base.OnDamageTaken(damage);
@@ -15,8 +17,12 @@ public class EyeBossEnemy : EnemyBase
         Debug.Log("Taken " + damage + " health : " + health);
         if (health <= 0)
         {
-            anime.SetTrigger("Death");
-            //Destroy(gameObject, 0.50f);
+            if (isDead == false)
+            {
+                isDead = true;
+                anime.SetTrigger("Death");
+                //Destroy(gameObject, 0.50f);
+            }
         }
         else
         {
