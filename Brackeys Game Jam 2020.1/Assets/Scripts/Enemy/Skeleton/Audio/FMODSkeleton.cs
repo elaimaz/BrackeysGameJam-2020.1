@@ -18,4 +18,11 @@ public class FMODSkeleton : MonoBehaviour
         Ranged.start();
         Ranged.release();
     }
+    void PlayDeath(string path)
+    {
+        FMOD.Studio.EventInstance Death = FMODUnity.RuntimeManager.CreateInstance(path);
+        Death.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+        Death.start();
+        Death.release();
+    }
 }
