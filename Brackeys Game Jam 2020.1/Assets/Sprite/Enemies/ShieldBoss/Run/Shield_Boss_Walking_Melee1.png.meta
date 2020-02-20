@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: e2865aec3860b9d47b2c1abcd0b664cd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3316306728916559058
+    second: Shield_Boss_Walking_Melee1_0
+  - first:
+      213: -3821934935295092686
+    second: Shield_Boss_Walking_Melee1_1
+  - first:
+      213: 8340028448084318487
+    second: Shield_Boss_Walking_Melee1_2
+  - first:
+      213: 8766092946243477553
+    second: Shield_Boss_Walking_Melee1_3
+  - first:
+      213: 274901275365207956
+    second: Shield_Boss_Walking_Melee1_4
+  - first:
+      213: 2820560296622540231
+    second: Shield_Boss_Walking_Melee1_5
+  - first:
+      213: -3551347079615666179
+    second: Shield_Boss_Walking_Melee1_6
+  - first:
+      213: -8953819965443766648
+    second: Shield_Boss_Walking_Melee1_7
+  - first:
+      213: 7322060795177165439
+    second: Shield_Boss_Walking_Melee1_8
+  - first:
+      213: 5917284630060532144
+    second: Shield_Boss_Walking_Melee1_9
+  - first:
+      213: 1493119929306107527
+    second: Shield_Boss_Walking_Melee1_10
+  - first:
+      213: 4356514351923588962
+    second: Shield_Boss_Walking_Melee1_11
+  - first:
+      213: -5080121345863235901
+    second: Shield_Boss_Walking_Melee1_12
+  - first:
+      213: -6502000554467070116
+    second: Shield_Boss_Walking_Melee1_13
+  - first:
+      213: 1899137261220005477
+    second: Shield_Boss_Walking_Melee1_14
+  - first:
+      213: 5803766094810308540
+    second: Shield_Boss_Walking_Melee1_15
+  - first:
+      213: 2406066402672313538
+    second: Shield_Boss_Walking_Melee1_16
+  - first:
+      213: 6402657365832046808
+    second: Shield_Boss_Walking_Melee1_17
+  - first:
+      213: -7991467255228647364
+    second: Shield_Boss_Walking_Melee1_18
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +97,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -144,7 +201,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_0
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 5534
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d42f4f3663e50e20800000000000000
+      internalID: 3316306728916559058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_1
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 5534
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23894130d62c5fac0800000000000000
+      internalID: -3821934935295092686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_2
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 5534
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719d7b8afabbdb370800000000000000
+      internalID: 8340028448084318487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_3
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 5534
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13066e0071b67a970800000000000000
+      internalID: 8766092946243477553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_4
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 5341
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fe172e045a0d300800000000000000
+      internalID: 274901275365207956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_5
+      rect:
+        serializedVersion: 2
+        x: 5484
+        y: 5341
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5c1c355a4a42720800000000000000
+      internalID: 2820560296622540231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 3934
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7236d95a417bec0800000000000000
+      internalID: -3551347079615666179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_7
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 3934
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8868ce84e24adb380800000000000000
+      internalID: -8953819965443766648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_8
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 3934
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f726950df7f2d9560800000000000000
+      internalID: 7322060795177165439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_9
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 3934
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b103a9150b6e1250800000000000000
+      internalID: 5917284630060532144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_10
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 3741
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ec8513aa0a8b410800000000000000
+      internalID: 1493119929306107527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_11
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2334
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26feb45a8b2757c30800000000000000
+      internalID: 4356514351923588962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_12
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 2334
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c641f33d88cf79b0800000000000000
+      internalID: -5080121345863235901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_13
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 2334
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fe89dd1f044c5a0800000000000000
+      internalID: -6502000554467070116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_14
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 2334
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5660abae6471b5a10800000000000000
+      internalID: 1899137261220005477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_15
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 734
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfdf98738e1b8050800000000000000
+      internalID: 5803766094810308540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_16
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 734
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4094535a0146120800000000000000
+      internalID: 2406066402672313538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_17
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 734
+        width: 262
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d815f493fecad850800000000000000
+      internalID: 6402657365832046808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Walking_Melee1_18
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 734
+        width: 532
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c383ee93fda981190800000000000000
+      internalID: -7991467255228647364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
