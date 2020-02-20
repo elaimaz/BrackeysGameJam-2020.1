@@ -1,7 +1,124 @@
 fileFormatVersion: 2
 guid: 9c037111765933f43ae8ab57fbb3d31d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -591564892949066249
+    second: Drill_Boss_Melee_0
+  - first:
+      213: -9183707166854420957
+    second: Drill_Boss_Melee_1
+  - first:
+      213: -2163528071150776464
+    second: Drill_Boss_Melee_2
+  - first:
+      213: -351394152893024864
+    second: Drill_Boss_Melee_3
+  - first:
+      213: 7813113457329311511
+    second: Drill_Boss_Melee_4
+  - first:
+      213: -8381021989937252338
+    second: Drill_Boss_Melee_5
+  - first:
+      213: -5739130223224311066
+    second: Drill_Boss_Melee_6
+  - first:
+      213: -4055128105779712745
+    second: Drill_Boss_Melee_7
+  - first:
+      213: 7271802839085116739
+    second: Drill_Boss_Melee_8
+  - first:
+      213: -4729930050443416754
+    second: Drill_Boss_Melee_9
+  - first:
+      213: 8599097877936511880
+    second: Drill_Boss_Melee_10
+  - first:
+      213: -7753862777429821983
+    second: Drill_Boss_Melee_11
+  - first:
+      213: 8692666720488352197
+    second: Drill_Boss_Melee_12
+  - first:
+      213: 499676035769857150
+    second: Drill_Boss_Melee_13
+  - first:
+      213: -1455577517413938935
+    second: Drill_Boss_Melee_14
+  - first:
+      213: -3344586241586136219
+    second: Drill_Boss_Melee_15
+  - first:
+      213: 202761731758142496
+    second: Drill_Boss_Melee_16
+  - first:
+      213: 6156756584365393574
+    second: Drill_Boss_Melee_17
+  - first:
+      213: -6245257444494211529
+    second: Drill_Boss_Melee_18
+  - first:
+      213: -6232939527514799625
+    second: Drill_Boss_Melee_19
+  - first:
+      213: -681452765121148061
+    second: Drill_Boss_Melee_20
+  - first:
+      213: 2512624637105852333
+    second: Drill_Boss_Melee_21
+  - first:
+      213: 2710469525383040605
+    second: Drill_Boss_Melee_22
+  - first:
+      213: -8715840591065615112
+    second: Drill_Boss_Melee_23
+  - first:
+      213: 5772598425022650749
+    second: Drill_Boss_Melee_24
+  - first:
+      213: 7011860217389909105
+    second: Drill_Boss_Melee_25
+  - first:
+      213: -3587882974609044980
+    second: Drill_Boss_Melee_26
+  - first:
+      213: -521644358848946279
+    second: Drill_Boss_Melee_27
+  - first:
+      213: -1958520088034183198
+    second: Drill_Boss_Melee_28
+  - first:
+      213: 4312851412897589003
+    second: Drill_Boss_Melee_29
+  - first:
+      213: 2988161724922189620
+    second: Drill_Boss_Melee_30
+  - first:
+      213: 5845628141329077642
+    second: Drill_Boss_Melee_31
+  - first:
+      213: 2605311082525920037
+    second: Drill_Boss_Melee_32
+  - first:
+      213: -4919361366651937684
+    second: Drill_Boss_Melee_33
+  - first:
+      213: -1158183894345562639
+    second: Drill_Boss_Melee_34
+  - first:
+      213: -4790441930996116593
+    second: Drill_Boss_Melee_35
+  - first:
+      213: -2719870990665764535
+    second: Drill_Boss_Melee_36
+  - first:
+      213: 3445481432280993658
+    second: Drill_Boss_Melee_37
+  - first:
+      213: -8840870928864277780
+    second: Drill_Boss_Melee_38
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +157,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -144,7 +261,826 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_0
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 5094
+        width: 213
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdcd263dd65ac7f0800000000000000
+      internalID: -591564892949066249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_1
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 5094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326ee663dfaec8080800000000000000
+      internalID: -9183707166854420957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_2
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 5094
+        width: 213
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fc871aeaa99f1e0800000000000000
+      internalID: -2163528071150776464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_3
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 5094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a579a431e89f1bf0800000000000000
+      internalID: -351394152893024864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_4
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 5094
+        width: 213
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f00f53b41cd6c60800000000000000
+      internalID: 7813113457329311511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_5
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 5094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e087d0b97e0a0bb80800000000000000
+      internalID: -8381021989937252338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 4293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b10d18738a50b0800000000000000
+      internalID: -5739130223224311066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_7
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 4293
+        width: 214
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d2c48097a49b7c0800000000000000
+      internalID: -4055128105779712745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_8
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 4293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d685c8722aae460800000000000000
+      internalID: 7271802839085116739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_9
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 4293
+        width: 214
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4befdaeda9eb5eb0800000000000000
+      internalID: -4729930050443416754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_10
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 4293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b9833c5f1265770800000000000000
+      internalID: 8599097877936511880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_11
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 4293
+        width: 214
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5fb2ab2eeb46490800000000000000
+      internalID: -7753862777429821983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 3495
+        width: 213
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c96199935e82a870800000000000000
+      internalID: 8692666720488352197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_13
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 3495
+        width: 214
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7476d605b43fe600800000000000000
+      internalID: 499676035769857150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_14
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 3495
+        width: 213
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9094f7bb5ffbccbe0800000000000000
+      internalID: -1455577517413938935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_15
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 3495
+        width: 214
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b799d9884a591d0800000000000000
+      internalID: -3344586241586136219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_16
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 3495
+        width: 213
+        height: 210
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024bc7388ba50d200800000000000000
+      internalID: 202761731758142496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_17
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 3495
+        width: 214
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a685ab5e71317550800000000000000
+      internalID: 6156756584365393574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_18
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2693
+        width: 213
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7360f0a61736459a0800000000000000
+      internalID: -6245257444494211529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_19
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 2693
+        width: 214
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f14df3f5862089a0800000000000000
+      internalID: -6232939527514799625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_20
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 2693
+        width: 221
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b0fb3125efa86f0800000000000000
+      internalID: -681452765121148061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_21
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 2693
+        width: 230
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc6948bc2aed220800000000000000
+      internalID: 2512624637105852333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_22
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 2693
+        width: 235
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e4af23ca58d9520800000000000000
+      internalID: 2710469525383040605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_23
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 2693
+        width: 247
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f47a92392d1b0780800000000000000
+      internalID: -8715840591065615112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_24
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1895
+        width: 243
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79547adea36c1050800000000000000
+      internalID: 5772598425022650749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_25
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1895
+        width: 247
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740830a7b12f4160800000000000000
+      internalID: 7011860217389909105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_26
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1895
+        width: 243
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a81caa177453ec0800000000000000
+      internalID: -3587882974609044980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_27
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 1895
+        width: 247
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fd8bb283fb2c8f0800000000000000
+      internalID: -521644358848946279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_28
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 1895
+        width: 243
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7714b4b50f1d4e0800000000000000
+      internalID: -1958520088034183198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_29
+      rect:
+        serializedVersion: 2
+        x: 4286
+        y: 1895
+        width: 230
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b076dc272835adb30800000000000000
+      internalID: 4312851412897589003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1094
+        width: 213
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437d761c145187920800000000000000
+      internalID: 2988161724922189620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_31
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1094
+        width: 214
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8552f4b2d7df1150800000000000000
+      internalID: 5845628141329077642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_32
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1094
+        width: 213
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b885340ace72420800000000000000
+      internalID: 2605311082525920037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_33
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 1094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c5ee2a6eaeabbb0800000000000000
+      internalID: -4919361366651937684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_34
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 1094
+        width: 213
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f544f862ed4defe0800000000000000
+      internalID: -1158183894345562639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_35
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 1094
+        width: 214
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8317d1d17ee48db0800000000000000
+      internalID: -4790441930996116593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_36
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9413a769eb3114ad0800000000000000
+      internalID: -2719870990665764535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_37
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 293
+        width: 214
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f00539b1fc0df20800000000000000
+      internalID: 3445481432280993658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Melee_38
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 293
+        width: 213
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea87fb2bbaee4580800000000000000
+      internalID: -8840870928864277780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
