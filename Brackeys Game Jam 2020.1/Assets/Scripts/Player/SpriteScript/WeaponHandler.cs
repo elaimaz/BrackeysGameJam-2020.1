@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponHandler : MonoBehaviour
 {
     public SpriteRenderer weaponSpriteRenderer;
-    public GameObject groundPortal;
+    public SpriteRenderer groundPortal;
     private PlayerController playerController;
 
     private void Start()
@@ -25,12 +25,12 @@ public class WeaponHandler : MonoBehaviour
 
     public void HidePortal()
     {
-        groundPortal.SetActive(false);
+        groundPortal.enabled = false;
     }
 
     public void ShowPortal()
     {
-        groundPortal.SetActive(true);
+        groundPortal.enabled = true;
     }
 
     public void StopPlayerMove()

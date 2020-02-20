@@ -32,6 +32,9 @@ public class PlayerController : MonoBehaviour
     //0 Jump, 1 Time, 2 Shield.
     public int activePortal = 0;
 
+    [SerializeField]
+    private ChangeColor changeColor;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -102,6 +105,21 @@ public class PlayerController : MonoBehaviour
                 activePortal = 0;
             }
             Debug.Log(activePortal);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            activePortal = 0;
+            changeColor.ChangePortalColor(activePortal);
+        }else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            activePortal = 1;
+            changeColor.ChangePortalColor(activePortal);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            activePortal = 2;
+            changeColor.ChangePortalColor(activePortal);
         }
     }
 
