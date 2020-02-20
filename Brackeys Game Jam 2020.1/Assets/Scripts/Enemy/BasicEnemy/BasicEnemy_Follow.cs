@@ -7,7 +7,6 @@ public class BasicEnemy_Follow : StateMachineBehaviour
 
     public float speed;
     public float meleeAttackRange;
-    public float rangedAttackRange;
     public float damage;
     private Transform PlayerPos;
     private bool isFacingRight = true;
@@ -19,7 +18,6 @@ public class BasicEnemy_Follow : StateMachineBehaviour
         PlayerPos = EnemyBase.PlayerPos;
         speed = eb.speed;
         meleeAttackRange = eb.meleeRange;
-        rangedAttackRange = eb.longDamage;
         damage = eb.meleeDamage;
     }
 
@@ -37,11 +35,6 @@ public class BasicEnemy_Follow : StateMachineBehaviour
         if (Vector2.Distance(animator.transform.position,PlayerPos.position) < meleeAttackRange)
         {
             animator.SetTrigger("isMeleeAttacking");
-        }
-
-        if (Vector2.Distance(animator.transform.position, PlayerPos.position) < rangedAttackRange)
-        {
-            animator.SetTrigger("isRangedAttacking");
         }
 
     }
