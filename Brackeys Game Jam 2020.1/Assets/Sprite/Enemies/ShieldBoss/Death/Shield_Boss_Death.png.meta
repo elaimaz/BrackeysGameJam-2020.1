@@ -1,7 +1,148 @@
 fileFormatVersion: 2
 guid: 6b7d714de74ef8f4594593c3a5721882
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3375900861424293428
+    second: Shield_Boss_Death_0
+  - first:
+      213: -1737939326908819972
+    second: Shield_Boss_Death_1
+  - first:
+      213: 349432321335154637
+    second: Shield_Boss_Death_2
+  - first:
+      213: -8417887401609895648
+    second: Shield_Boss_Death_3
+  - first:
+      213: 3936052429737182865
+    second: Shield_Boss_Death_4
+  - first:
+      213: 3773579370685157148
+    second: Shield_Boss_Death_5
+  - first:
+      213: 2774391174017389898
+    second: Shield_Boss_Death_6
+  - first:
+      213: 6304846492385005034
+    second: Shield_Boss_Death_7
+  - first:
+      213: -6739874655350316368
+    second: Shield_Boss_Death_8
+  - first:
+      213: -2541433671311865659
+    second: Shield_Boss_Death_9
+  - first:
+      213: -2684243744075940624
+    second: Shield_Boss_Death_10
+  - first:
+      213: -5620677608786839495
+    second: Shield_Boss_Death_11
+  - first:
+      213: 4154410345645819429
+    second: Shield_Boss_Death_12
+  - first:
+      213: -2292005448462860353
+    second: Shield_Boss_Death_13
+  - first:
+      213: -699500882810442677
+    second: Shield_Boss_Death_14
+  - first:
+      213: 9067596060998022485
+    second: Shield_Boss_Death_15
+  - first:
+      213: 5733650015510332611
+    second: Shield_Boss_Death_16
+  - first:
+      213: 2496067799892737918
+    second: Shield_Boss_Death_17
+  - first:
+      213: -4133206349161047653
+    second: Shield_Boss_Death_18
+  - first:
+      213: -5006252530127684856
+    second: Shield_Boss_Death_19
+  - first:
+      213: 447104693916292470
+    second: Shield_Boss_Death_20
+  - first:
+      213: 3009638680878280729
+    second: Shield_Boss_Death_21
+  - first:
+      213: -4747253776954425898
+    second: Shield_Boss_Death_22
+  - first:
+      213: -4565353538024223564
+    second: Shield_Boss_Death_23
+  - first:
+      213: 3840379101663708434
+    second: Shield_Boss_Death_24
+  - first:
+      213: -5189482823041412126
+    second: Shield_Boss_Death_25
+  - first:
+      213: 5414556079222521674
+    second: Shield_Boss_Death_26
+  - first:
+      213: 5234802711363762202
+    second: Shield_Boss_Death_27
+  - first:
+      213: -705632233840693183
+    second: Shield_Boss_Death_28
+  - first:
+      213: 30155979041512911
+    second: Shield_Boss_Death_29
+  - first:
+      213: 1815789150826760661
+    second: Shield_Boss_Death_30
+  - first:
+      213: -1920850663828150270
+    second: Shield_Boss_Death_31
+  - first:
+      213: 4548764453358879361
+    second: Shield_Boss_Death_32
+  - first:
+      213: -819765651460997455
+    second: Shield_Boss_Death_33
+  - first:
+      213: -8706345511563544711
+    second: Shield_Boss_Death_34
+  - first:
+      213: 227243949726193286
+    second: Shield_Boss_Death_35
+  - first:
+      213: 6123396978726411840
+    second: Shield_Boss_Death_36
+  - first:
+      213: -5920567341505347227
+    second: Shield_Boss_Death_37
+  - first:
+      213: 7216545158721091808
+    second: Shield_Boss_Death_38
+  - first:
+      213: 6977349062238853024
+    second: Shield_Boss_Death_39
+  - first:
+      213: -354668214607361293
+    second: Shield_Boss_Death_40
+  - first:
+      213: -2373276259823387652
+    second: Shield_Boss_Death_41
+  - first:
+      213: 8088601780115868257
+    second: Shield_Boss_Death_42
+  - first:
+      213: 6736104089205029083
+    second: Shield_Boss_Death_43
+  - first:
+      213: -6694563558285258436
+    second: Shield_Boss_Death_44
+  - first:
+      213: -2527192236323189433
+    second: Shield_Boss_Death_45
+  - first:
+      213: -3132174881480376788
+    second: Shield_Boss_Death_46
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +181,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +285,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shield_Boss_Death_0
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 7133
+        width: 266
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436512a72fb99de20800000000000000
+      internalID: 3375900861424293428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_1
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 7133
+        width: 262
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf51b62e36991e7e0800000000000000
+      internalID: -1737939326908819972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_2
+      rect:
+        serializedVersion: 2
+        x: 3755
+        y: 7133
+        width: 250
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7d83a48de69d400800000000000000
+      internalID: 349432321335154637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_3
+      rect:
+        serializedVersion: 2
+        x: 5357
+        y: 7133
+        width: 246
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0216ec31208ad2b80800000000000000
+      internalID: -8417887401609895648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_4
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 5531
+        width: 250
+        height: 520
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1964ccba4daaf9630800000000000000
+      internalID: 3936052429737182865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_5
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 5531
+        width: 246
+        height: 520
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f4e61c1727e5430800000000000000
+      internalID: 3773579370685157148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_6
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 5531
+        width: 231
+        height: 504
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45194bc21e908620800000000000000
+      internalID: 2774391174017389898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_7
+      rect:
+        serializedVersion: 2
+        x: 5388
+        y: 5531
+        width: 231
+        height: 504
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedc9f5fa705f7750800000000000000
+      internalID: 6304846492385005034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_8
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 3934
+        width: 231
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2af29d5b72772a0800000000000000
+      internalID: -6739874655350316368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_9
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 3934
+        width: 375
+        height: 375
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c84d318a830bbcd0800000000000000
+      internalID: -2541433671311865659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_10
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 3934
+        width: 375
+        height: 375
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcf9c75986afbad0800000000000000
+      internalID: -2684243744075940624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_11
+      rect:
+        serializedVersion: 2
+        x: 5372
+        y: 3934
+        width: 567
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938b4439e775ff1b0800000000000000
+      internalID: -5620677608786839495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_12
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2332
+        width: 535
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5264d67c23e67a930800000000000000
+      internalID: 4154410345645819429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_13
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 2332
+        width: 535
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf7c1d20392130e0800000000000000
+      internalID: -2292005448462860353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_17
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 2332
+        width: 531
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fb5e37070d3a220800000000000000
+      internalID: 2496067799892737918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_25
+      rect:
+        serializedVersion: 2
+        x: 5388
+        y: 2332
+        width: 484
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e310a41ed04bf7b0800000000000000
+      internalID: -5189482823041412126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Boss_Death_41
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 750
+        width: 484
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbfb5bd0dd601fd0800000000000000
+      internalID: -2373276259823387652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
