@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: e65894dcfd1ef764882d42d26937f734
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -829570228592131838
+    second: Eye_Boss_Melee_Attack_0
+  - first:
+      213: 1985472449382741820
+    second: Eye_Boss_Melee_Attack_1
+  - first:
+      213: 3795246711181399980
+    second: Eye_Boss_Melee_Attack_2
+  - first:
+      213: 3151072652881567461
+    second: Eye_Boss_Melee_Attack_3
+  - first:
+      213: -4455420476584027327
+    second: Eye_Boss_Melee_Attack_4
+  - first:
+      213: 4686697477469523135
+    second: Eye_Boss_Melee_Attack_5
+  - first:
+      213: 5237540721393641901
+    second: Eye_Boss_Melee_Attack_6
+  - first:
+      213: -3487523178956151563
+    second: Eye_Boss_Melee_Attack_7
+  - first:
+      213: -3923177708077375879
+    second: Eye_Boss_Melee_Attack_8
+  - first:
+      213: 914513632488148094
+    second: Eye_Boss_Melee_Attack_9
+  - first:
+      213: -2319655403430647161
+    second: Eye_Boss_Melee_Attack_10
+  - first:
+      213: -530364719649247528
+    second: Eye_Boss_Melee_Attack_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -144,7 +180,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 12980
+        width: 471
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201c688b546cc74f0800000000000000
+      internalID: -829570228592131838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 12980
+        width: 464
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3778c85ca0dd8b10800000000000000
+      internalID: 1985472449382741820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 10575
+        width: 471
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7dfe696cc6ba430800000000000000
+      internalID: 3795246711181399980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 10624
+        width: 464
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee1478f1ebdabb20800000000000000
+      internalID: 3151072652881567461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 8297
+        width: 471
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b1530beaa2b22c0800000000000000
+      internalID: -4455420476584027327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 8325
+        width: 513
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc4a4a468e7a0140800000000000000
+      internalID: 4686697477469523135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 5948
+        width: 879
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9af43598b7fa840800000000000000
+      internalID: 5237540721393641901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 5948
+        width: 871
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4a06c7524d99fc0800000000000000
+      internalID: -3487523178956151563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 3523
+        width: 520
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e115f09a21e89c0800000000000000
+      internalID: -3923177708077375879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 3375
+        width: 464
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c45bead4101bc00800000000000000
+      internalID: 914513632488148094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 977
+        width: 471
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a633d53bdeecfd0800000000000000
+      internalID: -2319655403430647161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Melee_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 977
+        width: 464
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de28e3f814c3a8f0800000000000000
+      internalID: -530364719649247528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
