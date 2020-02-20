@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: d14e6551acd8c0d43866ddca7a6b68db
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1942336638110944541
+    second: Drill_Boss_Walking_0
+  - first:
+      213: 6591831568056393562
+    second: Drill_Boss_Walking_1
+  - first:
+      213: -1691899747097140279
+    second: Drill_Boss_Walking_2
+  - first:
+      213: 6875715357855665421
+    second: Drill_Boss_Walking_3
+  - first:
+      213: 379785094825222428
+    second: Drill_Boss_Walking_4
+  - first:
+      213: -3658454631831584388
+    second: Drill_Boss_Walking_5
+  - first:
+      213: -5406957431356293410
+    second: Drill_Boss_Walking_6
+  - first:
+      213: 9168700277631232528
+    second: Drill_Boss_Walking_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +64,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 190
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +168,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5391
+        width: 422
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d44d4a1e094fa10800000000000000
+      internalID: 1942336638110944541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 5391
+        width: 422
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f1539d2e3ea7b50800000000000000
+      internalID: 6591831568056393562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3791
+        width: 422
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a3b2e42a2588e0800000000000000
+      internalID: -1691899747097140279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 3791
+        width: 422
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d4fa950b27b6f50800000000000000
+      internalID: 6875715357855665421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2191
+        width: 422
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11ab041884454500800000000000000
+      internalID: 379785094825222428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 2191
+        width: 422
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71cbca45ee8a3dc0800000000000000
+      internalID: -3658454631831584388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 591
+        width: 422
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede795c0dd0a6f4b0800000000000000
+      internalID: -5406957431356293410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_Boss_Walking_7
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 591
+        width: 422
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a2c3c1354cd3f70800000000000000
+      internalID: 9168700277631232528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
