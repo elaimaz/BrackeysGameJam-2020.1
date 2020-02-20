@@ -1,7 +1,250 @@
 fileFormatVersion: 2
 guid: ca632a427247ec94a8ca6abaa1419ec4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5645152347595679559
+    second: Eye_Boss_Death1_0
+  - first:
+      213: 1830931742559555860
+    second: Eye_Boss_Death1_1
+  - first:
+      213: 8341133789910918249
+    second: Eye_Boss_Death1_2
+  - first:
+      213: 8130569371929377915
+    second: Eye_Boss_Death1_3
+  - first:
+      213: 2692961393761711399
+    second: Eye_Boss_Death1_4
+  - first:
+      213: -7009131166294048067
+    second: Eye_Boss_Death1_5
+  - first:
+      213: 5487060303295669297
+    second: Eye_Boss_Death1_6
+  - first:
+      213: -6813590120669681223
+    second: Eye_Boss_Death1_7
+  - first:
+      213: 8480130915946829146
+    second: Eye_Boss_Death1_8
+  - first:
+      213: -4572513069079151389
+    second: Eye_Boss_Death1_9
+  - first:
+      213: -4627635066765904307
+    second: Eye_Boss_Death1_10
+  - first:
+      213: 3330169452481262364
+    second: Eye_Boss_Death1_11
+  - first:
+      213: 4521558988887066055
+    second: Eye_Boss_Death1_12
+  - first:
+      213: 1538826181958317092
+    second: Eye_Boss_Death1_13
+  - first:
+      213: 6928940151879793588
+    second: Eye_Boss_Death1_14
+  - first:
+      213: 4775794215804964433
+    second: Eye_Boss_Death1_15
+  - first:
+      213: 5383938514406573514
+    second: Eye_Boss_Death1_16
+  - first:
+      213: 7132321408237422511
+    second: Eye_Boss_Death1_17
+  - first:
+      213: 978887557040163843
+    second: Eye_Boss_Death1_18
+  - first:
+      213: -2939591554358936828
+    second: Eye_Boss_Death1_19
+  - first:
+      213: 6602336564361497923
+    second: Eye_Boss_Death1_20
+  - first:
+      213: 5312139288590321083
+    second: Eye_Boss_Death1_21
+  - first:
+      213: -4835905484942171130
+    second: Eye_Boss_Death1_22
+  - first:
+      213: -906560202119910837
+    second: Eye_Boss_Death1_23
+  - first:
+      213: -3978719276259300120
+    second: Eye_Boss_Death1_24
+  - first:
+      213: -5864381637884769850
+    second: Eye_Boss_Death1_25
+  - first:
+      213: -5303888135916309493
+    second: Eye_Boss_Death1_26
+  - first:
+      213: -8307450109638825393
+    second: Eye_Boss_Death1_27
+  - first:
+      213: 3233540164550237799
+    second: Eye_Boss_Death1_28
+  - first:
+      213: -4523965263624525847
+    second: Eye_Boss_Death1_29
+  - first:
+      213: 350689092226723335
+    second: Eye_Boss_Death1_30
+  - first:
+      213: 6935760915851854578
+    second: Eye_Boss_Death1_31
+  - first:
+      213: 883044516138071244
+    second: Eye_Boss_Death1_32
+  - first:
+      213: 4358885725398583550
+    second: Eye_Boss_Death1_33
+  - first:
+      213: 5791671328436173999
+    second: Eye_Boss_Death1_34
+  - first:
+      213: -2111028022411815358
+    second: Eye_Boss_Death1_35
+  - first:
+      213: -8926214133146262185
+    second: Eye_Boss_Death1_36
+  - first:
+      213: -7578641542133540948
+    second: Eye_Boss_Death1_37
+  - first:
+      213: -4131920346200550696
+    second: Eye_Boss_Death1_38
+  - first:
+      213: 7904167877590430226
+    second: Eye_Boss_Death1_39
+  - first:
+      213: -4624477908641858325
+    second: Eye_Boss_Death1_40
+  - first:
+      213: -5444314940106295818
+    second: Eye_Boss_Death1_41
+  - first:
+      213: -5989680650502057215
+    second: Eye_Boss_Death1_42
+  - first:
+      213: 7178586738320309551
+    second: Eye_Boss_Death1_43
+  - first:
+      213: -2071635040807272066
+    second: Eye_Boss_Death1_44
+  - first:
+      213: 4603527146741524420
+    second: Eye_Boss_Death1_45
+  - first:
+      213: 3684719491311597322
+    second: Eye_Boss_Death1_46
+  - first:
+      213: 853730773087208197
+    second: Eye_Boss_Death1_47
+  - first:
+      213: -8553325666335629368
+    second: Eye_Boss_Death1_48
+  - first:
+      213: -4633692815843814356
+    second: Eye_Boss_Death1_49
+  - first:
+      213: -2531127176686331597
+    second: Eye_Boss_Death1_50
+  - first:
+      213: 1504555281427827525
+    second: Eye_Boss_Death1_51
+  - first:
+      213: 7916035272853759684
+    second: Eye_Boss_Death1_52
+  - first:
+      213: 6424578865948130031
+    second: Eye_Boss_Death1_53
+  - first:
+      213: -2990967561533816740
+    second: Eye_Boss_Death1_54
+  - first:
+      213: -3485220740775511713
+    second: Eye_Boss_Death1_55
+  - first:
+      213: -9062848135927397653
+    second: Eye_Boss_Death1_56
+  - first:
+      213: 2369460515649294283
+    second: Eye_Boss_Death1_57
+  - first:
+      213: 5177706961414676102
+    second: Eye_Boss_Death1_58
+  - first:
+      213: 1271753078682422191
+    second: Eye_Boss_Death1_59
+  - first:
+      213: 3779020382596966346
+    second: Eye_Boss_Death1_60
+  - first:
+      213: -787422626207953107
+    second: Eye_Boss_Death1_61
+  - first:
+      213: 9135829397345662652
+    second: Eye_Boss_Death1_62
+  - first:
+      213: 7607598576919529963
+    second: Eye_Boss_Death1_63
+  - first:
+      213: 3739924682860766821
+    second: Eye_Boss_Death1_64
+  - first:
+      213: -5797277062080845384
+    second: Eye_Boss_Death1_65
+  - first:
+      213: -7042039963071039371
+    second: Eye_Boss_Death1_66
+  - first:
+      213: -6704264615915979296
+    second: Eye_Boss_Death1_67
+  - first:
+      213: -355944461077390451
+    second: Eye_Boss_Death1_68
+  - first:
+      213: 381838887738911971
+    second: Eye_Boss_Death1_69
+  - first:
+      213: -6920768283192063
+    second: Eye_Boss_Death1_70
+  - first:
+      213: 196685469870741508
+    second: Eye_Boss_Death1_71
+  - first:
+      213: -3305090174555859518
+    second: Eye_Boss_Death1_72
+  - first:
+      213: 1004601279930822429
+    second: Eye_Boss_Death1_73
+  - first:
+      213: -9164867755873829628
+    second: Eye_Boss_Death1_74
+  - first:
+      213: 2341166155780831971
+    second: Eye_Boss_Death1_75
+  - first:
+      213: -6940947401218182760
+    second: Eye_Boss_Death1_76
+  - first:
+      213: -40703300603848937
+    second: Eye_Boss_Death1_77
+  - first:
+      213: 4898675951243069860
+    second: Eye_Boss_Death1_78
+  - first:
+      213: -2789939454169414616
+    second: Eye_Boss_Death1_79
+  - first:
+      213: -8361110026487967060
+    second: Eye_Boss_Death1_80
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +283,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -144,7 +387,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_0
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 5453
+        width: 308
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8d89269d368a1b0800000000000000
+      internalID: -5645152347595679559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_1
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 5453
+        width: 309
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411df3b18b6c86910800000000000000
+      internalID: 1830931742559555860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_2
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 5453
+        width: 309
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964e5ab1df8a1c370800000000000000
+      internalID: 8341133789910918249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_3
+      rect:
+        serializedVersion: 2
+        x: 5469
+        y: 5453
+        width: 293
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c758324c595d070800000000000000
+      internalID: 8130569371929377915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_4
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 3853
+        width: 309
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725f105ae125f5520800000000000000
+      internalID: 2692961393761711399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_5
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 3853
+        width: 309
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db28ce817509abe90800000000000000
+      internalID: -7009131166294048067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_6
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 3853
+        width: 309
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134e51f2644f52c40800000000000000
+      internalID: 5487060303295669297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_7
+      rect:
+        serializedVersion: 2
+        x: 5469
+        y: 3853
+        width: 293
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b96f5c92e34171a0800000000000000
+      internalID: -6813590120669681223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_8
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2253
+        width: 293
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5591dd632a7fa570800000000000000
+      internalID: 8480130915946829146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_9
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2253
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecb4b2079b2b80c0800000000000000
+      internalID: -4572513069079151389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_10
+      rect:
+        serializedVersion: 2
+        x: 3869
+        y: 2253
+        width: 293
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46f64fcc6657cfb0800000000000000
+      internalID: -4627635066765904307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_11
+      rect:
+        serializedVersion: 2
+        x: 5469
+        y: 2254
+        width: 293
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13b0091973273e20800000000000000
+      internalID: 3330169452481262364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Boss_Death1_12
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 669
+        width: 293
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c58693b1fdcfbe30800000000000000
+      internalID: 4521558988887066055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
