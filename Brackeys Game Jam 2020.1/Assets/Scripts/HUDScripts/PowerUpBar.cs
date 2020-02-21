@@ -54,6 +54,7 @@ public class PowerUpBar : MonoBehaviour
     private float startTime = 0.0f;
     
     private PlayerController playerControllerScript;
+    private PlayerManager playerManagerScript;
     
     [Tooltip("ReducePartially set to false will reset upon powerup activation.")]
     public bool ReducePartially = false;
@@ -147,6 +148,7 @@ public class PowerUpBar : MonoBehaviour
 //            StartCoroutine(SpeedPortalRoutine());
         }
         if(ShieldPowerUp){
+            playerManagerScript.shieldActive = true;
             playerControllerScript.OnShieldPowerUPActivated();
             StartCoroutine(ResetShieldAtribute());
 //            StartCoroutine(ShieldPortalRoutine());
@@ -155,6 +157,7 @@ public class PowerUpBar : MonoBehaviour
     
     public void Start(){
         playerControllerScript = player.GetComponent<PlayerController>();
+        playerManagerScript = player.GetComponent<PlayerManager>();
         
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
@@ -205,7 +208,7 @@ public class PowerUpBar : MonoBehaviour
     private IEnumerator ResetShieldAtribute()
     {
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
-        //Reset Shield.
+        playerManagerScript.shieldActive = false;
     }
 
     private IEnumerator ResetSpeedAtribute()
