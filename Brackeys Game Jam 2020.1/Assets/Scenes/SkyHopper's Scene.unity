@@ -518,6 +518,36 @@ PrefabInstance:
       propertyPath: changeColor
       value: 
       objectReference: {fileID: 1233796676}
+    - target: {fileID: 5291474184486412973, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: jumpPowerUpTime
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291474184486412973, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: jumpPowerUpResetTime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291474184486412973, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: shieldPowerUpTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291474184486412973, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: shieldPowerUpResetTime
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291474184486412973, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: speedPowerUpTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291474184486412973, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: speedPowerUpResetTime
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5538887952486345585, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: m_Animations.Array.size
