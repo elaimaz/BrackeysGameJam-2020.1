@@ -9,7 +9,7 @@ public class ShieldBar : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
     public Image fill;
-
+    
     public GameObject player;
 
     private float startTime = 0.0f;
