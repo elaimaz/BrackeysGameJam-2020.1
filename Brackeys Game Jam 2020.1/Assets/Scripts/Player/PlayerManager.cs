@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public float pushBackForce;
     public int MaxPlayerHealth;
     public int PlayerHealth;
+    public bool shieldActive = false;
 
     [System.Serializable]
     public class IntEvent : UnityEvent<int> { }
@@ -41,7 +42,10 @@ public class PlayerManager : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        PlayerHealth = Mathf.Clamp(PlayerHealth - damage, 0, MaxPlayerHealth);
+        if (shieldActive == false)
+        {
+            PlayerHealth = Mathf.Clamp(PlayerHealth - damage, 0, MaxPlayerHealth);
+        }
     }
 
     public void GainHealth(int health)
