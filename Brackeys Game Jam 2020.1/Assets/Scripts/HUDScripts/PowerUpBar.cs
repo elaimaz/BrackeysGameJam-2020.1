@@ -18,36 +18,38 @@ public class PowerUpBar : MonoBehaviour
     
     public bool PortalJumpPowerUp;
     [ConditionalField("PortalJumpPowerUp")]
-    [Range(1, 10)]
-    public float portalJumpTime;
-    [ConditionalField("PortalJumpPowerUp")]
-    [Range(5, 30)]
-    public float jumpPowerUpResetTime;
+    public float jumpVelocity;
     
     public bool SpeedPowerUp;
     [ConditionalField("SpeedPowerUp")]
     [Range(0, 10)]
-    public float SpeedValue;
-    [ConditionalField("SpeedPowerUp")]
-    [Range(0, 10)]
-    public float speedPowerUpResetTime;
-    [ConditionalField("SpeedPowerUp")]
-    [Range(0, 10)]
-    public float speedPowerUpTime;
-    
+    public float SpeedValue = 6f;
     
     public bool ShieldPowerUp;
     [ConditionalField("ShieldPowerUp")]
     [Range(5, 30)]
     public float ShieldValue = 6f;
     
+    public bool usePowerUpDelay;
+    [ConditionalField("usePowerUpDelay")]
+    [Range(0, 50)]
+    public float PowerUpDelayTime = 10f;
+    
+    [Tooltip("Using this feature will let you set the duration of the effect to last. Setting it to False will let it last for a lifetime.")]
+    public bool useActiveTime = true;
+    [ConditionalField("useActiveTime")]
+    [Range(0, 30)]
+    public float ActiveDuration = 10;
+    
     public bool useCoolDown = true;
     [ConditionalField("useCoolDown")]
-    [Range(0, 30)]
+    [Range(0, 80)]
     public float coolDownTime = 0.0f;
     
-    private bool inCoolDown = true;
+    private bool isCoolingDown = true;
     private float startTime = 0.0f;
+    
+    private PlayerController playerControllerScript;
     
     [Tooltip("ReducePartially set to false will reset upon powerup activation.")]
     public bool ReducePartially = false;
@@ -59,7 +61,7 @@ public class PowerUpBar : MonoBehaviour
     bool ready;
     
     public void Update(){
-        if (ready && player.GetComponent<PlayerController>().isGrounded)
+        if (ready && playerControllerScript.isGrounded)
         if ((Input.GetKeyDown(KeyCode.Keypad0) || Input.GetKeyDown(KeyCode.Alpha0)) && (NumKeyPressToActivate == 0)) {
             activatePowerUp();
         } else if ((Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) && (NumKeyPressToActivate == 1)) {
@@ -91,23 +93,22 @@ public class PowerUpBar : MonoBehaviour
     
     void activatePowerUp(){
         ready = false;
-        if (!ReduceByValue) slider.value = 0;
+        if (!ReducePartially) slider.value = 0;
         else slider.value -= ReduceByValue;
         
-        auto compo = player.GetComponent<PlayerController>();
-        
         if(PortalJumpPowerUp){
-            compo.OnPortalJumpPowerUPActivated();
-            StartCoroutine(ResetPortalJumpAtribute);
-            StartCoroutine(JumpPortalRoutine);
+            playerControllerScript.OnPortalJumpPowerUPActivated();
+            StartCoroutine(ResetPortalJumpAtribute());
+            StartCoroutine(JumpPortalRoutine());
         }
-        if(SpeedValue){
-            compo.moveSpeed = SpeedValue;
+        if(ShieldPowerUp){
+            playerControllerScript.moveSpeed = SpeedValue;
         }
     }
     
     
     public void Start(){
+        playerControllerScript = player.GetComponent<PlayerController>();
         fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
     }
     
@@ -150,38 +151,38 @@ public class PowerUpBar : MonoBehaviour
     /******************************************************/
     private IEnumerator ResetPortalJumpAtribute()
     {
-        yield return new WaitForSeconds(portalJumpTime + 1.5f);
-        jumpVelocity = 6.0f;
+        yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
+        playerControllerScript.jumpVelocity = playerControllerScript.defaultJumpVelocity;
     }
 
     private IEnumerator JumpPortalRoutine()
     {
-        yield return new WaitForSeconds(jumpPowerUpResetTime);
-        jumpPowerCooldown = true;
+        yield return new WaitForSeconds(ActiveDuration);
+        isCoolingDown = true;
     }
 
     private IEnumerator ResetShieldAtribute()
     {
-        yield return new WaitForSeconds(shieldPowerUpTime + 1.5f);
+        yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         //Reset Shield.
     }
     
     private IEnumerator ShieldPortalRoutine()
     {
-        yield return new WaitForSeconds(shieldPowerUpResetTime);
-        shieldPowerCooldown = true;
+        yield return new WaitForSeconds(ActiveDuration);
+        isCoolingDown = true;
     }
 
     private IEnumerator ResetSpeedAtribute()
     {
-        yield return new WaitForSeconds(speedPowerUpTime + 1.5f);
-        moveSpeed = 3.0f;
+        yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
+        playerControllerScript.moveSpeed =  playerControllerScript.defaultMoveSpeed;
     }
 
     private IEnumerator SpeedPortalRoutine()
     {
-        yield return new WaitForSeconds(speedPowerUpResetTime);
-        speedPowerCooldown = true;
+        yield return new WaitForSeconds(ActiveDuration);
+        isCoolingDown = true;
     }
     /******************************************************/
 }

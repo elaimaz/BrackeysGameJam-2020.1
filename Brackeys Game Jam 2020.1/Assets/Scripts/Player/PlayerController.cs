@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 3f;
     [Range(1, 10)]
     public float defaultJumpVelocity = 6f;
+    [HideInInspector]
     public float jumpVelocity;
     [Range(1, 10)]
     public float fallMultiplier = 3f;
