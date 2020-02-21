@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: c830642ad0c9e0c4db9b736978f1cd44
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4573438467898074148
+    second: Final_Boss_Walking_0
+  - first:
+      213: 6835052264266649225
+    second: Final_Boss_Walking_1
+  - first:
+      213: 1405170430156040151
+    second: Final_Boss_Walking_2
+  - first:
+      213: -7391843674669764143
+    second: Final_Boss_Walking_3
+  - first:
+      213: 4166216443343113459
+    second: Final_Boss_Walking_4
+  - first:
+      213: -1389504219248881836
+    second: Final_Boss_Walking_5
+  - first:
+      213: -8040685616186824496
+    second: Final_Boss_Walking_6
+  - first:
+      213: 6496577435833249924
+    second: Final_Boss_Walking_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +64,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +168,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Final_Boss_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 5166
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb14dec1f1e780c0800000000000000
+      internalID: -4573438467898074148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 5166
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ec7d812dbfade50800000000000000
+      internalID: 6835052264266649225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 3566
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d76552bf0b208310800000000000000
+      internalID: 1405170430156040151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 3566
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d137107755ea6990800000000000000
+      internalID: -7391843674669764143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1966
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc8bda18cf51d930800000000000000
+      internalID: 4166216443343113459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1966
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f83c5464d77bce0800000000000000
+      internalID: -1389504219248881836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Walking_6
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 366
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d86790980fb96090800000000000000
+      internalID: -8040685616186824496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Walking_7
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 366
+        width: 822
+        height: 675
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b8aee1ca782a50800000000000000
+      internalID: 6496577435833249924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
