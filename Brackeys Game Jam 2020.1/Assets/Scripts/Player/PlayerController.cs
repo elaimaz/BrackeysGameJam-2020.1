@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && isGrounded == true)
         {
             //Remember the jump into portal animation takes about 1.5s
             if (activePortal == 0 && jumpPowerCooldown == true)
