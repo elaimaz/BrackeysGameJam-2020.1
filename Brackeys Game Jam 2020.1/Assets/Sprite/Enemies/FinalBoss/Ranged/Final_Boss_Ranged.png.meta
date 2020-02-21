@@ -1,7 +1,91 @@
 fileFormatVersion: 2
 guid: ef87bcffc4ee9334eb9ab87a1368b149
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6357937305733192383
+    second: Final_Boss_Ranged_0
+  - first:
+      213: 5134262012607930424
+    second: Final_Boss_Ranged_1
+  - first:
+      213: 193543815174342715
+    second: Final_Boss_Ranged_2
+  - first:
+      213: 2623985964681450328
+    second: Final_Boss_Ranged_3
+  - first:
+      213: -2220680738235632080
+    second: Final_Boss_Ranged_4
+  - first:
+      213: 3815342784143849273
+    second: Final_Boss_Ranged_5
+  - first:
+      213: 6127995216557977033
+    second: Final_Boss_Ranged_6
+  - first:
+      213: 3045351489403937805
+    second: Final_Boss_Ranged_7
+  - first:
+      213: -6267392250481509634
+    second: Final_Boss_Ranged_8
+  - first:
+      213: 3856201333002306752
+    second: Final_Boss_Ranged_9
+  - first:
+      213: 4471801525206418204
+    second: Final_Boss_Ranged_10
+  - first:
+      213: -3030030461790510874
+    second: Final_Boss_Ranged_11
+  - first:
+      213: -2958216383431220898
+    second: Final_Boss_Ranged_12
+  - first:
+      213: -2579151796482657727
+    second: Final_Boss_Ranged_13
+  - first:
+      213: 7291012054675727643
+    second: Final_Boss_Ranged_14
+  - first:
+      213: -6650324036957226598
+    second: Final_Boss_Ranged_15
+  - first:
+      213: 8915842904276424742
+    second: Final_Boss_Ranged_16
+  - first:
+      213: 6872389598161596305
+    second: Final_Boss_Ranged_17
+  - first:
+      213: 718254523786560859
+    second: Final_Boss_Ranged_18
+  - first:
+      213: -7473311945669495440
+    second: Final_Boss_Ranged_19
+  - first:
+      213: 2692382272633431899
+    second: Final_Boss_Ranged_20
+  - first:
+      213: -6007513814804568470
+    second: Final_Boss_Ranged_21
+  - first:
+      213: -5640153285180829886
+    second: Final_Boss_Ranged_22
+  - first:
+      213: -4167055307630098714
+    second: Final_Boss_Ranged_23
+  - first:
+      213: -1413500731326586979
+    second: Final_Boss_Ranged_24
+  - first:
+      213: -3529041489109039561
+    second: Final_Boss_Ranged_25
+  - first:
+      213: -7712995808951687004
+    second: Final_Boss_Ranged_26
+  - first:
+      213: -3152017566901116967
+    second: Final_Boss_Ranged_27
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +124,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +228,595 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_0
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 8363
+        width: 824
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba5e643b4eeb3850800000000000000
+      internalID: 6357937305733192383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_1
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 8363
+        width: 825
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83027451910904740800000000000000
+      internalID: 5134262012607930424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_2
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 8363
+        width: 824
+        height: 665
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38c0ff031b9fa200800000000000000
+      internalID: 193543815174342715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_3
+      rect:
+        serializedVersion: 2
+        x: 5179
+        y: 8363
+        width: 825
+        height: 665
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853d27815554a6420800000000000000
+      internalID: 2623985964681450328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_4
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 8363
+        width: 821
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b9ed52ae8e21e0800000000000000
+      internalID: -2220680738235632080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 6764
+        width: 824
+        height: 680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9377e313c02d2f430800000000000000
+      internalID: 3815342784143849273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_6
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 6764
+        width: 825
+        height: 666
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd2b349e230b0550800000000000000
+      internalID: 6127995216557977033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_7
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 6764
+        width: 824
+        height: 666
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04e02e6b03434a20800000000000000
+      internalID: 3045351489403937805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_8
+      rect:
+        serializedVersion: 2
+        x: 5179
+        y: 6764
+        width: 825
+        height: 680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa730a44ffb509a0800000000000000
+      internalID: -6267392250481509634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_9
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 6764
+        width: 821
+        height: 680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c48dfb6eaaf38530800000000000000
+      internalID: 3856201333002306752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 5166
+        width: 824
+        height: 661
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c138af76bc70f0e30800000000000000
+      internalID: 4471801525206418204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_11
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 5166
+        width: 825
+        height: 661
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e02d5a495b23f5d0800000000000000
+      internalID: -3030030461790510874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_12
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 5166
+        width: 824
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5167d06fdd42f6d0800000000000000
+      internalID: -2958216383431220898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_13
+      rect:
+        serializedVersion: 2
+        x: 5179
+        y: 5166
+        width: 825
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14237d42b13053cd0800000000000000
+      internalID: -2579151796482657727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_14
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 5166
+        width: 821
+        height: 661
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15a90495d0ee2560800000000000000
+      internalID: 7291012054675727643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_15
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3563
+        width: 824
+        height: 665
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a993ce7f58d45b3a0800000000000000
+      internalID: -6650324036957226598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_16
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 3563
+        width: 825
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628559e12ef6bbb70800000000000000
+      internalID: 8915842904276424742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_17
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 3563
+        width: 824
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fe2849de1af5f50800000000000000
+      internalID: 6872389598161596305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_18
+      rect:
+        serializedVersion: 2
+        x: 5179
+        y: 3563
+        width: 825
+        height: 665
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b558d941fa0c7f900800000000000000
+      internalID: 718254523786560859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_19
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 3563
+        width: 821
+        height: 665
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075bfa67166794890800000000000000
+      internalID: -7473311945669495440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_20
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1964
+        width: 824
+        height: 680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57efdf79634d5520800000000000000
+      internalID: 2692382272633431899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_21
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1964
+        width: 825
+        height: 680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66625db30601aca0800000000000000
+      internalID: -6007513814804568470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_22
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 1964
+        width: 824
+        height: 666
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4b0e48762ab1b0800000000000000
+      internalID: -5640153285180829886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_23
+      rect:
+        serializedVersion: 2
+        x: 5179
+        y: 1964
+        width: 825
+        height: 666
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e64d459645ab26c0800000000000000
+      internalID: -4167055307630098714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_24
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 1964
+        width: 821
+        height: 680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f168be29c326ce0800000000000000
+      internalID: -1413500731326586979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_25
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 366
+        width: 824
+        height: 679
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7364a0c9673560fc0800000000000000
+      internalID: -3529041489109039561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_26
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 366
+        width: 825
+        height: 661
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8ab5d4d2fe5f490800000000000000
+      internalID: -7712995808951687004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_Boss_Ranged_27
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 366
+        width: 824
+        height: 661
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df511719b8c144d0800000000000000
+      internalID: -3152017566901116967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
