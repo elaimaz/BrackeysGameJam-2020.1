@@ -142,21 +142,35 @@ public class PlayerController : MonoBehaviour
                 activePortal = 0;
             }
             changeColor.ChangePortalColor(activePortal);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            activePortal = 0;
-            changeColor.ChangePortalColor(activePortal);
-        }else if (Input.GetKeyDown(KeyCode.Alpha2))
+            if (activePortal != 0)
+            {
+                activePortal = 0;
+                changeColor.ChangePortalColor(activePortal);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            activePortal = 1;
-            changeColor.ChangePortalColor(activePortal);
+            if (activePortal != 1)
+            {
+                activePortal = 1;
+                changeColor.ChangePortalColor(activePortal);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
+            }
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            activePortal = 2;
-            changeColor.ChangePortalColor(activePortal);
+            if (activePortal != 2)
+            {
+                activePortal = 2;
+                changeColor.ChangePortalColor(activePortal);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
+            }
         }
     }
 
