@@ -706,8 +706,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorToTurnTo: {r: 0, g: 0.55, b: 1, a: 1}
   PortalJumpColor: {r: 0, g: 0.55, b: 1, a: 1}
-  PortalTimeSpeedColor: {r: 1, g: 0, b: 0, a: 1}
-  PortalShieldJumpColor: {r: 0, g: 1, b: 0, a: 1}
+  PortalTimeSpeedColor: {r: 0, g: 1, b: 0, a: 1}
+  PortalShieldJumpColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &5291474184486412968
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +915,9 @@ MonoBehaviour:
       m_Calls: []
   touchDamageTimeRate: 0.5
   canTouchDamage: 1
+  haveJumpPowerUp: 0
+  haveShieldPowerUp: 0
+  haveSpeedPowerUp: 0
 --- !u!70 &8353793046457436623
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1003,7 +1006,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -789359428258833396, guid: 2a0aded2ac4fa844bab1f745f60f1951,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2093501640854774052}
   - component: {fileID: 2093501640854774053}
   - component: {fileID: 2093501640854774050}
+  - component: {fileID: 46152132}
+  - component: {fileID: 46152133}
   m_Layer: 0
   m_Name: JumpPortalPowerUp
   m_TagString: Untagged
@@ -102,3 +104,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &46152132
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093501640854774051}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.77666664
+--- !u!114 &46152133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093501640854774051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0f5014ebb24214da67d1f162ca5273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  player: {fileID: 0}

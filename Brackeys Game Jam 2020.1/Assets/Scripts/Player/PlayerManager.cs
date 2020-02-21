@@ -24,6 +24,11 @@ public class PlayerManager : MonoBehaviour
     public float touchDamageTimeRate;
     public bool canTouchDamage = true;
 
+    //Bools to check if the player has really gotten the power after kill boss in order to use power up
+    public bool haveJumpPowerUp = false;
+    public bool haveShieldPowerUp = false;
+    public bool haveSpeedPowerUp = false;
+
     private void Awake()
     {
         if (instance == null)
