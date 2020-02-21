@@ -51,7 +51,7 @@ public class PlayerManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Enemy")
+        if(collision.gameObject.tag == "Enemy")
         {
             forceVec = (collision.transform.position - transform.position).normalized * pushBackForce * -1f;
             isInEnemyRange = true;
@@ -60,7 +60,7 @@ public class PlayerManager : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             isInEnemyRange = false;
         }

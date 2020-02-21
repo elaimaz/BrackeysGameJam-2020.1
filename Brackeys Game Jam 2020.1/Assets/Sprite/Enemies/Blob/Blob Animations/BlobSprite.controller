@@ -92,8 +92,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 800064b581cdbd4418ad75b80714dfde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanDoMelee: 1
-  CanDoRanged: 0
   tFlip: 0.2
 --- !u!1101 &-4999421493415910146
 AnimatorStateTransition:

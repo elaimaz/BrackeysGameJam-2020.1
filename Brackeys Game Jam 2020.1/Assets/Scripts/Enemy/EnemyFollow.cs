@@ -5,13 +5,18 @@ using UnityEngine;
 public class EnemyFollow : StateMachineBehaviour
 {
     [Header("Basic Functions")]
-    public bool CanDoMelee;
-    public bool CanDoRanged;
+    private bool CanDoMelee;
+    private bool CanDoRanged;
     public float tFlip;
 
     private float speed;
     private float meleeAttackRange;
     private float rangedAttackRange;
+
+    private float tStartMelee;
+    private float tCoolMelee = 0 ;
+    private float tStartRanged;
+    private float tCoolRanged = 0;
 
     private Transform PlayerPos;
 
@@ -25,21 +30,25 @@ public class EnemyFollow : StateMachineBehaviour
         EnemyBase eb = animator.GetComponent<EnemyBase>();
         PlayerPos = EnemyBase.PlayerPos;
         speed = eb.speed;
-        if(CanDoMelee)
+        if(eb.meleeRange > 0f)
         {
+            CanDoMelee = true;
             meleeAttackRange = eb.meleeRange;
+            tStartMelee = 1f / eb.meleeRate;
         }
-        if(CanDoRanged)
+        if(eb.longRange > 0f)
         {
+            CanDoRanged = true;
             rangedAttackRange = eb.longRange;
+            tStartRanged = 1f / eb.longRate;
         }
-        
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.transform.position = Vector2.MoveTowards(animator.transform.position, PlayerPos.position, speed * Time.deltaTime);
+        if(Vector2.Distance(animator.transform.position, PlayerPos.position) >= meleeAttackRange)
+            animator.transform.position = Vector2.MoveTowards(animator.transform.position, PlayerPos.position, speed * Time.deltaTime);
 
         if(CanDoRanged)
         {
@@ -56,24 +65,33 @@ public class EnemyFollow : StateMachineBehaviour
             animator.GetComponent<MonoBehaviour>().StartCoroutine(Flip(animator,tFlip));
         }
 
-        if(CanDoMelee)
+        if(CanDoMelee && tCoolMelee <= 0 )
         {
             if (Vector2.Distance(animator.transform.position, PlayerPos.position) < meleeAttackRange)
             {
+                tCoolMelee = tStartMelee;
                 animator.SetTrigger("isMeleeAttacking");
                 return;
             }
         }
         
-        if(CanDoRanged)
+        if(CanDoRanged && tCoolRanged <= 0)
         {
             if (Vector2.Distance(animator.transform.position, PlayerPos.position) < rangedAttackRange)
             {
+                tCoolRanged = tStartRanged;
                 animator.SetTrigger("isRangedAttacking");
             }
         }
         
-
+        if(tCoolRanged > 0)
+        {
+            tCoolRanged -= Time.deltaTime;
+        }
+        if(tCoolMelee > 0)
+        {
+            tCoolMelee -= Time.deltaTime;
+        }
     }
 
     private IEnumerator Flip(Animator animator,float t)
