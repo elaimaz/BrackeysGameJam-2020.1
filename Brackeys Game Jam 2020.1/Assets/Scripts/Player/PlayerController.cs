@@ -23,9 +23,13 @@ public class PlayerController : MonoBehaviour
     public float speedPowerUpResetTime;
 
     [Range(1, 10)]
+    public float defaultMoveSpeed = 3f;
+    [HideInInspector]
     public float moveSpeed = 3f;
     [Range(1, 10)]
-    public float jumpVelocity = 6f;
+    public float defaultJumpVelocity = 6f;
+    [HideInInspector]
+    public float jumpVelocity;
     [Range(1, 10)]
     public float fallMultiplier = 3f;
     [Range(1, 10)]
@@ -37,7 +41,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Vector3 movement;
     [SerializeField]
-    bool isGrounded = false;
+    [HideInInspector]
+    public bool isGrounded = false;
     private bool isFacingRight = true;
     
     private PlayerAnimatorController playerAnimator;
@@ -54,6 +59,8 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<PlayerAnimatorController>();
+        moveSpeed = defaultMoveSpeed;
+        jumpVelocity = defaultJumpVelocity;
     }
     
 
@@ -102,78 +109,94 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.E) && isGrounded == true)
-        {
+//        if (Input.GetKeyDown(KeyCode.E) && isGrounded == true)
+//        {
             //Remember the jump into portal animation takes about 1.5s
-            if (activePortal == 0 && jumpPowerCooldown == true)
-            {
-                jumpVelocity = 10.0f;
-                jumpPowerCooldown = false;
-                playerAnimator.JumpPortal();
-                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-                StartCoroutine(ResetJumpAtribute());
-                StartCoroutine(JumpPortalRoutine());
-            }else if (activePortal == 1 && shieldPowerCooldown == true)
-            {
-                //Insert Shield Hability Method
-                shieldPowerCooldown = false;
-                playerAnimator.JumpPortal();
-                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-                //Inset coroutine of when shield will fade.... i recomend 3s
-                StartCoroutine(ShieldPortalRoutine());
-            }else if (activePortal == 2 && speedPowerCooldown == true)
-            {
-                moveSpeed = 6.0f;
-                speedPowerCooldown = false;
-                playerAnimator.JumpPortal();
-                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-                StartCoroutine(ResetSpeedAtribute());
-                StartCoroutine(SpeedPortalRoutine());
-            }
+//            if (activePortal == 0 && jumpPowerCooldown == true)
+//            {
+//                jumpVelocity = 10.0f;
+//                jumpPowerCooldown = false;
+//                playerAnimator.JumpPortal();
+//                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+//                StartCoroutine(ResetJumpAtribute());
+//                StartCoroutine(JumpPortalRoutine());
+//            }else if (activePortal == 1 && shieldPowerCooldown == true)
+//            {
+//                //Insert Shield Hability Method
+//                shieldPowerCooldown = false;
+//                playerAnimator.JumpPortal();
+//                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+//                //Inset coroutine of when shield will fade.... i recomend 3s
+//                StartCoroutine(ShieldPortalRoutine());
+//            }else if (activePortal == 2 && speedPowerCooldown == true)
+//            {
+//                moveSpeed = 6.0f;
+//                speedPowerCooldown = false;
+//                playerAnimator.JumpPortal();
+//                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+//                StartCoroutine(ResetSpeedAtribute());
+//                StartCoroutine(SpeedPortalRoutine());
+//            }
 
-        }
+//        }
+        
 
+//        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.Tab))
+//        {
+//            activePortal++;
+//            if (activePortal > 2)
+//            {
+//                activePortal = 0;
+//            }
+//            changeColor.ChangePortalColor(activePortal);
+//        }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.Tab))
-        {
-            activePortal++;
-            if (activePortal > 2)
-            {
-                activePortal = 0;
-            }
-            changeColor.ChangePortalColor(activePortal);
-            FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            if (activePortal != 0)
-            {
-                activePortal = 0;
-                changeColor.ChangePortalColor(activePortal);
-                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
-            }
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            if (activePortal != 1)
-            {
-                activePortal = 1;
-                changeColor.ChangePortalColor(activePortal);
-                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
-            }
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            if (activePortal != 2)
-            {
-                activePortal = 2;
-                changeColor.ChangePortalColor(activePortal);
-                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
-            }
-        }
+//        if (Input.GetKeyDown(KeyCode.Alpha1))
+//        {
+//            activePortal = 0;
+//            changeColor.ChangePortalColor(activePortal);
+//        }else if (Input.GetKeyDown(KeyCode.Alpha2))
+//        {
+//            activePortal = 1;
+//            changeColor.ChangePortalColor(activePortal);
+//        }
+//        else if (Input.GetKeyDown(KeyCode.Alpha3))
+//        {
+//            activePortal = 2;
+//            changeColor.ChangePortalColor(activePortal);
+//        }
     }
-
+    
+    public void OnPortalJumpPowerUPActivated(){
+        //When jump powerup is activated.
+        changeColor.ChangePortalColor(activePortal);
+        playerAnimator.JumpPortal();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+//        StartCoroutine(ResetJumpAtribute());
+//        StartCoroutine(JumpPortalRoutine());
+        
+    }
+    public void OnShieldPowerUPActivated(){
+        //When shield powerup is activated.
+        changeColor.ChangePortalColor(activePortal);
+        //Insert Shield Hability Method
+        shieldPowerCooldown = false;
+        playerAnimator.JumpPortal();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+        //Inset coroutine of when shield will fade.... i recomend 3s
+//        StartCoroutine(ShieldPortalRoutine());
+    }
+    public void OnSpeedPowerUPActivated(){
+        //When speed powerup is activated.
+        moveSpeed = 6.0f;
+        speedPowerCooldown = false;
+        playerAnimator.JumpPortal();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
+//        StartCoroutine(ResetSpeedAtribute());
+//        StartCoroutine(SpeedPortalRoutine());
+    }
+    
+    
     private void FixedUpdate()
     {
         if (canMove == true)
@@ -188,9 +211,14 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
             }
-
-            CheckGround();
-
+        }
+        
+        //Check Ground should always run independant on whether canMove is TRUE or FALSE.
+        //THis is bacause PowerUpBar is dependant on isGrounded.
+        CheckGround();
+        
+        if (canMove == true)
+        {
             playerAnimator.Move(movement.x != 0);
             int m = 1;
             if (isFacingRight && movement.x < 0 || !isFacingRight && movement.x > 0)
@@ -224,41 +252,41 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(0f, 180f, 0f);
     }
 
-    private IEnumerator ResetJumpAtribute()
-    {
-        yield return new WaitForSeconds(jumpPowerUpTime + 1.5f);
-        jumpVelocity = 6.0f;
-    }
+//    private IEnumerator ResetJumpAtribute()
+//    {
+//        yield return new WaitForSeconds(jumpPowerUpTime + 1.5f);
+//        jumpVelocity = defaultJumpVelocity;
+//    }
 
-    private IEnumerator JumpPortalRoutine()
-    {
-        yield return new WaitForSeconds(jumpPowerUpResetTime);
-        jumpPowerCooldown = true;
-    }
+//    private IEnumerator JumpPortalRoutine()
+//    {
+//        yield return new WaitForSeconds(jumpPowerUpResetTime);
+//        jumpPowerCooldown = true;
+//    }
 
-    private IEnumerator ResetShieldAtribute()
-    {
-        yield return new WaitForSeconds(shieldPowerUpTime + 1.5f);
-        //Reset Shield.
-    }
-    
-    private IEnumerator ShieldPortalRoutine()
-    {
-        yield return new WaitForSeconds(shieldPowerUpResetTime);
-        shieldPowerCooldown = true;
-    }
+//    private IEnumerator ResetShieldAtribute()
+//    {
+//        yield return new WaitForSeconds(shieldPowerUpTime + 1.5f);
+//        //Reset Shield.
+//    }
+//    
+//    private IEnumerator ShieldPortalRoutine()
+//    {
+//        yield return new WaitForSeconds(shieldPowerUpResetTime);
+//        shieldPowerCooldown = true;
+//    }
 
-    private IEnumerator ResetSpeedAtribute()
-    {
-        yield return new WaitForSeconds(speedPowerUpTime + 1.5f);
-        moveSpeed = 3.0f;
-    }
+//    private IEnumerator ResetSpeedAtribute()
+//    {
+//        yield return new WaitForSeconds(speedPowerUpTime + 1.5f);
+//        moveSpeed = defaultMoveSpeed;
+//    }
 
-    private IEnumerator SpeedPortalRoutine()
-    {
-        yield return new WaitForSeconds(speedPowerUpResetTime);
-        speedPowerCooldown = true;
-    }
+//    private IEnumerator SpeedPortalRoutine()
+//    {
+//        yield return new WaitForSeconds(speedPowerUpResetTime);
+//        speedPowerCooldown = true;
+//    }
 
 
 }
