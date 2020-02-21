@@ -40,8 +40,8 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
     Vector3 movement;
-    [SerializeField]
-    [HideInInspector]
+    
+//    [HideInInspector]
     public bool isGrounded = false;
     private bool isFacingRight = true;
     
@@ -107,64 +107,6 @@ public class PlayerController : MonoBehaviour
         {
             playerAnimator.Death();
         }
-
-
-//        if (Input.GetKeyDown(KeyCode.E) && isGrounded == true)
-//        {
-            //Remember the jump into portal animation takes about 1.5s
-//            if (activePortal == 0 && jumpPowerCooldown == true)
-//            {
-//                jumpVelocity = 10.0f;
-//                jumpPowerCooldown = false;
-//                playerAnimator.JumpPortal();
-//                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-//                StartCoroutine(ResetJumpAtribute());
-//                StartCoroutine(JumpPortalRoutine());
-//            }else if (activePortal == 1 && shieldPowerCooldown == true)
-//            {
-//                //Insert Shield Hability Method
-//                shieldPowerCooldown = false;
-//                playerAnimator.JumpPortal();
-//                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-//                //Inset coroutine of when shield will fade.... i recomend 3s
-//                StartCoroutine(ShieldPortalRoutine());
-//            }else if (activePortal == 2 && speedPowerCooldown == true)
-//            {
-//                moveSpeed = 6.0f;
-//                speedPowerCooldown = false;
-//                playerAnimator.JumpPortal();
-//                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-//                StartCoroutine(ResetSpeedAtribute());
-//                StartCoroutine(SpeedPortalRoutine());
-//            }
-
-//        }
-        
-
-//        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.Tab))
-//        {
-//            activePortal++;
-//            if (activePortal > 2)
-//            {
-//                activePortal = 0;
-//            }
-//            changeColor.ChangePortalColor(activePortal);
-//        }
-
-//        if (Input.GetKeyDown(KeyCode.Alpha1))
-//        {
-//            activePortal = 0;
-//            changeColor.ChangePortalColor(activePortal);
-//        }else if (Input.GetKeyDown(KeyCode.Alpha2))
-//        {
-//            activePortal = 1;
-//            changeColor.ChangePortalColor(activePortal);
-//        }
-//        else if (Input.GetKeyDown(KeyCode.Alpha3))
-//        {
-//            activePortal = 2;
-//            changeColor.ChangePortalColor(activePortal);
-//        }
     }
     
     public void OnPortalJumpPowerUPActivated(){
@@ -172,8 +114,7 @@ public class PlayerController : MonoBehaviour
         changeColor.ChangePortalColor(activePortal);
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-//        StartCoroutine(ResetJumpAtribute());
-//        StartCoroutine(JumpPortalRoutine());
+        FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
         
     }
     public void OnShieldPowerUPActivated(){
@@ -184,7 +125,6 @@ public class PlayerController : MonoBehaviour
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
         //Inset coroutine of when shield will fade.... i recomend 3s
-//        StartCoroutine(ShieldPortalRoutine());
     }
     public void OnSpeedPowerUPActivated(){
         //When speed powerup is activated.
@@ -192,8 +132,6 @@ public class PlayerController : MonoBehaviour
         speedPowerCooldown = false;
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
-//        StartCoroutine(ResetSpeedAtribute());
-//        StartCoroutine(SpeedPortalRoutine());
     }
     
     
@@ -251,42 +189,4 @@ public class PlayerController : MonoBehaviour
         isFacingRight = !isFacingRight;
         transform.Rotate(0f, 180f, 0f);
     }
-
-//    private IEnumerator ResetJumpAtribute()
-//    {
-//        yield return new WaitForSeconds(jumpPowerUpTime + 1.5f);
-//        jumpVelocity = defaultJumpVelocity;
-//    }
-
-//    private IEnumerator JumpPortalRoutine()
-//    {
-//        yield return new WaitForSeconds(jumpPowerUpResetTime);
-//        jumpPowerCooldown = true;
-//    }
-
-//    private IEnumerator ResetShieldAtribute()
-//    {
-//        yield return new WaitForSeconds(shieldPowerUpTime + 1.5f);
-//        //Reset Shield.
-//    }
-//    
-//    private IEnumerator ShieldPortalRoutine()
-//    {
-//        yield return new WaitForSeconds(shieldPowerUpResetTime);
-//        shieldPowerCooldown = true;
-//    }
-
-//    private IEnumerator ResetSpeedAtribute()
-//    {
-//        yield return new WaitForSeconds(speedPowerUpTime + 1.5f);
-//        moveSpeed = defaultMoveSpeed;
-//    }
-
-//    private IEnumerator SpeedPortalRoutine()
-//    {
-//        yield return new WaitForSeconds(speedPowerUpResetTime);
-//        speedPowerCooldown = true;
-//    }
-
-
 }

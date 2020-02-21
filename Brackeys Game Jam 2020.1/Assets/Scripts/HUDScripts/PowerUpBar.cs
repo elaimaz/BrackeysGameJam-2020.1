@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 using MyBox;
 
+[ExecuteInEditMode]
 public class PowerUpBar : MonoBehaviour
 {
-
     public Slider slider;
     public Gradient gradient;
     public Image fill;
@@ -16,9 +16,11 @@ public class PowerUpBar : MonoBehaviour
     
     public int NumKeyPressToActivate;
     
+    [Space(15)]
     public bool PortalJumpPowerUp;
     [ConditionalField("PortalJumpPowerUp")]
-    public float jumpVelocity;
+    [Range(0, 15)]
+    public float jumpVelocity = 10f;
     
     public bool SpeedPowerUp;
     [ConditionalField("SpeedPowerUp")]
@@ -30,6 +32,7 @@ public class PowerUpBar : MonoBehaviour
     [Range(5, 30)]
     public float ShieldValue = 6f;
     
+    [Space(15)]
     public bool usePowerUpDelay;
     [ConditionalField("usePowerUpDelay")]
     [Range(0, 50)]
@@ -41,12 +44,13 @@ public class PowerUpBar : MonoBehaviour
     [Range(0, 30)]
     public float ActiveDuration = 10;
     
+    [Tooltip("Using this feature will let the powerBar increase upon set time. Disable to not increase based on time.")]
     public bool useCoolDown = true;
     [ConditionalField("useCoolDown")]
-    [Range(0, 80)]
-    public float coolDownTime = 0.0f;
+    [Range(1, 80)]
+    public float coolDownTime = 10.0f;
     
-    private bool isCoolingDown = true;
+//    private bool isCoolingDown = true;
     private float startTime = 0.0f;
     
     private PlayerController playerControllerScript;
@@ -59,6 +63,9 @@ public class PowerUpBar : MonoBehaviour
     
     //Ready=true just means that the player can now apply powerup.
     bool ready;
+    
+    public Text text;
+    public string ReadyText = "Press {} Ready!";
     
     public void Update(){
         if (ready && playerControllerScript.isGrounded)
@@ -83,46 +90,85 @@ public class PowerUpBar : MonoBehaviour
         } else if ((Input.GetKeyDown(KeyCode.Keypad9) || Input.GetKeyDown(KeyCode.Alpha9)) && (NumKeyPressToActivate == 9)) {
             activatePowerUp();
         }
+    }
+    
+    void FixedUpdate(){
         
+        if (useCoolDown)
+            //Increase powerUp based on cooldown value.
+            
+            slider.value += (1f/coolDownTime)*slider.maxValue*Time.fixedDeltaTime;
+    
+        //Code to set to ready.
         if (!ReducePartially)
-             if (slider.value == slider.maxValue)
+            //Check if bar is full.
+            if (slider.value == slider.maxValue)
                 ready = true;
-        else if (slider.value >= ReduceByValue)
-            ready = true;
+            else ready = false;
+        else 
+            //Check if bar is full enough to use powerup.
+            if (slider.value >= ReduceByValue)
+                ready = true;
+            else ready = false;
+            
+        ReadyText = "Press " + NumKeyPressToActivate + " Ready!";
+        if (ready == true){
+            text.gameObject.SetActive(true);
+            text.text = ReadyText;
+        }
+        else text.gameObject.SetActive(false);
+        
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     void activatePowerUp(){
+        //Assume Player not ready to use next powerup.
         ready = false;
+        
+        //Resets to 0, or reduces by value, depending on ReducePartially.
         if (!ReducePartially) slider.value = 0;
         else slider.value -= ReduceByValue;
         
+        FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
+        
+        /*This is where we activate powerups.
+        Note: we can use 2 powerups in one bar as well, 
+        but with same delay and activation time.*/
         if(PortalJumpPowerUp){
+            playerControllerScript.jumpVelocity = jumpVelocity;
             playerControllerScript.OnPortalJumpPowerUPActivated();
             StartCoroutine(ResetPortalJumpAtribute());
-            StartCoroutine(JumpPortalRoutine());
+//            StartCoroutine(JumpPortalRoutine());
+        }
+        if(SpeedPowerUp){
+            playerControllerScript.moveSpeed = SpeedValue;
+            playerControllerScript.OnSpeedPowerUPActivated();
+            StartCoroutine(ResetSpeedAtribute());
+//            StartCoroutine(SpeedPortalRoutine());
         }
         if(ShieldPowerUp){
-            playerControllerScript.moveSpeed = SpeedValue;
+            playerControllerScript.OnShieldPowerUPActivated();
+            StartCoroutine(ResetShieldAtribute());
+//            StartCoroutine(ShieldPortalRoutine());
         }
     }
     
-    
     public void Start(){
         playerControllerScript = player.GetComponent<PlayerController>();
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void SetMaxPoints(int points){
     
         slider.maxValue = points;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void SetPoints(int points){
         slider.value = points;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void AddPoints(int points){
@@ -131,7 +177,7 @@ public class PowerUpBar : MonoBehaviour
         }
         else slider.value += points;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void RemovePoints(int points){
@@ -140,25 +186,19 @@ public class PowerUpBar : MonoBehaviour
         }
         else slider.value -= points;
         
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
     public void ResetToZero(){
         slider.value = 0;
-        fill.color = gradient.Evaluate(slider.value / slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
-    /******************************************************/
+    /***********************Coroutines**********************/
     private IEnumerator ResetPortalJumpAtribute()
     {
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         playerControllerScript.jumpVelocity = playerControllerScript.defaultJumpVelocity;
-    }
-
-    private IEnumerator JumpPortalRoutine()
-    {
-        yield return new WaitForSeconds(ActiveDuration);
-        isCoolingDown = true;
     }
 
     private IEnumerator ResetShieldAtribute()
@@ -166,23 +206,11 @@ public class PowerUpBar : MonoBehaviour
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         //Reset Shield.
     }
-    
-    private IEnumerator ShieldPortalRoutine()
-    {
-        yield return new WaitForSeconds(ActiveDuration);
-        isCoolingDown = true;
-    }
 
     private IEnumerator ResetSpeedAtribute()
     {
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         playerControllerScript.moveSpeed =  playerControllerScript.defaultMoveSpeed;
-    }
-
-    private IEnumerator SpeedPortalRoutine()
-    {
-        yield return new WaitForSeconds(ActiveDuration);
-        isCoolingDown = true;
     }
     /******************************************************/
 }
