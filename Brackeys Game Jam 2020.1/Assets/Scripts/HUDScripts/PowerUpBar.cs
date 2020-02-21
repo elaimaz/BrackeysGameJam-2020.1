@@ -65,7 +65,7 @@ public class PowerUpBar : MonoBehaviour
     bool ready;
     
     public Text text;
-    public string ReadyText = "Press {} Ready!";
+    private string ReadyText = "Press {} Ready!";
     
     public void Update(){
         if (ready && playerControllerScript.isGrounded)
@@ -155,6 +155,7 @@ public class PowerUpBar : MonoBehaviour
     
     public void Start(){
         playerControllerScript = player.GetComponent<PlayerController>();
+        
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     

@@ -21,7 +21,7 @@ public class ChangeColor : MonoBehaviour {
     }
 
     public void ChangePortalColor(int portal)
-    {
+    {   //0 Jump, 1 Time, 2 Shield.
         if (portal == 0)
         {
             colorToTurnTo = new Color(0f, 0.55f, 1f);
@@ -32,6 +32,7 @@ public class ChangeColor : MonoBehaviour {
         {
             colorToTurnTo = Color.green;
         }
+        
         // Change sprite color to selected color
         rend.material.color = colorToTurnTo;
     }
