@@ -25,6 +25,9 @@ public class EnemyBase : MonoBehaviour
     private float oriSpeed;
     private bool isPlayerInRange = false;
 
+    [Range(1, 100)]
+    public int TouchDamage;
+
     protected Animator anime;
     // Start is called before the first frame update
     void Start()
