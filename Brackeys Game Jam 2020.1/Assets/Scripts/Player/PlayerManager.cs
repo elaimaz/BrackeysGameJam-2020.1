@@ -20,6 +20,10 @@ public class PlayerManager : MonoBehaviour
     private bool isInEnemyRange;
     private Rigidbody2D rb;
 
+    [Range(0.1f, 1)]
+    public float touchDamageTimeRate;
+    public bool canTouchDamage = true;
+
     private void Awake()
     {
         if (instance == null)
@@ -59,6 +63,11 @@ public class PlayerManager : MonoBehaviour
         {
             forceVec = (collision.transform.position - transform.position).normalized * pushBackForce * -1f;
             isInEnemyRange = true;
+            if (canTouchDamage == true)
+            {
+                TakeDamage(collision.gameObject.GetComponent<EnemyBase>().TouchDamage);
+                StartCoroutine(TouchDamageReset());
+            }    
         }
     }
 
@@ -68,5 +77,12 @@ public class PlayerManager : MonoBehaviour
         {
             isInEnemyRange = false;
         }
+    }
+
+    protected IEnumerator TouchDamageReset()
+    {
+        canTouchDamage = false;
+        yield return new WaitForSeconds(touchDamageTimeRate);
+        canTouchDamage = true;
     }
 }
