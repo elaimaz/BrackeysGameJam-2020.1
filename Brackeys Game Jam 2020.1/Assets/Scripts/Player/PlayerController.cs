@@ -6,9 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     public bool canMove = true;
     
-    private bool jumpPowerCooldown = true;
-    private bool shieldPowerCooldown = true;
-    private bool speedPowerCooldown = true;
+    public bool jumpPowerCooldown = true;
+    public bool shieldPowerCooldown = true;
+    public bool speedPowerCooldown = true;
     [Range(1, 10)]
     public float jumpPowerUpTime;
     [Range(5, 30)]
