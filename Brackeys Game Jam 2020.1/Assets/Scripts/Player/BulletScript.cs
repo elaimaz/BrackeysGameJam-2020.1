@@ -17,7 +17,8 @@ public class BulletScript : MonoBehaviour
     {
         if(collision.tag == "Enemy")
         {
-            collision.GetComponent<EnemyBase>().OnDamageTaken(Damage);
+            if(collision.GetComponent<EnemyBase>() != null)
+                collision.GetComponent<EnemyBase>().OnDamageTaken(Damage);
         }
         Destroy(gameObject);
     }

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EyeBossEnemy : EnemyBase
+public class ShieldBossEnemy : EnemyBase
 {
     public GameObject ProjectilePrefab;
-    public float MeleeAttackDamageRadius;
     public float ProjectileSpeed;
 
     private bool isDead = false;
+    private bool isMeleeAttacking = false;
 
     public override void OnDamageTaken(int damage)
     {
@@ -21,7 +21,6 @@ public class EyeBossEnemy : EnemyBase
             {
                 isDead = true;
                 anime.SetTrigger("Death");
-                //Destroy(gameObject, 0.50f);
             }
         }
         else
@@ -30,25 +29,31 @@ public class EyeBossEnemy : EnemyBase
         }
     }
 
-    public override void OnMeleeAttackDone()
+    public void OnStartMeleeAttack()
     {
-        base.OnMeleeAttackDone();
-        Collider2D coll = Physics2D.OverlapCircle(transform.GetChild(1).position, MeleeAttackDamageRadius, PlayerLayer);
-        if (coll != null)
-        {
-            coll.GetComponent<PlayerManager>().TakeDamage(meleeDamage);
-        }
+        isMeleeAttacking = true;
+        transform.GetChild(1).gameObject.tag = "Untagged";
+    }
+
+    public void OnEndMeleeAttack()
+    {
+        isMeleeAttacking = false;
+        transform.GetChild(1).gameObject.tag = "Enemy";
     }
 
     public override void OnRangedAttackDone()
     {
-        base.OnRangedAttackDone();
         Instantiate(ProjectilePrefab, transform.GetChild(0).position, transform.GetChild(0).rotation).GetComponent<ProjectileScript>().SetProjectile((int)longDamage, ProjectileSpeed);
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Gizmos.DrawWireSphere(transform.GetChild(1).position, MeleeAttackDamageRadius);
+        if(isMeleeAttacking)
+        {
+            if(collision.tag == "Player")
+            {
+                collision.GetComponent<PlayerManager>().TakeDamage(meleeDamage);
+            }
+        }
     }
-
 }

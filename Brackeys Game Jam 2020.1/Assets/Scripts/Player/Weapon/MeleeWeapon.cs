@@ -44,9 +44,10 @@ public class MeleeWeapon : MonoBehaviour
     {
         //GetComponent<BoxCollider2D>().enabled = true;
         Collider2D coll = Physics2D.OverlapBox(AttackOrigin.position, DetectionZone, 0 , ememyLayer);
-        if ( coll != null)
+        if ( coll != null && coll.tag == "Enemy")
         {
-            coll.GetComponent<EnemyBase>().OnDamageTaken(damage);
+            if(coll.GetComponent<EnemyBase>() != null)
+                coll.GetComponent<EnemyBase>().OnDamageTaken(damage);
         }
     }
 }

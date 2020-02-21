@@ -7,18 +7,23 @@ public class EnemyBase : MonoBehaviour
     public static Transform PlayerPos;
     public LayerMask PlayerLayer;
     public float speed;
+    public int health;
     public float searchRange;
+    [Header("Melee Attack Info")]
     public float meleeRange;
     public int meleeDamage;
+    public float meleeRate;
+    [Header("Ranged Attack Info")]
     public float longRange;
     public float longDamage;
-    public int health;
+    public float longRate;
 
-    [Header("While Taking Damage")]
+    [Header("Freez After Taking Damage")]
     public float tStartDazed;
+    [Space()]
     private float tDazed;
     private float oriSpeed;
-    public bool isPlayerInRange = false;
+    private bool isPlayerInRange = false;
 
     protected Animator anime;
     // Start is called before the first frame update
@@ -26,7 +31,7 @@ public class EnemyBase : MonoBehaviour
     {
         if (PlayerPos == null)
         {
-            PlayerPos = GameObject.FindGameObjectWithTag("Player").transform;
+            PlayerPos = PlayerManager.instance.transform;
         }
         anime = GetComponent<Animator>();
         oriSpeed = speed;
@@ -48,6 +53,8 @@ public class EnemyBase : MonoBehaviour
         if(tDazed <= 0)
         {
             speed = oriSpeed;
+            if(isPlayerInRange)
+                anime.SetBool("isInRange", true);
         }
         else
         {
@@ -68,7 +75,7 @@ public class EnemyBase : MonoBehaviour
     public virtual void OnDamageTaken(int damage)
     {
         tDazed = tStartDazed;
-       
+        anime.SetBool("isInRange", false);
     }
 
     public virtual void DestroyEnemy()
