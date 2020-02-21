@@ -9,7 +9,11 @@ public class ChangeColor : MonoBehaviour {
     // It's White by default
     [SerializeField]
     private Color colorToTurnTo = Color.white;
-
+    
+    
+    public Color PortalJumpColor = new Color(0f, 0.55f, 1f);
+    public Color PortalTimeSpeedColor = Color.red;
+    public Color PortalShieldJumpColor = Color.green;
     // Use this for initialization
     private void Start () {
 
@@ -24,13 +28,13 @@ public class ChangeColor : MonoBehaviour {
     {   //0 Jump, 1 Time, 2 Shield.
         if (portal == 0)
         {
-            colorToTurnTo = new Color(0f, 0.55f, 1f);
+            colorToTurnTo = PortalJumpColor;
         }else if (portal == 1)
         {
-            colorToTurnTo = Color.red;
+            colorToTurnTo = PortalTimeSpeedColor;
         }else if (portal == 2)
         {
-            colorToTurnTo = Color.green;
+            colorToTurnTo = PortalShieldJumpColor;
         }
         
         // Change sprite color to selected color

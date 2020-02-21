@@ -40,12 +40,14 @@ public class PowerUpBar : MonoBehaviour
     
     [Tooltip("Using this feature will let you set the duration of the effect to last. Setting it to False will let it last for a lifetime.")]
     public bool useActiveTime = true;
+    [Tooltip("Use this to control how long the PowerUp is to last.")]
     [ConditionalField("useActiveTime")]
     [Range(0, 30)]
     public float ActiveDuration = 10;
     
     [Tooltip("Using this feature will let the powerBar increase upon set time. Disable to not increase based on time.")]
     public bool useCoolDown = true;
+    [Tooltip("Use this to control how long the PowerUp takes going from 0 to maxValue.")]
     [ConditionalField("useCoolDown")]
     [Range(1, 80)]
     public float coolDownTime = 10.0f;
