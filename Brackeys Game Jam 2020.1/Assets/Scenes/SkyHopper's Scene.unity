@@ -1060,24 +1060,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 720817556}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1944614108 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5323900000033448988, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
-    type: 3}
-  m_PrefabInstance: {fileID: 676477405104467526}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1944614109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944614108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c8d151ac2a5a8c42ac9435ac9a720f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1987321788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5291474184486412968, guid: 1b77efe118d8e154282f2bb2d84b33a2,
@@ -1353,12 +1335,12 @@ PrefabInstance:
     - target: {fileID: 4526913897622431429, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.57
+      value: -4.06
       objectReference: {fileID: 0}
     - target: {fileID: 4526913897622431429, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.85
+      value: -1.88
       objectReference: {fileID: 0}
     - target: {fileID: 4526913897622431429, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
         type: 3}
@@ -1397,28 +1379,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7799896119773246772, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
         type: 3}
-      propertyPath: ProjectileSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799896119773246772, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
-        type: 3}
-      propertyPath: meleeRange
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799896119773246772, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
-        type: 3}
-      propertyPath: longRate
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799896119773246772, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
-        type: 3}
-      propertyPath: meleeRate
-      value: 3
+      propertyPath: po.x
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 8202424385798994739, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.59
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8202424385798994739, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2, type: 3}

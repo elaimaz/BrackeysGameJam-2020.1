@@ -5,10 +5,16 @@ using UnityEngine;
 public class DrillBossEnemy : EnemyBase
 {
     public GameObject ProjectilePrefab;
+    [Header("Attack From Sky")]
+    public Vector2 ProjectileOrigin;
+    public Vector2 size;
+    public int NoOfProjectiles;
+    [Space()]
     public float MeleeAttackDamageRadius;
     public float ProjectileSpeed;
 
     private bool isDead = false;
+    private int noSpawned;
 
     public override void OnDamageTaken(int damage)
     {
@@ -43,12 +49,32 @@ public class DrillBossEnemy : EnemyBase
     public override void OnRangedAttackDone()
     {
         base.OnRangedAttackDone();
-        GameObject go = Instantiate(ProjectilePrefab, transform.GetChild(0).position, transform.GetChild(0).rotation);
-        go.GetComponent<ProjectileScript>().SetProjectile((int)longDamage, ProjectileSpeed);
-        go.transform.GetChild(Random.Range(0, go.transform.childCount)).gameObject.SetActive(true);
+        noSpawned = 0;
+        Invoke("CreateProjectiles", 0.1f);
     }
+
+
+    private void CreateProjectiles()
+    {
+        GameObject go = Instantiate(ProjectilePrefab, GetRandomPoint(), Quaternion.AngleAxis(-90f, Vector3.forward));
+        go.transform.GetChild(Random.Range(0, go.transform.childCount)).gameObject.SetActive(true);
+        go.GetComponent<ProjectileScript>().SetProjectile((int)longDamage, ProjectileSpeed);
+        noSpawned ++;
+        if(noSpawned < NoOfProjectiles)
+        {
+            Invoke("CreateProjectiles", 0.4f);
+        }
+    }
+
+    private Vector2 GetRandomPoint()
+    {
+        return new Vector2(transform.GetChild(0).position.x + ProjectileOrigin.x + (Random.Range(0,size.x) - (size.x / 2 ) ), ProjectileOrigin.y + (Random.Range(0, size.y) - (size.y / 2)));
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.GetChild(1).position, MeleeAttackDamageRadius);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(ProjectileOrigin + (Vector2)transform.GetChild(0).position, size);
     }
 }
