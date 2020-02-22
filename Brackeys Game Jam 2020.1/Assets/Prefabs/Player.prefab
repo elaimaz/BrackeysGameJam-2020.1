@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 3135210783334238224}
   - component: {fileID: 3135210783334238231}
   m_Layer: 0
-  m_Name: PortalSprite
+  m_Name: SecondaryPortalSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1086,6 +1086,7 @@ MonoBehaviour:
   isGrounded: 0
   activePortal: 0
   changeColor: {fileID: 5819694563341103643}
+  changeColorSecondary: {fileID: 3135210783334238231}
 --- !u!114 &6574192945758908345
 MonoBehaviour:
   m_ObjectHideFlags: 0

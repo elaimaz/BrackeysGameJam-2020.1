@@ -38,6 +38,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private ChangeColor changeColor;
+    [SerializeField]
+    private ChangeColor changeColorSecondary;
 
     private void Start()
     {
@@ -96,6 +98,7 @@ public class PlayerController : MonoBehaviour
     public void OnPortalJumpPowerUPActivated(){
         //When jump powerup is activated.
         changeColor.ChangePortalColor(0);
+        changeColorSecondary.ChangePortalColor(0);
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
@@ -104,6 +107,7 @@ public class PlayerController : MonoBehaviour
     public void OnShieldPowerUPActivated(){
         //When shield powerup is activated.
         changeColor.ChangePortalColor(2);
+        changeColorSecondary.ChangePortalColor(2);
         //Insert Shield Hability Method
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
@@ -112,7 +116,7 @@ public class PlayerController : MonoBehaviour
     public void OnSpeedPowerUPActivated(){
         //When speed powerup is activated.
         changeColor.ChangePortalColor(1);
-        moveSpeed = 6.0f;
+        changeColorSecondary.ChangePortalColor(1);
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
     }
