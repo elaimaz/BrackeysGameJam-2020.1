@@ -38,8 +38,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private ChangeColor changeColor;
-    [SerializeField]
-    private ChangeColor changeColorSecondary;
+//    [SerializeField]
+    public ChangeColor changeColorSecondary;
 
     private void Start()
     {
