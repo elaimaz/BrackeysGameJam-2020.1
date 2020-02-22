@@ -70,28 +70,30 @@ public class PowerUpBar : MonoBehaviour
     public Text text;
     private string ReadyText = "Press {} Ready!";
     
+    public PortalMoveSelection portalMoveScript;
+    
     public void Update(){
         if (ready && playerControllerScript.isGrounded)
         if ((Input.GetKeyDown(KeyCode.Keypad0) || Input.GetKeyDown(KeyCode.Alpha0)) && (NumKeyPressToActivate == 0)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) && (NumKeyPressToActivate == 1)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) && (NumKeyPressToActivate == 2)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) && (NumKeyPressToActivate == 3)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) && (NumKeyPressToActivate == 4)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKeyDown(KeyCode.Alpha5)) && (NumKeyPressToActivate == 5)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad6) || Input.GetKeyDown(KeyCode.Alpha6)) && (NumKeyPressToActivate == 6)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad7) || Input.GetKeyDown(KeyCode.Alpha7)) && (NumKeyPressToActivate == 7)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad8) || Input.GetKeyDown(KeyCode.Alpha8)) && (NumKeyPressToActivate == 8)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad9) || Input.GetKeyDown(KeyCode.Alpha9)) && (NumKeyPressToActivate == 9)) {
-            activatePowerUp();
+            toogleSelect();
         }
     }
     
@@ -122,6 +124,11 @@ public class PowerUpBar : MonoBehaviour
         else text.gameObject.SetActive(false);
         
         fill.color = gradient.Evaluate(slider.normalizedValue);
+    }
+    
+    void toogleSelect(){
+        
+        //portalMoveScript
     }
     
     void activatePowerUp(){
