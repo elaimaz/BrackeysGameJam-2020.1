@@ -69,11 +69,14 @@ public class PlayerManager : MonoBehaviour
         {
             forceVec = (collision.transform.position - transform.position).normalized * pushBackForce * -1f;
             isInEnemyRange = true;
-            if (canTouchDamage == true)
+            if (collision.GetComponent<EnemyBase>() != null)
             {
-                TakeDamage(collision.gameObject.GetComponent<EnemyBase>().TouchDamage);
-                StartCoroutine(TouchDamageReset());
-            }    
+                if (canTouchDamage == true)
+                {
+                    TakeDamage(collision.gameObject.GetComponent<EnemyBase>().TouchDamage);
+                    StartCoroutine(TouchDamageReset());
+                }
+            }
         }
     }
 

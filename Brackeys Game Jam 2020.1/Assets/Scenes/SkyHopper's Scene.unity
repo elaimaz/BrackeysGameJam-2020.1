@@ -1823,6 +1823,11 @@ PrefabInstance:
       propertyPath: meleeRate
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 5241399302719959549, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
+        type: 3}
+      propertyPath: TouchDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5353065107228002032, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
       propertyPath: m_Name
@@ -1841,7 +1846,7 @@ PrefabInstance:
     - target: {fileID: 5353065107228002038, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.55
+      value: -6.04
       objectReference: {fileID: 0}
     - target: {fileID: 5353065107228002038, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
