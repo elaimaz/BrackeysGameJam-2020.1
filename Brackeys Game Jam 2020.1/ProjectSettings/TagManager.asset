@@ -12,6 +12,7 @@ TagManager:
   - EyeSpawner
   - DrillSpawner
   - ShieldSpawner
+  - FinalSpawner
   layers:
   - Default
   - TransparentFX

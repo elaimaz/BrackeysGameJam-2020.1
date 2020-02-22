@@ -13,12 +13,14 @@ public class GameManager : MonoBehaviour
     public GameObject DrillPrefab;
     public GameObject ShieldPrefab;
     public GameObject EyePrefab;
+    public GameObject FinalPrefab;
     private Vector2 lastCheckpoint;
     private Vector2[] BlobSpawn;
     private Vector2[] SkeletonSpawn;
     private Vector2[] DrillSpawn;
     private Vector2[] ShieldSpawn;
     private Vector2[] EyeSpawn;
+    private Vector2[] FinalSpawn;
 
     private void Awake()
     {
@@ -40,6 +42,7 @@ public class GameManager : MonoBehaviour
         SetSpawns("DrillSpawner", out DrillSpawn); 
         SetSpawns("ShieldSpawner", out ShieldSpawn); 
         SetSpawns("EyeSpawner", out EyeSpawn); 
+        SetSpawns("FinalSpawner", out FinalSpawn); 
         SetPlayerPos();
     }
 
@@ -78,6 +81,7 @@ public class GameManager : MonoBehaviour
         SpawnEnemy(DrillSpawn, DrillPrefab);
         SpawnEnemy(ShieldSpawn, ShieldPrefab);
         SpawnEnemy(EyeSpawn, EyePrefab);
+        SpawnEnemy(FinalSpawn, FinalPrefab);
     }
 
     public void SetCheckPoint(Vector2 position)

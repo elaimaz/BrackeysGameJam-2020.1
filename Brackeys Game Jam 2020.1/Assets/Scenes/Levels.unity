@@ -216,6 +216,38 @@ MonoBehaviour:
     type: 3}
   EyePrefab: {fileID: 7191116101861196187, guid: 60a603c4a15304c4b95de5f662b5c96d,
     type: 3}
+  FinalPrefab: {fileID: 6012054043607895832, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+    type: 3}
+--- !u!1 &809986150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 809986151}
+  m_Layer: 0
+  m_Name: Final Boss Enemy Spawner
+  m_TagString: EyeSpawner
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &809986151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809986150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.9, y: 21.55, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1154995497 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5291474184486412972, guid: 1b77efe118d8e154282f2bb2d84b33a2,
@@ -502,7 +534,7 @@ PrefabInstance:
     - target: {fileID: 4050224365564549351, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4050224365564549351, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}

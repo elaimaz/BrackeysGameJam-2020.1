@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 443268815142963148}
   - component: {fileID: 4338308809379294363}
   - component: {fileID: 6263210725279310393}
+  - component: {fileID: 5172198409741948979}
   m_Layer: 9
   m_Name: EyeBoss
   m_TagString: Enemy
@@ -188,21 +189,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  speed: 0
-  health: 0
-  searchRange: 0
-  meleeRange: 0
-  meleeDamage: 0
+    m_Bits: 1024
+  speed: 1.2
+  health: 50
+  searchRange: 5
+  meleeRange: 2
+  meleeDamage: 20
   meleeRate: 0
-  longRange: 0
-  longDamage: 0
+  longRange: 3
+  longDamage: 10
   longRate: 0
-  tStartDazed: 0
+  tStartDazed: 0.3
   TouchDamage: 0
-  ProjectilePrefab: {fileID: 0}
+  ProjectilePrefab: {fileID: 8351960021635818646, guid: 5646cdac60ac0d54cb4576653035b070,
+    type: 3}
   MeleeAttackDamageRadius: 0.85
-  ProjectileSpeed: 0
+  ProjectileSpeed: 4
+--- !u!114 &5172198409741948979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191116101861196187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c103ad3cff6f6b043a45fedf5fc58036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9146936153438311780
 GameObject:
   m_ObjectHideFlags: 0

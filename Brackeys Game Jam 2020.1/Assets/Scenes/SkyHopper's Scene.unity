@@ -475,67 +475,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: MeleeAttackDamageRadius
-      value: 0.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: PlayerLayer.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: speed
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: searchRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: meleeRange
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: meleeDamage
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: longRange
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: longDamage
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: health
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: tStartDazed
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: ProjectilePrefab
-      value: 
-      objectReference: {fileID: 8351960021635818646, guid: 5646cdac60ac0d54cb4576653035b070,
-        type: 3}
-    - target: {fileID: 6263210725279310393, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: ProjectileSpeed
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 7191116101861196187, guid: 60a603c4a15304c4b95de5f662b5c96d,
         type: 3}
       propertyPath: m_Name
@@ -555,11 +494,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7191116101861196189, guid: 60a603c4a15304c4b95de5f662b5c96d,
-        type: 3}
-      propertyPath: m_FlipX
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7191116101861196190, guid: 60a603c4a15304c4b95de5f662b5c96d,
         type: 3}
@@ -638,24 +572,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a603c4a15304c4b95de5f662b5c96d, type: 3}
---- !u!1 &949525841 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7191116101861196187, guid: 60a603c4a15304c4b95de5f662b5c96d,
-    type: 3}
-  m_PrefabInstance: {fileID: 949525840}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &949525842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949525841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c103ad3cff6f6b043a45fedf5fc58036, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &972598662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,21 +579,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 612785927084318087, guid: 43bb29f19cafb7742a1e3af538343ab2,
-        type: 3}
-      propertyPath: health
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 612785927084318087, guid: 43bb29f19cafb7742a1e3af538343ab2,
-        type: 3}
-      propertyPath: meleeRange
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 612785927084318087, guid: 43bb29f19cafb7742a1e3af538343ab2,
-        type: 3}
-      propertyPath: TouchDamage
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 2266982320522657609, guid: 43bb29f19cafb7742a1e3af538343ab2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -763,26 +664,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.54
       objectReference: {fileID: 0}
-    - target: {fileID: 7087030937428121805, guid: 43bb29f19cafb7742a1e3af538343ab2,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7087030937428121805, guid: 43bb29f19cafb7742a1e3af538343ab2,
-        type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7087030937428121805, guid: 43bb29f19cafb7742a1e3af538343ab2,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7087030937428121805, guid: 43bb29f19cafb7742a1e3af538343ab2,
-        type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43bb29f19cafb7742a1e3af538343ab2, type: 3}
 --- !u!1 &1097985963 stripped
@@ -804,21 +685,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 158301068343873986, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 158301068343873986, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 158301068343873986, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6852253713208135342, guid: 9858155b602bf174fb2ad767b61ba284,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -883,46 +749,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: PlayerLayer.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: speed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: searchRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: longRange
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: longDamage
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: BoneSpeed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: health
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7969986250674437651, guid: 9858155b602bf174fb2ad767b61ba284,
-        type: 3}
-      propertyPath: tStartDazed
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9858155b602bf174fb2ad767b61ba284, type: 3}
@@ -4273,61 +4099,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 434901811623428338, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: PlayerLayer.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: speed
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: health
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: searchRange
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: meleeRange
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: meleeDamage
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: meleeRate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: longRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: longRate
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
-        type: 3}
-      propertyPath: PullForce
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 2847296244053172081, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4570,21 +4341,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5241399302719959549, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
-        type: 3}
-      propertyPath: longRate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5241399302719959549, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
-        type: 3}
-      propertyPath: meleeRate
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5241399302719959549, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
-        type: 3}
-      propertyPath: TouchDamage
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 5353065107228002032, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
       propertyPath: m_Name

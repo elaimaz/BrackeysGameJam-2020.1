@@ -211,12 +211,12 @@ MonoBehaviour:
   searchRange: 5
   meleeRange: 1.2
   meleeDamage: 10
-  meleeRate: 0
+  meleeRate: 0.8
   longRange: 3
   longDamage: 5
-  longRate: 0
+  longRate: 1
   tStartDazed: 0
-  TouchDamage: 0
+  TouchDamage: 10
   ProjectilePrefab: {fileID: 1962913139061360514, guid: 149732ad063a59944b5b775c342b80c4,
     type: 3}
   ProjectileSpeed: 5
