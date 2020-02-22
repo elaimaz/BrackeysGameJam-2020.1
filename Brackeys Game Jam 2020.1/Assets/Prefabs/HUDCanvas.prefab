@@ -212,7 +212,7 @@ MonoBehaviour:
     m_NumColorKeys: 6
     m_NumAlphaKeys: 3
   fill: {fileID: 2390230548090259898}
-  player: {fileID: 0}
+  healthBarScript: {fileID: 4050224365132627301}
   NumKeyPressToActivate: 3
   PortalJumpPowerUp: 0
   jumpVelocity: 0
@@ -928,7 +928,7 @@ MonoBehaviour:
     m_NumColorKeys: 6
     m_NumAlphaKeys: 3
   fill: {fileID: 2390230547115021560}
-  player: {fileID: 0}
+  healthBarScript: {fileID: 4050224365132627301}
   NumKeyPressToActivate: 2
   PortalJumpPowerUp: 0
   jumpVelocity: 0
@@ -1497,7 +1497,7 @@ MonoBehaviour:
     m_NumColorKeys: 6
     m_NumAlphaKeys: 3
   fill: {fileID: 4050224364837586742}
-  player: {fileID: 0}
+  healthBarScript: {fileID: 4050224365132627301}
   NumKeyPressToActivate: 1
   PortalJumpPowerUp: 1
   jumpVelocity: 10

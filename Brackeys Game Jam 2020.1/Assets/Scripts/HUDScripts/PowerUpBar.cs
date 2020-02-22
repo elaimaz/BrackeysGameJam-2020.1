@@ -12,7 +12,8 @@ public class PowerUpBar : MonoBehaviour
     public Gradient gradient;
     public Image fill;
     
-    public GameObject player;
+    public HealthBar healthBarScript;
+    private GameObject player;
     
     public int NumKeyPressToActivate;
     
@@ -194,6 +195,7 @@ public class PowerUpBar : MonoBehaviour
     }
     
     public void Start(){
+        player = healthBarScript.player;
         playerControllerScript = player.GetComponent<PlayerController>();
         playerManagerScript = player.GetComponent<PlayerManager>();
         

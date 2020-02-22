@@ -9,8 +9,8 @@ public class PortalMoveSelection : MonoBehaviour
     public PowerUpBar sheildPowerUp;
     public PowerUpBar speedPowerUp;
     
-    public int numKey_pressed;
-    public bool portal_initialised = false;
+    private int numKey_pressed;
+    private bool portal_initialised = false;
     
     public GameObject secondaryPortal;
     
