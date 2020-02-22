@@ -10,10 +10,8 @@ public class EnablePowerUp : MonoBehaviour
     public GameObject player;
 
     PlayerManager playerManagerScript;
-    void Start()
-    {
-        //playerManagerScript = player.GetComponent<PlayerManager>();
-    }
+
+    public GameObject powerUpBar;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -29,6 +27,7 @@ public class EnablePowerUp : MonoBehaviour
             {
                 collision.GetComponent<PlayerManager>().haveSpeedPowerUp = true;
             }
+            powerUpBar.SetActive(true);
             Destroy(gameObject);
         }
     }
