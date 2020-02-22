@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-using MyBox;
+using MyAttributes;
 
 [ExecuteInEditMode]
 public class PowerUpBar : MonoBehaviour
