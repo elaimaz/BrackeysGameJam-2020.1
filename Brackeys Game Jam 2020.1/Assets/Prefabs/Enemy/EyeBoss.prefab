@@ -105,7 +105,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 6858319739424484140, guid: ee4ec139747bafd4f818013543c9279a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -190,14 +190,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   speed: 0
+  health: 0
   searchRange: 0
   meleeRange: 0
   meleeDamage: 0
+  meleeRate: 0
   longRange: 0
   longDamage: 0
-  health: 0
+  longRate: 0
   tStartDazed: 0
-  isPlayerInRange: 0
+  TouchDamage: 0
   ProjectilePrefab: {fileID: 0}
   MeleeAttackDamageRadius: 0.85
   ProjectileSpeed: 0
