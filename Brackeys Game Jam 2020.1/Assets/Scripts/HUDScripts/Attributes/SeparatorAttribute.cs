@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MyBox
+namespace MyAttributes
 {
 	public class SeparatorAttribute : PropertyAttribute
 	{
@@ -22,7 +22,7 @@ namespace MyBox
 }
 
 #if UNITY_EDITOR
-namespace MyBox.Internal
+namespace MyAttributes.Internal
 {
 	using UnityEditor;
 	
