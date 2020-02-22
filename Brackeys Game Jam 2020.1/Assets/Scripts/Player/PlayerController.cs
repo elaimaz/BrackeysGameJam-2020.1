@@ -4,6 +4,7 @@ using System;
 
 public class PlayerController : MonoBehaviour
 {
+    public Collider2D coll;
     public bool canMove = true;
     
     public bool jumpPowerCooldown = true;
@@ -55,6 +56,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private ChangeColor changeColor;
 
+    private bool isAboveStari = false;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -99,6 +102,14 @@ public class PlayerController : MonoBehaviour
             {
                 GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
                 playerAnimator.Jump(true);
+            }
+        }
+
+        if(Input.GetAxis("Vertical") < 0)
+        {
+            if(isAboveStari)
+            {
+                coll.isTrigger = true;
             }
         }
         
@@ -195,5 +206,22 @@ public class PlayerController : MonoBehaviour
     {
         canMove = false;
         playerAnimator.Death();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Stair")
+        {
+            isAboveStari = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Stair")
+        {
+            isAboveStari = false;
+            coll.isTrigger = false;
+        }
     }
 }

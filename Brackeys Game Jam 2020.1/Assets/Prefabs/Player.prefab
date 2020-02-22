@@ -811,6 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ec250b75024934c9e23c157fddcebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coll: {fileID: 1804161301780506149}
   canMove: 1
   jumpPowerCooldown: 1
   shieldPowerCooldown: 1
