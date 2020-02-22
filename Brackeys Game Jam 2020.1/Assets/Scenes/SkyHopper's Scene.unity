@@ -141,6 +141,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPortalPowerUp
       objectReference: {fileID: 0}
+    - target: {fileID: 2093501640854774051, guid: 352e715105d8ecd478f373d7694da3d4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2093501640854774052, guid: 352e715105d8ecd478f373d7694da3d4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -363,7 +368,7 @@ PrefabInstance:
     - target: {fileID: 5291474184486412972, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.296
+      value: -4.13
       objectReference: {fileID: 0}
     - target: {fileID: 5291474184486412972, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
@@ -886,6 +891,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9858155b602bf174fb2ad767b61ba284, type: 3}
+--- !u!1001 &1467137481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2324499299039872101, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 2324499299039872101, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 032ed561cdc06bc46984de2778470f4c, type: 3}
 --- !u!1 &1730167108 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2390230546074851239, guid: aa46abf75a31c772da8a3ce99f4f34c6,
@@ -1421,6 +1500,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShieldPortalPowerUp
       objectReference: {fileID: 0}
+    - target: {fileID: 7397655437503437476, guid: 66ec6cc4df6c58b458afa825f9537423,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7397655437503437479, guid: 66ec6cc4df6c58b458afa825f9537423,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1489,6 +1573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpeedPortalPowerUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767229065538711989, guid: 2d8519fb7aebd634e82f24f50497ab95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1767229065538712008, guid: 2d8519fb7aebd634e82f24f50497ab95,
         type: 3}
@@ -1656,6 +1745,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aa2262d552712b4f9cefb8a7ad498d7, type: 3}
+--- !u!1001 &5429355033060704835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532619835075687986, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717681474260980071, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_Name
+      value: GateCloseInstantly
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717681474260980071, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ae57949606dfc149ad817ecf6a9c2ce, type: 3}
 --- !u!1001 &5660184273305622243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1890,6 +2053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthPowerUP
+      objectReference: {fileID: 0}
+    - target: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8269f5ce6f98e9a40aecd97ac33f6f91, type: 3}
