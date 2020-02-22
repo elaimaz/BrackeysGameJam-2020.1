@@ -334,7 +334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436590596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2960002, y: -1.5500002, z: -10}
+  m_LocalPosition: {x: -4.1300006, y: -1.5500002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1663,6 +1663,11 @@ PrefabInstance:
       propertyPath: meleeRate
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 5241399302719959549, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
+        type: 3}
+      propertyPath: TouchDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5353065107228002032, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
       propertyPath: m_Name
@@ -1681,7 +1686,7 @@ PrefabInstance:
     - target: {fileID: 5353065107228002038, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.55
+      value: -6.04
       objectReference: {fileID: 0}
     - target: {fileID: 5353065107228002038, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
@@ -1913,7 +1918,7 @@ PrefabInstance:
     - target: {fileID: 8726430972032790112, guid: c9c414f287ced7347bd9ce58a4570d46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2960002
+      value: -4.1300006
       objectReference: {fileID: 0}
     - target: {fileID: 8726430972032790112, guid: c9c414f287ced7347bd9ce58a4570d46,
         type: 3}
