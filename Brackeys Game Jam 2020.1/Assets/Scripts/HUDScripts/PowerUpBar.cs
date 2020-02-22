@@ -39,20 +39,19 @@ public class PowerUpBar : MonoBehaviour
     public float PowerUpDelayTime = 10f;
     
     [Tooltip("Using this feature will let you set the duration of the effect to last. Setting it to False will let it last for a lifetime.")]
-    public bool useActiveTime;
+    public bool useActiveTime = true;
 //    [Tooltip("Use this to control how long the PowerUp is to last.")]
     [ConditionalField("useActiveTime")]
     [Range(0, 30)]
     public float ActiveDuration = 10;
     
     [Tooltip("Using this feature will let the powerBar increase upon set time. Disable to not increase based on time.")]
-    public bool useCoolDown;
+    public bool useCoolDown = true;
 //    [Tooltip("Use this to control how long the PowerUp takes going from 0 to maxValue.")]
     [ConditionalField("useCoolDown")]
     [Range(1, 80)]
     public float coolDownTime = 10.0f;
     
-//    private bool isCoolingDown = true;
     private float startTime = 0.0f;
     
     private PlayerController playerControllerScript;
@@ -69,6 +68,8 @@ public class PowerUpBar : MonoBehaviour
     
     public Text text;
     private string ReadyText = "Press {} Ready!";
+    
+    private bool portal_created = false;
     
     public PortalMoveSelection portalMoveScript;
     
@@ -95,13 +96,24 @@ public class PowerUpBar : MonoBehaviour
         } else if ((Input.GetKeyDown(KeyCode.Keypad9) || Input.GetKeyDown(KeyCode.Alpha9)) && (NumKeyPressToActivate == 9)) {
             toogleSelect();
         }
+        
+        if (portal_created && ready && Input.GetMouseButtonDown(0)){
+            //Send player to portal.
+            StartCoroutine(Jump());
+            
+            //Jump player and activate powerup.
+            activatePowerUp();
+            
+            //Deactivate the secondary portal.
+            toogleSelect();
+        }
     }
     
     void FixedUpdate(){
         
+        //Increase only if setting set in editor;
         if (useCoolDown)
             //Increase powerUp based on cooldown value.
-            
             slider.value += (1f/coolDownTime)*slider.maxValue*Time.fixedDeltaTime;
     
         //Code to set to ready.
@@ -128,7 +140,7 @@ public class PowerUpBar : MonoBehaviour
     
     void toogleSelect(){
         //Code to select
-        portalMoveScript.pressApproved(NumKeyPressToActivate);
+        portal_created = portalMoveScript.pressApproved(NumKeyPressToActivate);
     }
     
     void activatePowerUp(){
@@ -141,26 +153,29 @@ public class PowerUpBar : MonoBehaviour
         
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
         
+        /*
+        Note:Pls do not check PlayerManager script's settings as its obvious that
+        The boss is defeated if the powerup bar is active. Its easier to enable
+        powerupbar in editor and test this way.
+        */
+        
         /*This is where we activate powerups.
         Note: we can use 2 powerups in one bar as well, 
         but with same delay and activation time.*/
-        if(PortalJumpPowerUp && playerManagerScript.haveJumpPowerUp == true){
+        if(PortalJumpPowerUp){// && playerManagerScript.haveJumpPowerUp == true){
             playerControllerScript.jumpVelocity = jumpVelocity;
             playerControllerScript.OnPortalJumpPowerUPActivated();
             StartCoroutine(ResetPortalJumpAtribute());
-//            StartCoroutine(JumpPortalRoutine());
         }
-        if(SpeedPowerUp && playerManagerScript.haveSpeedPowerUp == true){
+        if(SpeedPowerUp){// && playerManagerScript.haveSpeedPowerUp == true){
             playerControllerScript.moveSpeed = SpeedValue;
             playerControllerScript.OnSpeedPowerUPActivated();
             StartCoroutine(ResetSpeedAtribute());
-//            StartCoroutine(SpeedPortalRoutine());
         }
-        if(ShieldPowerUp && playerManagerScript.haveShieldPowerUp == true){
+        if(ShieldPowerUp){// && playerManagerScript.haveShieldPowerUp == true){
             playerManagerScript.shieldActive = true;
             playerControllerScript.OnShieldPowerUPActivated();
             StartCoroutine(ResetShieldAtribute());
-//            StartCoroutine(ShieldPortalRoutine());
         }
     }
     
@@ -224,6 +239,11 @@ public class PowerUpBar : MonoBehaviour
     {
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         playerControllerScript.moveSpeed =  playerControllerScript.defaultMoveSpeed;
+    }
+    private IEnumerator Jump()
+    {
+        yield return new WaitForSeconds(1.1f);
+        player.transform.position = portalMoveScript.secondaryPortal.transform.position;
     }
     /******************************************************/
 }

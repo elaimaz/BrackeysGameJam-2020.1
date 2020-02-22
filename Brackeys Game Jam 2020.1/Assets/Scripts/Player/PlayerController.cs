@@ -6,22 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     public bool canMove = true;
     
-    public bool jumpPowerCooldown = true;
-    public bool shieldPowerCooldown = true;
-    public bool speedPowerCooldown = true;
-    [Range(1, 10)]
-    public float jumpPowerUpTime;
-    [Range(5, 30)]
-    public float jumpPowerUpResetTime;
-    [Range(1, 10)]
-    public float shieldPowerUpTime;
-    [Range(5, 30)]
-    public float shieldPowerUpResetTime;
-    [Range(1, 10)]
-    public float speedPowerUpTime;
-    [Range(5, 30)]
-    public float speedPowerUpResetTime;
-
     [Range(1, 10)]
     public float defaultMoveSpeed = 3f;
     [HideInInspector]
@@ -121,7 +105,6 @@ public class PlayerController : MonoBehaviour
         //When shield powerup is activated.
         changeColor.ChangePortalColor(2);
         //Insert Shield Hability Method
-        shieldPowerCooldown = false;
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
         //Inset coroutine of when shield will fade.... i recomend 3s
@@ -130,7 +113,6 @@ public class PlayerController : MonoBehaviour
         //When speed powerup is activated.
         changeColor.ChangePortalColor(1);
         moveSpeed = 6.0f;
-        speedPowerCooldown = false;
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
     }
