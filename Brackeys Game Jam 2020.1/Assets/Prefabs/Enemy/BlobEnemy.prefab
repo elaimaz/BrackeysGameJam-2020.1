@@ -124,14 +124,14 @@ MonoBehaviour:
   speed: 1.5
   health: 50
   searchRange: 4
-  meleeRange: 1.2
+  meleeRange: 1.4
   meleeDamage: 10
   meleeRate: 2
   longRange: 0
   longDamage: 0
   longRate: 0
   tStartDazed: 0.6
-  TouchDamage: 0
+  TouchDamage: 20
 --- !u!114 &6038365909628097453
 MonoBehaviour:
   m_ObjectHideFlags: 0

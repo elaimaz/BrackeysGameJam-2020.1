@@ -152,20 +152,20 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 1024
-  speed: 1
-  health: 100
+  speed: 2
+  health: 20
   searchRange: 5
   meleeRange: 0
   meleeDamage: 0
   meleeRate: 0
   longRange: 3
-  longDamage: 20
+  longDamage: 10
   longRate: 0
-  tStartDazed: 0
+  tStartDazed: 0.5
   TouchDamage: 0
   BonePrefab: {fileID: 5600552340010305137, guid: fe0ea6075f8522d49a965498fa8e3a90,
     type: 3}
-  BoneSpeed: 2
+  BoneSpeed: 7
 --- !u!70 &2100519845150114834
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -202,7 +202,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!114 &4223107181563347759
 MonoBehaviour:
   m_ObjectHideFlags: 0

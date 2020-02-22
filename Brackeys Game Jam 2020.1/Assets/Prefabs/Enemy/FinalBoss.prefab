@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &240176495496971498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8408922975101678186}
+  m_Layer: 9
+  m_Name: w
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8408922975101678186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240176495496971498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.76, y: 1.52, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2847296244053172081}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &882962144835421210
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +124,7 @@ Transform:
   m_Children:
   - {fileID: 6294984748020039910}
   - {fileID: 5874068364191032168}
+  - {fileID: 8408922975101678186}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -135,7 +166,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2679236821229016148, guid: 7505d891e82eaf04781431f5a0c9e460,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -181,25 +212,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  speed: 0
-  health: 0
-  searchRange: 0
-  meleeRange: 0
-  meleeDamage: 0
-  meleeRate: 0
-  longRange: 0
+    m_Bits: 1024
+  speed: 0.8
+  health: 50
+  searchRange: 50
+  meleeRange: 3
+  meleeDamage: 20
+  meleeRate: 1
+  longRange: 5
   longDamage: 0
-  longRate: 0
+  longRate: 0.2
   tStartDazed: 0
   TouchDamage: 1
-  ProjectilePrefab: {fileID: 0}
-  PullForce: 0
-  ProjectileOrigin: {x: 0, y: 0}
-  size: {x: 0, y: 0}
-  NoOfSpawns: 0
+  PullForce: 12
+  DoAtHealth: 50
+  ProjectileOrigin: {x: 0, y: 0.06}
+  size: {x: 11, y: 1}
+  NoOfSpawns: 1
+  Enemies:
+  - {fileID: 2266982320522657614, guid: 43bb29f19cafb7742a1e3af538343ab2, type: 3}
+  - {fileID: 5323900000033448988, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2, type: 3}
+  - {fileID: 7191116101861196187, guid: 60a603c4a15304c4b95de5f662b5c96d, type: 3}
+  - {fileID: 5353065107228002032, guid: 7aa2262d552712b4f9cefb8a7ad498d7, type: 3}
+  - {fileID: 6852253713208135343, guid: 9858155b602bf174fb2ad767b61ba284, type: 3}
+  checkingRadius: 2
+  LayersToCheck:
+    serializedVersion: 2
+    m_Bits: 1792
   MeleeAttackDamageRadius: 2.9
-  ProjectileSpeed: 0
 --- !u!50 &1352463281385523093
 Rigidbody2D:
   serializedVersion: 4

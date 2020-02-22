@@ -4,27 +4,31 @@ using UnityEngine;
 
 public class FinalBossEnemy : EnemyBase
 {
-    public GameObject ProjectilePrefab;
     public float PullForce;
 
     [Header("Location for Spawn random Enemy")]
+    public int DoAtHealth;
     public Vector2 ProjectileOrigin;
     public Vector2 size;
     public int NoOfSpawns;
+    public GameObject[] Enemies;
+    public float checkingRadius;
+    public LayerMask LayersToCheck;
     [Space()]
     public float MeleeAttackDamageRadius;
-    public float ProjectileSpeed;
 
     private bool isDead = false;
     private int noSpawned;
     private bool isPulling;
     private Vector2 forceVec;
     private Rigidbody2D rb;
+    private bool EnemiesSpawned;
 
     public override void OnDamageTaken(int damage)
     {
         base.OnDamageTaken(damage);
         health -= damage;
+        isPulling = false;
         Debug.Log("Taken " + damage + " health : " + health);
         if (health <= 0)
         {
@@ -37,6 +41,12 @@ public class FinalBossEnemy : EnemyBase
         }
         else
         {
+
+            //if(health <= DoAtHealth && EnemiesSpawned == false)
+            //{
+            //    StartSpawningEnemies();
+            //    EnemiesSpawned = true;
+            //}
             anime.SetTrigger("isTakingDamage");
         }
     }
@@ -80,9 +90,7 @@ public class FinalBossEnemy : EnemyBase
 
     private void CreateProjectiles()
     {
-        GameObject go = Instantiate(ProjectilePrefab, GetRandomPoint(), Quaternion.identity);
-        go.transform.GetChild(Random.Range(0, go.transform.childCount)).gameObject.SetActive(true);
-        go.GetComponent<ProjectileScript>().SetProjectile((int)longDamage, ProjectileSpeed);
+        GameObject go = Instantiate(Enemies[Random.Range(0, Enemies.Length)], GetRandomPoint(), Quaternion.identity);
         noSpawned++;
         if (noSpawned < NoOfSpawns)
         {
@@ -92,13 +100,20 @@ public class FinalBossEnemy : EnemyBase
 
     private Vector2 GetRandomPoint()
     {
-        return new Vector2(transform.GetChild(0).position.x + ProjectileOrigin.x + (Random.Range(0, size.x) - (size.x / 2)), ProjectileOrigin.y + (Random.Range(0, size.y) - (size.y / 2)));
+        Vector2 pos = new Vector2();
+        while(true)
+        {
+            pos.Set(transform.GetChild(2).position.x + ProjectileOrigin.x + (Random.Range(0, size.x) - (size.x / 2)), transform.GetChild(2).position.y + ProjectileOrigin.y + (Random.Range(0, size.y) - (size.y / 2)));
+            if (Physics2D.OverlapCircle(pos, checkingRadius, LayersToCheck) == null)
+                return pos;
+        }
     }
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.GetChild(1).position, MeleeAttackDamageRadius);
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(ProjectileOrigin + (Vector2)transform.GetChild(0).position, size);
+        Gizmos.DrawWireCube(ProjectileOrigin + (Vector2)transform.GetChild(2).position, size);
     }
+
 }
