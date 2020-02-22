@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetAxis("Vertical") < 0)
         {
-            if(isAboveStari)
+            if(isAboveStari && isFalling == false)
             {
                 coll.isTrigger = true;
                 isFalling = true;
