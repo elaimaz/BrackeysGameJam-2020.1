@@ -190,4 +190,10 @@ public class PlayerController : MonoBehaviour
         isFacingRight = !isFacingRight;
         transform.Rotate(0f, 180f, 0f);
     }
+
+    public void PlayerDeath()
+    {
+        canMove = false;
+        playerAnimator.Death();
+    }
 }
