@@ -202,6 +202,12 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(0f, 180f, 0f);
     }
 
+    public void PlayerDeath()
+    {
+        canMove = false;
+        playerAnimator.Death();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Stair")
