@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.EditorTools;
-namespace MyBox
+namespace MyAttributes
 {
 	/// <summary>
 	/// Automatically assign components from this GO to this Property.
@@ -14,7 +14,7 @@ namespace MyBox
 }
 
 #if UNITY_EDITOR
-namespace MyBox.Internal
+namespace MyAttributes.Internal
 {
 	using UnityEditor;
 	using UnityEditor.EditorTools;
