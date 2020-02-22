@@ -517,6 +517,12 @@ MonoBehaviour:
   maxDistance: 2
   player: {fileID: 5291474184486412968}
   moveSpeed: 0.4
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  WallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &4832781684794838890
 Rigidbody2D:
   serializedVersion: 4

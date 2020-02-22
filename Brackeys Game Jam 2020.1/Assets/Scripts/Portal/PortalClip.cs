@@ -6,7 +6,7 @@ public class PortalClip : MonoBehaviour
 {
     public Vector2 center;
     public Vector2 position;
-    public float maxDistance = 2;
+    public float maxDistance = 0.1f;
     float actualDistance = 0;
     
     public GameObject player;
@@ -14,21 +14,37 @@ public class PortalClip : MonoBehaviour
     private Vector3 mousePosition;
     public float moveSpeed = 0.4f;
     
+    public LayerMask GroundLayer;
+    public LayerMask WallLayer;
+    
+    private Vector2 prevPos;
+    
     void Update(){
+        prevPos = position;
+        
         //These two codes move the portal depending on mousePosition.
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+        position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
         
         //These codes constrains portal to circle.
         center = player.transform.position;
-        position = transform.position;
         actualDistance = Vector2.Distance(center, position);
         if (actualDistance > maxDistance)
         {
             Vector2 centerToPosition = position - center;
              centerToPosition.Normalize();
-             transform.position = center + centerToPosition * maxDistance;
+             position = center + centerToPosition * maxDistance;
         }
+        
+        transform.position = position;
+        
+        //Use ray cast. Reset to previous pos if detected.
+        if(Physics2D.Raycast(center, position - center, actualDistance, GroundLayer)){
+            position = transform.position = prevPos;
+        }
+        if(Physics2D.Raycast(center, position - center, actualDistance, WallLayer)){
+            position = transform.position = prevPos;
+        }
+        
     }
-    
 }
