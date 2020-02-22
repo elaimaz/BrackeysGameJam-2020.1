@@ -4,6 +4,7 @@ using System;
 
 public class PlayerController : MonoBehaviour
 {
+    public Collider2D coll;
     public bool canMove = true;
     
     [Range(1, 10)]
@@ -40,6 +41,9 @@ public class PlayerController : MonoBehaviour
     private ChangeColor changeColor;
     public ChangeColor changeColorSecondary;
 
+    private bool isAboveStari = false;
+    private bool isFalling = false;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -51,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxis("Horizontal");
+        movement.x = Input.GetAxis("Horizontal") * (isFalling?0:1);
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (Input.GetMouseButtonDown(1))
@@ -84,6 +88,15 @@ public class PlayerController : MonoBehaviour
             {
                 GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
                 playerAnimator.Jump(true);
+            }
+        }
+
+        if(Input.GetAxis("Vertical") < 0)
+        {
+            if(isAboveStari)
+            {
+                coll.isTrigger = true;
+                isFalling = true;
             }
         }
         
@@ -174,5 +187,29 @@ public class PlayerController : MonoBehaviour
     {
         isFacingRight = !isFacingRight;
         transform.Rotate(0f, 180f, 0f);
+    }
+
+    public void PlayerDeath()
+    {
+        canMove = false;
+        playerAnimator.Death();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Stair")
+        {
+            isAboveStari = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Stair")
+        {
+            isAboveStari = false;
+            coll.isTrigger = false;
+            isFalling = false;
+        }
     }
 }

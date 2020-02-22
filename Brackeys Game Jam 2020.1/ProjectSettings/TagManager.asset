@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Enemy
   - Health
+  - Stair
+  - BlobSpawner
+  - SkeletonSpawner
+  - SheildSpawner
+  - Drill Spawner
   layers:
   - Default
   - TransparentFX

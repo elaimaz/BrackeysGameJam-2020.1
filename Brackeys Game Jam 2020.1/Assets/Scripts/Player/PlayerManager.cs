@@ -6,10 +6,12 @@ using UnityEngine.Events;
 public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager instance;
+    public PlayerController playerControler;
     public float pushBackForce;
     public int MaxPlayerHealth;
     public int PlayerHealth;
     public bool shieldActive = false;
+    public bool playerAlive = true;
 
     [System.Serializable]
     public class IntEvent : UnityEvent<int> { }
@@ -55,6 +57,11 @@ public class PlayerManager : MonoBehaviour
         if (shieldActive == false)
         {
             PlayerHealth = Mathf.Clamp(PlayerHealth - damage, 0, MaxPlayerHealth);
+            if (PlayerHealth <= 0 && playerAlive == true)
+            {
+                playerAlive = false;
+                playerControler.PlayerDeath();
+            }
         }
     }
 
