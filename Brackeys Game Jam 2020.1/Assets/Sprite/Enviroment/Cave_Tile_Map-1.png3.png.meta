@@ -1,0 +1,1294 @@
+fileFormatVersion: 2
+guid: 47aa38de557f0a941b9e3c677ea4daa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2751632857060383
+    second: Cave_Tile_Map-1.png3_0
+  - first:
+      213: 9004096233736008046
+    second: Cave_Tile_Map-1.png3_1
+  - first:
+      213: 3490126876764813210
+    second: Cave_Tile_Map-1.png3_2
+  - first:
+      213: -7204709331537957313
+    second: Cave_Tile_Map-1.png3_3
+  - first:
+      213: -3451445223457047070
+    second: Cave_Tile_Map-1.png3_4
+  - first:
+      213: 8669526110741321617
+    second: Cave_Tile_Map-1.png3_5
+  - first:
+      213: -1294397682860046714
+    second: Cave_Tile_Map-1.png3_6
+  - first:
+      213: -5273964217152018622
+    second: Cave_Tile_Map-1.png3_7
+  - first:
+      213: 4051054401625630416
+    second: Cave_Tile_Map-1.png3_8
+  - first:
+      213: 5786701089600933714
+    second: Cave_Tile_Map-1.png3_9
+  - first:
+      213: -3955808610697692788
+    second: Cave_Tile_Map-1.png3_10
+  - first:
+      213: -7150543593456762191
+    second: Cave_Tile_Map-1.png3_11
+  - first:
+      213: 5691996322025168334
+    second: Cave_Tile_Map-1.png3_12
+  - first:
+      213: -2806557343843259776
+    second: Cave_Tile_Map-1.png3_13
+  - first:
+      213: -4237023595347837928
+    second: Cave_Tile_Map-1.png3_14
+  - first:
+      213: 5542663782567194072
+    second: Cave_Tile_Map-1.png3_15
+  - first:
+      213: 7739832798046069171
+    second: Cave_Tile_Map-1.png3_16
+  - first:
+      213: 1115979816123939745
+    second: Cave_Tile_Map-1.png3_17
+  - first:
+      213: -7341715870900907877
+    second: Cave_Tile_Map-1.png3_18
+  - first:
+      213: -8379201954108927605
+    second: Cave_Tile_Map-1.png3_19
+  - first:
+      213: 2593852637470749927
+    second: Cave_Tile_Map-1.png3_20
+  - first:
+      213: -2213880441157795164
+    second: Cave_Tile_Map-1.png3_21
+  - first:
+      213: 1706292644294404168
+    second: Cave_Tile_Map-1.png3_22
+  - first:
+      213: -2236202114993780790
+    second: Cave_Tile_Map-1.png3_23
+  - first:
+      213: -4498467343602760895
+    second: Cave_Tile_Map-1.png3_24
+  - first:
+      213: 6642493690802044991
+    second: Cave_Tile_Map-1.png3_25
+  - first:
+      213: -6567576173510369421
+    second: Cave_Tile_Map-1.png3_26
+  - first:
+      213: 1148039389619323723
+    second: Cave_Tile_Map-1.png3_27
+  - first:
+      213: -7320740386733931395
+    second: Cave_Tile_Map-1.png3_28
+  - first:
+      213: -8312424875233316173
+    second: Cave_Tile_Map-1.png3_29
+  - first:
+      213: 1345723304922168070
+    second: Cave_Tile_Map-1.png3_30
+  - first:
+      213: 6298863007892415421
+    second: Cave_Tile_Map-1.png3_31
+  - first:
+      213: -6085901800351672471
+    second: Cave_Tile_Map-1.png3_32
+  - first:
+      213: -7295098902463137791
+    second: Cave_Tile_Map-1.png3_33
+  - first:
+      213: 2732993140481260347
+    second: Cave_Tile_Map-1.png3_34
+  - first:
+      213: -7368318575372523815
+    second: Cave_Tile_Map-1.png3_35
+  - first:
+      213: -2477756563330738016
+    second: Cave_Tile_Map-1.png3_36
+  - first:
+      213: -5009203453220996532
+    second: Cave_Tile_Map-1.png3_37
+  - first:
+      213: -5173364403223844959
+    second: Cave_Tile_Map-1.png3_38
+  - first:
+      213: 8842781315561930702
+    second: Cave_Tile_Map-1.png3_39
+  - first:
+      213: 4201740348041899098
+    second: Cave_Tile_Map-1.png3_40
+  - first:
+      213: 687535219928424529
+    second: Cave_Tile_Map-1.png3_41
+  - first:
+      213: 5145081672299371072
+    second: Cave_Tile_Map-1.png3_42
+  - first:
+      213: -5965558003854482442
+    second: Cave_Tile_Map-1.png3_43
+  - first:
+      213: -4042609198333029943
+    second: Cave_Tile_Map-1.png3_44
+  - first:
+      213: 4599321456728848504
+    second: Cave_Tile_Map-1.png3_45
+  - first:
+      213: -411605639504463383
+    second: Cave_Tile_Map-1.png3_46
+  - first:
+      213: 7407625663872175844
+    second: Cave_Tile_Map-1.png3_47
+  - first:
+      213: 422237027188110588
+    second: Cave_Tile_Map-1.png3_48
+  - first:
+      213: 1552677299618877991
+    second: Cave_Tile_Map-1.png3_49
+  - first:
+      213: 7340962991517798041
+    second: Cave_Tile_Map-1.png3_50
+  - first:
+      213: -964392817630176827
+    second: Cave_Tile_Map-1.png3_51
+  - first:
+      213: 3789433847455797018
+    second: Cave_Tile_Map-1.png3_52
+  - first:
+      213: -4741304743519716922
+    second: Cave_Tile_Map-1.png3_53
+  - first:
+      213: 2732491970867120163
+    second: Cave_Tile_Map-1.png3_54
+  - first:
+      213: 519483361307469585
+    second: Cave_Tile_Map-1.png3_55
+  - first:
+      213: -6659171673116200471
+    second: Cave_Tile_Map-1.png3_56
+  - first:
+      213: -6873930548515745151
+    second: Cave_Tile_Map-1.png3_57
+  - first:
+      213: 4383316316212659229
+    second: Cave_Tile_Map-1.png3_58
+  - first:
+      213: -118890946807901014
+    second: Cave_Tile_Map-1.png3_59
+  - first:
+      213: -5977509267040328822
+    second: Cave_Tile_Map-1.png3_60
+  - first:
+      213: 3029042089383610020
+    second: Cave_Tile_Map-1.png3_61
+  - first:
+      213: 1935062598530599171
+    second: Cave_Tile_Map-1.png3_62
+  - first:
+      213: 2902842042064011628
+    second: Cave_Tile_Map-1.png3_63
+  - first:
+      213: -2310276854951314389
+    second: Cave_Tile_Map-1.png3_64
+  - first:
+      213: 4029567690931544829
+    second: Cave_Tile_Map-1.png3_65
+  - first:
+      213: -6717865593734133776
+    second: Cave_Tile_Map-1.png3_66
+  - first:
+      213: -3483983640970610346
+    second: Cave_Tile_Map-1.png3_67
+  - first:
+      213: -5756024649627105160
+    second: Cave_Tile_Map-1.png3_68
+  - first:
+      213: -3264647737876758126
+    second: Cave_Tile_Map-1.png3_69
+  - first:
+      213: -6111374501170096816
+    second: Cave_Tile_Map-1.png3_70
+  - first:
+      213: 3879857844853027416
+    second: Cave_Tile_Map-1.png3_71
+  - first:
+      213: 3657104456518708145
+    second: Cave_Tile_Map-1.png3_72
+  - first:
+      213: 6210050066709017324
+    second: Cave_Tile_Map-1.png3_73
+  - first:
+      213: -2394283234066681954
+    second: Cave_Tile_Map-1.png3_74
+  - first:
+      213: 1073459178063453081
+    second: Cave_Tile_Map-1.png3_75
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2847
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f145ff27896c90000800000000000000
+      internalID: 2751632857060383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2847
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61744f91d9f4fc70800000000000000
+      internalID: 9004096233736008046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_2
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2847
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a973c9627eb6f6030800000000000000
+      internalID: 3490126876764813210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_3
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2847
+        width: 321
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eecbff80bb30c90800000000000000
+      internalID: -7204709331537957313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_4
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 2847
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edbf161bd00a10d0800000000000000
+      internalID: -3451445223457047070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_5
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2847
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197d5b98018505870800000000000000
+      internalID: 8669526110741321617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_6
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2847
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686c90b5a20690ee0800000000000000
+      internalID: -1294397682860046714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_7
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2847
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2476886bc7d1fc6b0800000000000000
+      internalID: -5273964217152018622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_8
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2847
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6adaec38c383830800000000000000
+      internalID: 4051054401625630416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2495
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f87035bfd7e4050800000000000000
+      internalID: 5786701089600933714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2495
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89beeff6052a19c0800000000000000
+      internalID: -3955808610697692788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_11
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2495
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b28019ac7a24cc90800000000000000
+      internalID: -7150543593456762191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_14
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2495
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cf75e1d711335c0800000000000000
+      internalID: -4237023595347837928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_15
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2495
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd275d085f7bec40800000000000000
+      internalID: 5542663782567194072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2142
+        width: 322
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b909a11405cfc1a90800000000000000
+      internalID: -7341715870900907877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_19
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2142
+        width: 322
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b811418b73817bb80800000000000000
+      internalID: -8379201954108927605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_20
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2272
+        width: 324
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e477202b373ff320800000000000000
+      internalID: 2593852637470749927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_29
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2239
+        width: 322
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2f899fd9554ac80800000000000000
+      internalID: -8312424875233316173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_38
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2142
+        width: 322
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a721342c748438b0800000000000000
+      internalID: -5173364403223844959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1791
+        width: 131
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3e3453a94163da0800000000000000
+      internalID: -5965558003854482442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_44
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1791
+        width: 322
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c112af4a54c5e7c0800000000000000
+      internalID: -4042609198333029943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_45
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1791
+        width: 324
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878b7242f7214df30800000000000000
+      internalID: 4599321456728848504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_46
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1791
+        width: 321
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9f9c50adea94af0800000000000000
+      internalID: -411605639504463383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_47
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1789
+        width: 319
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee0b244b4c2dc660800000000000000
+      internalID: 7407625663872175844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_49
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1791
+        width: 225
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722989e07c73c8510800000000000000
+      internalID: 1552677299618877991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_50
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1791
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e05ba52f650e560800000000000000
+      internalID: 7340962991517798041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_51
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 1791
+        width: 322
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9173987d9cd92f0800000000000000
+      internalID: -964392817630176827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_52
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1791
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fc179c106c69430800000000000000
+      internalID: 3789433847455797018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_53
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1503
+        width: 258
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9f1aec470833eb0800000000000000
+      internalID: -4741304743519716922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1439
+        width: 129
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328442b58f2cbe520800000000000000
+      internalID: 2732491970867120163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_55
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1472
+        width: 130
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11725716d53953700800000000000000
+      internalID: 519483361307469585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_56
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1439
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1b09525aed593a0800000000000000
+      internalID: -6659171673116200471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_57
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1439
+        width: 289
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1825305f594ea90a0800000000000000
+      internalID: -6873930548515745151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_58
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1439
+        width: 258
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14870e37faa4dc30800000000000000
+      internalID: 4383316316212659229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_59
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1439
+        width: 163
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa45184505d995ef0800000000000000
+      internalID: -118890946807901014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_60
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 1444
+        width: 257
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83a478edfe9b0da0800000000000000
+      internalID: -5977509267040328822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_63
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1439
+        width: 258
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c618b441577f84820800000000000000
+      internalID: 2902842042064011628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1087
+        width: 321
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2ad502776ebe730800000000000000
+      internalID: 4029567690931544829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_67
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1088
+        width: 321
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659bca4665766afc0800000000000000
+      internalID: -3483983640970610346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_12
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 2176
+        width: 225
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd3255f780efe40800000000000000
+      internalID: 5691996322025168334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_13
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 2174
+        width: 228
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a657e27fa1d09d0800000000000000
+      internalID: -2806557343843259776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_16
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2176
+        width: 224
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b124742ce8696b60800000000000000
+      internalID: 7739832798046069171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_Tile_Map-1.png3_17
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2176
+        width: 225
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abb294eab1cc7f00800000000000000
+      internalID: 1115979816123939745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
