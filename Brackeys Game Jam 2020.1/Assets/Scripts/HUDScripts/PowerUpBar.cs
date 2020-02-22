@@ -127,8 +127,8 @@ public class PowerUpBar : MonoBehaviour
     }
     
     void toogleSelect(){
-        
-        //portalMoveScript
+        //Code to select
+        portalMoveScript.pressApproved(NumKeyPressToActivate);
     }
     
     void activatePowerUp(){
