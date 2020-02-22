@@ -7,22 +7,6 @@ public class PlayerController : MonoBehaviour
     public Collider2D coll;
     public bool canMove = true;
     
-    public bool jumpPowerCooldown = true;
-    public bool shieldPowerCooldown = true;
-    public bool speedPowerCooldown = true;
-    [Range(1, 10)]
-    public float jumpPowerUpTime;
-    [Range(5, 30)]
-    public float jumpPowerUpResetTime;
-    [Range(1, 10)]
-    public float shieldPowerUpTime;
-    [Range(5, 30)]
-    public float shieldPowerUpResetTime;
-    [Range(1, 10)]
-    public float speedPowerUpTime;
-    [Range(5, 30)]
-    public float speedPowerUpResetTime;
-
     [Range(1, 10)]
     public float defaultMoveSpeed = 3f;
     [HideInInspector]
@@ -47,14 +31,15 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     
     private PlayerAnimatorController playerAnimator;
-
+    
     private Vector3 mousePos;
-
+    
     //0 Jump, 1 Time, 2 Shield.
     public int activePortal = 0;
 
     [SerializeField]
     private ChangeColor changeColor;
+    public ChangeColor changeColorSecondary;
 
     private bool isAboveStari = false;
     private bool isFalling = false;
@@ -125,6 +110,7 @@ public class PlayerController : MonoBehaviour
     public void OnPortalJumpPowerUPActivated(){
         //When jump powerup is activated.
         changeColor.ChangePortalColor(0);
+        changeColorSecondary.ChangePortalColor(0);
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
@@ -133,8 +119,8 @@ public class PlayerController : MonoBehaviour
     public void OnShieldPowerUPActivated(){
         //When shield powerup is activated.
         changeColor.ChangePortalColor(2);
+        changeColorSecondary.ChangePortalColor(2);
         //Insert Shield Hability Method
-        shieldPowerCooldown = false;
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
         //Inset coroutine of when shield will fade.... i recomend 3s
@@ -142,8 +128,7 @@ public class PlayerController : MonoBehaviour
     public void OnSpeedPowerUPActivated(){
         //When speed powerup is activated.
         changeColor.ChangePortalColor(1);
-        moveSpeed = 6.0f;
-        speedPowerCooldown = false;
+        changeColorSecondary.ChangePortalColor(1);
         playerAnimator.JumpPortal();
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
     }

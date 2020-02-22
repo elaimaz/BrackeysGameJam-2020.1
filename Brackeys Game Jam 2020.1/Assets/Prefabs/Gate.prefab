@@ -128,7 +128,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openGate: {fileID: 8655487331665180622}
-  closedGate: {fileID: 0}
   closingGate: {fileID: 9171720492735277367}
   invisibleWall: {fileID: 536023799}
 --- !u!1 &2324499299039872101
@@ -206,7 +205,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openGate: {fileID: 8655487331665180622}
-  closedGate: {fileID: 0}
   closingGate: {fileID: 9171720492735277367}
   invisibleWall: {fileID: 536023799}
 --- !u!1 &8655487331665180622
@@ -278,7 +276,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -249004451321099877, guid: 9b203948d1949ea4c92139928bcf5061,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -362,7 +360,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -249004451321099877, guid: 9b203948d1949ea4c92139928bcf5061,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
