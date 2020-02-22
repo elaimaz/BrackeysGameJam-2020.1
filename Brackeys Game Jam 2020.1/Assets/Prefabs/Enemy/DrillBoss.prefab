@@ -136,7 +136,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -9086596019300030437, guid: 8d38712b639ab6e44ae7cf02e1895837,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -230,6 +230,7 @@ MonoBehaviour:
   longDamage: 5
   longRate: 0.2
   tStartDazed: 0.5
+  TouchDamage: 0
   ProjectilePrefab: {fileID: 1153361255511650962, guid: 9e5b6be7a0b05e7499822fd2015576d9,
     type: 3}
   ProjectileOrigin: {x: 1.91, y: 4.92}
