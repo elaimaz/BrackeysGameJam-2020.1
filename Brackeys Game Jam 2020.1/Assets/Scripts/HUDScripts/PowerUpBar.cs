@@ -39,21 +39,18 @@ public class PowerUpBar : MonoBehaviour
     public float PowerUpDelayTime = 10f;
     
     [Tooltip("Using this feature will let you set the duration of the effect to last. Setting it to False will let it last for a lifetime.")]
-    public bool useActiveTime;
+    public bool useActiveTime = true;
 //    [Tooltip("Use this to control how long the PowerUp is to last.")]
     [ConditionalField("useActiveTime")]
     [Range(0, 30)]
     public float ActiveDuration = 10;
     
     [Tooltip("Using this feature will let the powerBar increase upon set time. Disable to not increase based on time.")]
-    public bool useCoolDown;
+    public bool useCoolDown = true;
 //    [Tooltip("Use this to control how long the PowerUp takes going from 0 to maxValue.")]
     [ConditionalField("useCoolDown")]
     [Range(1, 80)]
     public float coolDownTime = 10.0f;
-    
-//    private bool isCoolingDown = true;
-    private float startTime = 0.0f;
     
     private PlayerController playerControllerScript;
     private PlayerManager playerManagerScript;
@@ -70,36 +67,51 @@ public class PowerUpBar : MonoBehaviour
     public Text text;
     private string ReadyText = "Press {} Ready!";
     
+    private bool portal_created = false;
+    
+    public PortalMoveSelection portalMoveScript;
+    
     public void Update(){
         if (ready && playerControllerScript.isGrounded)
         if ((Input.GetKeyDown(KeyCode.Keypad0) || Input.GetKeyDown(KeyCode.Alpha0)) && (NumKeyPressToActivate == 0)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) && (NumKeyPressToActivate == 1)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) && (NumKeyPressToActivate == 2)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) && (NumKeyPressToActivate == 3)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) && (NumKeyPressToActivate == 4)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKeyDown(KeyCode.Alpha5)) && (NumKeyPressToActivate == 5)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad6) || Input.GetKeyDown(KeyCode.Alpha6)) && (NumKeyPressToActivate == 6)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad7) || Input.GetKeyDown(KeyCode.Alpha7)) && (NumKeyPressToActivate == 7)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad8) || Input.GetKeyDown(KeyCode.Alpha8)) && (NumKeyPressToActivate == 8)) {
-            activatePowerUp();
+            toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad9) || Input.GetKeyDown(KeyCode.Alpha9)) && (NumKeyPressToActivate == 9)) {
+            toogleSelect();
+        }
+        
+        if (portal_created && ready && Input.GetMouseButtonDown(0)){
+            //Send player to portal.
+            StartCoroutine(Jump());
+            
+            //Jump player and activate powerup.
             activatePowerUp();
+            
+            //Deactivate the secondary portal.
+            toogleSelect();
         }
     }
     
     void FixedUpdate(){
         
+        //Increase only if setting set in editor;
         if (useCoolDown)
             //Increase powerUp based on cooldown value.
-            
             slider.value += (1f/coolDownTime)*slider.maxValue*Time.fixedDeltaTime;
     
         //Code to set to ready.
@@ -124,6 +136,27 @@ public class PowerUpBar : MonoBehaviour
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
+    void toogleSelect(){
+        //Code to select Portal Placement.
+        
+        //We check if its created, then resets its position to player.
+        portal_created = portalMoveScript.pressApproved(NumKeyPressToActivate);
+        if(portal_created == true){
+            portalMoveScript.secondaryPortal.transform.position = player.transform.position;
+        }
+        
+        
+        //Here we change secondaryPortal color.
+        if(PortalJumpPowerUp)
+            playerControllerScript.changeColorSecondary.ChangePortalColor(0);
+            
+        if(ShieldPowerUp)
+            playerControllerScript.changeColorSecondary.ChangePortalColor(2);
+            
+        if(SpeedPowerUp)
+            playerControllerScript.changeColorSecondary.ChangePortalColor(1);
+    }
+    
     void activatePowerUp(){
         //Assume Player not ready to use next powerup.
         ready = false;
@@ -134,26 +167,29 @@ public class PowerUpBar : MonoBehaviour
         
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/PortalSwitch");
         
+        /*
+        Note:Pls do not check PlayerManager script's settings as its obvious that
+        The boss is defeated if the powerup bar is active. Its easier to enable
+        powerupbar in editor and test this way.
+        */
+        
         /*This is where we activate powerups.
         Note: we can use 2 powerups in one bar as well, 
         but with same delay and activation time.*/
-        if(PortalJumpPowerUp && playerManagerScript.haveJumpPowerUp == true){
+        if(PortalJumpPowerUp){// && playerManagerScript.haveJumpPowerUp == true){
             playerControllerScript.jumpVelocity = jumpVelocity;
             playerControllerScript.OnPortalJumpPowerUPActivated();
             StartCoroutine(ResetPortalJumpAtribute());
-//            StartCoroutine(JumpPortalRoutine());
         }
-        if(SpeedPowerUp && playerManagerScript.haveSpeedPowerUp == true){
+        if(SpeedPowerUp){// && playerManagerScript.haveSpeedPowerUp == true){
             playerControllerScript.moveSpeed = SpeedValue;
             playerControllerScript.OnSpeedPowerUPActivated();
             StartCoroutine(ResetSpeedAtribute());
-//            StartCoroutine(SpeedPortalRoutine());
         }
-        if(ShieldPowerUp && playerManagerScript.haveShieldPowerUp == true){
+        if(ShieldPowerUp){// && playerManagerScript.haveShieldPowerUp == true){
             playerManagerScript.shieldActive = true;
             playerControllerScript.OnShieldPowerUPActivated();
             StartCoroutine(ResetShieldAtribute());
-//            StartCoroutine(ShieldPortalRoutine());
         }
     }
     
@@ -161,42 +197,6 @@ public class PowerUpBar : MonoBehaviour
         playerControllerScript = player.GetComponent<PlayerController>();
         playerManagerScript = player.GetComponent<PlayerManager>();
         
-        fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
-    
-    public void SetMaxPoints(int points){
-    
-        slider.maxValue = points;
-        
-        fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
-    
-    public void SetPoints(int points){
-        slider.value = points;
-        
-        fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
-    
-    public void AddPoints(int points){
-        if ((slider.value + points)> slider.maxValue){
-            slider.value = slider.maxValue;
-        }
-        else slider.value += points;
-        
-        fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
-    
-    public void RemovePoints(int points){
-        if ((slider.value - points) <= 0){
-            slider.value = 0;
-        }
-        else slider.value -= points;
-        
-        fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
-    
-    public void ResetToZero(){
-        slider.value = 0;
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
     
@@ -217,6 +217,12 @@ public class PowerUpBar : MonoBehaviour
     {
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         playerControllerScript.moveSpeed =  playerControllerScript.defaultMoveSpeed;
+    }
+    //Run to safely do transition.
+    private IEnumerator Jump()
+    {
+        yield return new WaitForSeconds(1.1f);
+        player.transform.position = portalMoveScript.secondaryPortal.transform.position;
     }
     /******************************************************/
 }

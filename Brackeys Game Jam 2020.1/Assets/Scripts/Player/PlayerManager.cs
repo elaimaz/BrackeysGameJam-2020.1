@@ -25,8 +25,9 @@ public class PlayerManager : MonoBehaviour
     [Range(0.1f, 1)]
     public float touchDamageTimeRate;
     public bool canTouchDamage = true;
-
-    //Bools to check if the player has really gotten the power after kill boss in order to use power up
+    
+    //We dont need these bools: just enable or disable PowerUp bar slider when boss is killed.
+//    //Bools to check if the player has really gotten the power after kill boss in order to use power up
     public bool haveJumpPowerUp = false;
     public bool haveShieldPowerUp = false;
     public bool haveSpeedPowerUp = false;
