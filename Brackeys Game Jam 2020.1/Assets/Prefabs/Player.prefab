@@ -512,6 +512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88667a284d1fbdf5b8e4272c4c624c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Pos: {x: 0, y: 0}
+  SizeOfBox: {x: 0.96, y: 0.1}
   center: {x: 0, y: 0}
   position: {x: 0, y: 0}
   maxDistance: 2
@@ -520,9 +522,6 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 256
-  WallLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!50 &4832781684794838890
 Rigidbody2D:
   serializedVersion: 4

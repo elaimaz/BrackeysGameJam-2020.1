@@ -30,15 +30,14 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     
     private PlayerAnimatorController playerAnimator;
-
+    
     private Vector3 mousePos;
-
+    
     //0 Jump, 1 Time, 2 Shield.
     public int activePortal = 0;
 
     [SerializeField]
     private ChangeColor changeColor;
-//    [SerializeField]
     public ChangeColor changeColorSecondary;
 
     private void Start()
