@@ -1741,7 +1741,7 @@ MonoBehaviour:
     m_NumColorKeys: 4
     m_NumAlphaKeys: 3
   fill: {fileID: 4050224365415260292}
-  player: {fileID: 4050224365564549275}
+  player: {fileID: 0}
 --- !u!1 &4050224365142255381
 GameObject:
   m_ObjectHideFlags: 0
