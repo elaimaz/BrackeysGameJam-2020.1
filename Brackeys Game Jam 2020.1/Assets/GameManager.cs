@@ -8,7 +8,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; }
     public Transform StartPos;
+    public GameObject BlobPrefab;
     private Vector2 lastCheckpoint;
+    private Vector2[] BlobSpawn;
 
     private void Awake()
     {
@@ -25,6 +27,13 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         lastCheckpoint = StartPos.position;
+        GameObject[] BlobEnemies = GameObject.FindGameObjectsWithTag("BlobSpawner");
+        BlobSpawn = new Vector2[BlobEnemies.Length];
+        for (int i = 0; i < BlobEnemies.Length; i++)
+        {
+            BlobSpawn[i] = BlobEnemies[i].transform.position;
+        }
+
         SetPlayerPos();
     }
 
@@ -39,7 +48,10 @@ public class GameManager : MonoBehaviour
     private void SetPlayerPos()
     {
         PlayerManager.instance.transform.position = lastCheckpoint;
-
+        for (int i = 0; i < BlobSpawn.Length; i++)
+        {
+            Instantiate(BlobPrefab, BlobSpawn[i], Quaternion.identity);
+        }
     }
 
     public void SetCheckPoint(Vector2 position)

@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
     private ChangeColor changeColor;
 
     private bool isAboveStari = false;
+    private bool isFalling = false;
 
     private void Start()
     {
@@ -69,7 +70,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxis("Horizontal");
+        movement.x = Input.GetAxis("Horizontal") * (isFalling?0:1);
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (Input.GetMouseButtonDown(1))
@@ -110,6 +111,7 @@ public class PlayerController : MonoBehaviour
             if(isAboveStari)
             {
                 coll.isTrigger = true;
+                isFalling = true;
             }
         }
         
@@ -222,6 +224,7 @@ public class PlayerController : MonoBehaviour
         {
             isAboveStari = false;
             coll.isTrigger = false;
+            isFalling = false;
         }
     }
 }
