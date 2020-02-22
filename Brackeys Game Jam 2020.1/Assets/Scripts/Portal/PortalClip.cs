@@ -30,4 +30,5 @@ public class PortalClip : MonoBehaviour
              transform.position = center + centerToPosition * maxDistance;
         }
     }
+    
 }

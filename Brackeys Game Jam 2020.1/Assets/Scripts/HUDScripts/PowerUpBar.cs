@@ -52,8 +52,6 @@ public class PowerUpBar : MonoBehaviour
     [Range(1, 80)]
     public float coolDownTime = 10.0f;
     
-    private float startTime = 0.0f;
-    
     private PlayerController playerControllerScript;
     private PlayerManager playerManagerScript;
     
@@ -140,7 +138,11 @@ public class PowerUpBar : MonoBehaviour
     
     void toogleSelect(){
         //Code to select
+        
         portal_created = portalMoveScript.pressApproved(NumKeyPressToActivate);
+        if(portal_created == true){
+            portalMoveScript.secondaryPortal.transform.position = player.transform.position;
+        }
     }
     
     void activatePowerUp(){
@@ -240,6 +242,7 @@ public class PowerUpBar : MonoBehaviour
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         playerControllerScript.moveSpeed =  playerControllerScript.defaultMoveSpeed;
     }
+    //Run to safely do transition.
     private IEnumerator Jump()
     {
         yield return new WaitForSeconds(1.1f);
