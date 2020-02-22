@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListenerNumber: -1
+  ListenerNumber: 0
 --- !u!114 &565186883 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6160503639785315270, guid: aa46abf75a31c772da8a3ce99f4f34c6,
@@ -4278,15 +4278,65 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: PlayerLayer.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: speed
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: health
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: searchRange
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: meleeRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: meleeDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: meleeRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: longRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: longRate
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609487135002198622, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+        type: 3}
+      propertyPath: PullForce
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2847296244053172081, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.61
       objectReference: {fileID: 0}
     - target: {fileID: 2847296244053172081, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.84
       objectReference: {fileID: 0}
     - target: {fileID: 2847296244053172081, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
         type: 3}
@@ -4341,7 +4391,7 @@ PrefabInstance:
     - target: {fileID: 6012054043607895832, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979, type: 3}
@@ -4543,12 +4593,17 @@ PrefabInstance:
     - target: {fileID: 5353065107228002032, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5353065107228002032, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353065107228002033, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5353065107228002038, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
         type: 3}
