@@ -9,8 +9,9 @@ TagManager:
   - Stair
   - BlobSpawner
   - SkeletonSpawner
-  - SheildSpawner
-  - Drill Spawner
+  - EyeSpawner
+  - DrillSpawner
+  - ShieldSpawner
   layers:
   - Default
   - TransparentFX

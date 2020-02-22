@@ -9,8 +9,16 @@ public class GameManager : MonoBehaviour
     public static GameManager instance { get; private set; }
     public Transform StartPos;
     public GameObject BlobPrefab;
+    public GameObject SkeletonPrefab;
+    public GameObject DrillPrefab;
+    public GameObject ShieldPrefab;
+    public GameObject EyePrefab;
     private Vector2 lastCheckpoint;
     private Vector2[] BlobSpawn;
+    private Vector2[] SkeletonSpawn;
+    private Vector2[] DrillSpawn;
+    private Vector2[] ShieldSpawn;
+    private Vector2[] EyeSpawn;
 
     private void Awake()
     {
@@ -27,14 +35,31 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         lastCheckpoint = StartPos.position;
-        GameObject[] BlobEnemies = GameObject.FindGameObjectsWithTag("BlobSpawner");
-        BlobSpawn = new Vector2[BlobEnemies.Length];
-        for (int i = 0; i < BlobEnemies.Length; i++)
-        {
-            BlobSpawn[i] = BlobEnemies[i].transform.position;
-        }
-
+        SetSpawns("BlobSpawner", out BlobSpawn);
+        SetSpawns("SkeletonSpawner", out SkeletonSpawn); 
+        SetSpawns("DrillSpawner", out DrillSpawn); 
+        SetSpawns("ShieldSpawner", out ShieldSpawn); 
+        SetSpawns("EyeSpawner", out EyeSpawn); 
         SetPlayerPos();
+    }
+
+    private void SetSpawns(string tag, out Vector2[] pos)
+    {
+        GameObject[] Enemies = GameObject.FindGameObjectsWithTag(tag);
+
+        pos = new Vector2[Enemies.Length];
+        for (int i = 0; i < Enemies.Length; i++)
+        {
+            pos[i] = Enemies[i].transform.position;
+        }
+    }
+
+    private void SpawnEnemy(Vector2[] pos , GameObject prefab)
+    {
+        for (int i = 0; i < pos.Length; i++)
+        {
+            Instantiate(prefab, pos[i], Quaternion.identity);
+        }
     }
 
     private void Update()
@@ -48,10 +73,11 @@ public class GameManager : MonoBehaviour
     private void SetPlayerPos()
     {
         PlayerManager.instance.transform.position = lastCheckpoint;
-        for (int i = 0; i < BlobSpawn.Length; i++)
-        {
-            Instantiate(BlobPrefab, BlobSpawn[i], Quaternion.identity);
-        }
+        SpawnEnemy(BlobSpawn, BlobPrefab);
+        SpawnEnemy(SkeletonSpawn, SkeletonPrefab);
+        SpawnEnemy(DrillSpawn, DrillPrefab);
+        SpawnEnemy(ShieldSpawn, ShieldPrefab);
+        SpawnEnemy(EyeSpawn, EyePrefab);
     }
 
     public void SetCheckPoint(Vector2 position)
