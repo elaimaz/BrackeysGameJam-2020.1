@@ -41,14 +41,14 @@ public class PowerUpBar : MonoBehaviour
     [Tooltip("Using this feature will let you set the duration of the effect to last. Setting it to False will let it last for a lifetime.")]
     public bool useActiveTime = true;
     [Tooltip("Use this to control how long the PowerUp is to last.")]
-    [ConditionalField("useActiveTime")]
+    //[ConditionalField("useActiveTime")]
     [Range(0, 30)]
     public float ActiveDuration = 10;
     
     [Tooltip("Using this feature will let the powerBar increase upon set time. Disable to not increase based on time.")]
     public bool useCoolDown = true;
     [Tooltip("Use this to control how long the PowerUp takes going from 0 to maxValue.")]
-    [ConditionalField("useCoolDown")]
+    //[ConditionalField("useCoolDown")]
     [Range(1, 80)]
     public float coolDownTime = 10.0f;
     
@@ -56,6 +56,7 @@ public class PowerUpBar : MonoBehaviour
     private float startTime = 0.0f;
     
     private PlayerController playerControllerScript;
+    private PlayerManager playerManagerScript;
     
     [Tooltip("ReducePartially set to false will reset upon powerup activation.")]
     public bool ReducePartially = false;
@@ -136,19 +137,20 @@ public class PowerUpBar : MonoBehaviour
         /*This is where we activate powerups.
         Note: we can use 2 powerups in one bar as well, 
         but with same delay and activation time.*/
-        if(PortalJumpPowerUp){
+        if(PortalJumpPowerUp && playerManagerScript.haveJumpPowerUp == true){
             playerControllerScript.jumpVelocity = jumpVelocity;
             playerControllerScript.OnPortalJumpPowerUPActivated();
             StartCoroutine(ResetPortalJumpAtribute());
 //            StartCoroutine(JumpPortalRoutine());
         }
-        if(SpeedPowerUp){
+        if(SpeedPowerUp && playerManagerScript.haveSpeedPowerUp == true){
             playerControllerScript.moveSpeed = SpeedValue;
             playerControllerScript.OnSpeedPowerUPActivated();
             StartCoroutine(ResetSpeedAtribute());
 //            StartCoroutine(SpeedPortalRoutine());
         }
-        if(ShieldPowerUp){
+        if(ShieldPowerUp && playerManagerScript.haveShieldPowerUp == true){
+            playerManagerScript.shieldActive = true;
             playerControllerScript.OnShieldPowerUPActivated();
             StartCoroutine(ResetShieldAtribute());
 //            StartCoroutine(ShieldPortalRoutine());
@@ -157,6 +159,7 @@ public class PowerUpBar : MonoBehaviour
     
     public void Start(){
         playerControllerScript = player.GetComponent<PlayerController>();
+        playerManagerScript = player.GetComponent<PlayerManager>();
         
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
@@ -207,7 +210,7 @@ public class PowerUpBar : MonoBehaviour
     private IEnumerator ResetShieldAtribute()
     {
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
-        //Reset Shield.
+        playerManagerScript.shieldActive = false;
     }
 
     private IEnumerator ResetSpeedAtribute()

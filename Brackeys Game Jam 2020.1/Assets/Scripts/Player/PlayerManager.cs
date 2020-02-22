@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public float pushBackForce;
     public int MaxPlayerHealth;
     public int PlayerHealth;
+    public bool shieldActive = false;
 
     [System.Serializable]
     public class IntEvent : UnityEvent<int> { }
@@ -18,6 +19,15 @@ public class PlayerManager : MonoBehaviour
     private Vector2 forceVec;
     private bool isInEnemyRange;
     private Rigidbody2D rb;
+
+    [Range(0.1f, 1)]
+    public float touchDamageTimeRate;
+    public bool canTouchDamage = true;
+
+    //Bools to check if the player has really gotten the power after kill boss in order to use power up
+    public bool haveJumpPowerUp = false;
+    public bool haveShieldPowerUp = false;
+    public bool haveSpeedPowerUp = false;
 
     private void Awake()
     {
@@ -41,7 +51,10 @@ public class PlayerManager : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        PlayerHealth = Mathf.Clamp(PlayerHealth - damage, 0, MaxPlayerHealth);
+        if (shieldActive == false)
+        {
+            PlayerHealth = Mathf.Clamp(PlayerHealth - damage, 0, MaxPlayerHealth);
+        }
     }
 
     public void GainHealth(int health)
@@ -55,6 +68,11 @@ public class PlayerManager : MonoBehaviour
         {
             forceVec = (collision.transform.position - transform.position).normalized * pushBackForce * -1f;
             isInEnemyRange = true;
+            if (canTouchDamage == true)
+            {
+                TakeDamage(collision.gameObject.GetComponent<EnemyBase>().TouchDamage);
+                StartCoroutine(TouchDamageReset());
+            }    
         }
     }
 
@@ -64,5 +82,12 @@ public class PlayerManager : MonoBehaviour
         {
             isInEnemyRange = false;
         }
+    }
+
+    protected IEnumerator TouchDamageReset()
+    {
+        canTouchDamage = false;
+        yield return new WaitForSeconds(touchDamageTimeRate);
+        canTouchDamage = true;
     }
 }

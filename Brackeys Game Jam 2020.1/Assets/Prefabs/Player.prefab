@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 8385859438168763063}
   - component: {fileID: 5692226299861660782}
   - component: {fileID: 553079927}
+  - component: {fileID: 6368696462261321214}
   m_Layer: 0
   m_Name: MeleeWeapon
   m_TagString: Untagged
@@ -250,6 +251,18 @@ MonoBehaviour:
   playerAnime: {fileID: 487811023}
   anime: {fileID: 8385859438168763063}
 --- !u!114 &553079927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091719375631032925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61cd41632b7f504ea52805331c490e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6368696462261321214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -692,6 +705,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorToTurnTo: {r: 0, g: 0.55, b: 1, a: 1}
+  PortalJumpColor: {r: 0, g: 0.55, b: 1, a: 1}
+  PortalTimeSpeedColor: {r: 0, g: 1, b: 0, a: 1}
+  PortalShieldJumpColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &5291474184486412968
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,7 +812,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMove: 1
+  jumpPowerCooldown: 1
+  shieldPowerCooldown: 1
+  speedPowerCooldown: 1
+  jumpPowerUpTime: 10
+  jumpPowerUpResetTime: 20
+  shieldPowerUpTime: 3
+  shieldPowerUpResetTime: 10
+  speedPowerUpTime: 5
+  speedPowerUpResetTime: 30
+  defaultMoveSpeed: 3
   moveSpeed: 3
+  defaultJumpVelocity: 6
   jumpVelocity: 6
   fallMultiplier: 3
   lowJumpMultiplier: 2
@@ -879,12 +906,18 @@ MonoBehaviour:
   pushBackForce: 30
   MaxPlayerHealth: 100
   PlayerHealth: 80
+  shieldActive: 0
   OnSetMaxHealth:
     m_PersistentCalls:
       m_Calls: []
   OnHealthChanged:
     m_PersistentCalls:
       m_Calls: []
+  touchDamageTimeRate: 0.5
+  canTouchDamage: 1
+  haveJumpPowerUp: 0
+  haveShieldPowerUp: 0
+  haveSpeedPowerUp: 0
 --- !u!70 &8353793046457436623
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -973,7 +1006,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -789359428258833396, guid: 2a0aded2ac4fa844bab1f745f60f1951,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
