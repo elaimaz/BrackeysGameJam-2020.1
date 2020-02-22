@@ -484,7 +484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3135210784522026844
 Transform:
   m_ObjectHideFlags: 0
@@ -1162,10 +1162,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeadca239589694498b4d23169472f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerControler: {fileID: 5291474184486412973}
   pushBackForce: 30
   MaxPlayerHealth: 100
   PlayerHealth: 80
   shieldActive: 0
+  playerAlive: 1
   OnSetMaxHealth:
     m_PersistentCalls:
       m_Calls: []
