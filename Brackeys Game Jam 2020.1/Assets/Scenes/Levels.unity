@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 75910857}
   - component: {fileID: 75910856}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ShieldBossRoom
   m_TagString: BossRoom
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105806021}
   - component: {fileID: 105806022}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FinalBossRoom
   m_TagString: BossRoom
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1404580660}
   - component: {fileID: 1404580659}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: DrillBossRoom
   m_TagString: BossRoom
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1495040372}
   - component: {fileID: 1495040371}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: EyeBossRoom
   m_TagString: BossRoom
   m_Icon: {fileID: 0}
