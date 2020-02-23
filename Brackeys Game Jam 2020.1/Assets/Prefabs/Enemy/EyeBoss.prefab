@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4338308809379294363}
   - component: {fileID: 6263210725279310393}
   - component: {fileID: 5172198409741948979}
+  - component: {fileID: 8326528534593519790}
   m_Layer: 9
   m_Name: EyeBoss
   m_TagString: Enemy
@@ -203,6 +204,7 @@ MonoBehaviour:
   TouchDamage: 0
   roomGate: {fileID: 0}
   powerUpGate: {fileID: 0}
+  disableCollisionAttack: 0
   ProjectilePrefab: {fileID: 8351960021635818646, guid: 5646cdac60ac0d54cb4576653035b070,
     type: 3}
   MeleeAttackDamageRadius: 0.85
@@ -219,6 +221,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c103ad3cff6f6b043a45fedf5fc58036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8326528534593519790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191116101861196187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a19ee038ef1bc110a43d1aa38d04af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
+    type: 3}
 --- !u!1 &9146936153438311780
 GameObject:
   m_ObjectHideFlags: 0
