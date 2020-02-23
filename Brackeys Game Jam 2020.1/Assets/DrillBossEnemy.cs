@@ -16,6 +16,13 @@ public class DrillBossEnemy : EnemyBase
     private bool isDead = false;
     private int noSpawned;
 
+    protected override void Start()
+    {
+        base.Start();
+        powerUpGate = GameObject.Find("ClosedGateDrillBossPowerUp");
+        roomGate = GameObject.Find("GateCloseInstantly");
+    }
+
     public override void OnDamageTaken(int damage)
     {
         base.OnDamageTaken(damage);
