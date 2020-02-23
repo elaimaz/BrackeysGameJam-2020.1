@@ -61,6 +61,7 @@ GameObject:
   - component: {fileID: 3641361766178688077}
   - component: {fileID: 7131612667226874228}
   - component: {fileID: 5241399302719959549}
+  - component: {fileID: -3362472907647781566}
   m_Layer: 9
   m_Name: ShieldBoss
   m_TagString: Enemy
@@ -217,9 +218,26 @@ MonoBehaviour:
   longRate: 1
   tStartDazed: 0
   TouchDamage: 10
+  roomGate: {fileID: 0}
+  powerUpGate: {fileID: 0}
+  disableCollisionAttack: 0
   ProjectilePrefab: {fileID: 1962913139061360514, guid: 149732ad063a59944b5b775c342b80c4,
     type: 3}
   ProjectileSpeed: 5
+--- !u!114 &-3362472907647781566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5353065107228002032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a19ee038ef1bc110a43d1aa38d04af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
+    type: 3}
 --- !u!1 &6806944233973962485
 GameObject:
   m_ObjectHideFlags: 0
