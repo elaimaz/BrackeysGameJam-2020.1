@@ -11,6 +11,13 @@ public class FMODBlob : MonoBehaviour
         Footsteps.start();
         Footsteps.release();
     }
+    void PlayMelee(string path)
+    {
+        FMOD.Studio.EventInstance Melee = FMODUnity.RuntimeManager.CreateInstance(path);
+        Melee.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+        Melee.start();
+        Melee.release();
+    }
     void PlayDamage(string path)
     {
         FMOD.Studio.EventInstance Damage = FMODUnity.RuntimeManager.CreateInstance(path);
