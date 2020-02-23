@@ -49,7 +49,9 @@ public class PlayerController : MonoBehaviour
 
     public string LevelMusicEvent = "event:/Music/Area1Music";
     FMOD.Studio.EventInstance levelMusic;
-
+    
+    public GameObject GameOverPanel;
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -202,6 +204,7 @@ public class PlayerController : MonoBehaviour
     {
         canMove = false;
         playerAnimator.Death();
+        GameOverPanel.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
