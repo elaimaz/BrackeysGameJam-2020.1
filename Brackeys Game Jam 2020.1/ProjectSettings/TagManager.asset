@@ -13,6 +13,7 @@ TagManager:
   - DrillSpawner
   - ShieldSpawner
   - FinalSpawner
+  - BossRoom
   layers:
   - Default
   - TransparentFX

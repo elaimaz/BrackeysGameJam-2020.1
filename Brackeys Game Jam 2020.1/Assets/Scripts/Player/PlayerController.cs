@@ -44,12 +44,21 @@ public class PlayerController : MonoBehaviour
     private bool isAboveStari = false;
     private bool isFalling = false;
 
+    public string BossMusicEvent = "event:/Music/BossMusic";
+    FMOD.Studio.EventInstance bossMusic;
+
+    public string LevelMusicEvent = "event:/Music/Area1Music";
+    FMOD.Studio.EventInstance levelMusic;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<PlayerAnimatorController>();
         moveSpeed = defaultMoveSpeed;
         jumpVelocity = defaultJumpVelocity;
+        levelMusic = FMODUnity.RuntimeManager.CreateInstance(LevelMusicEvent);
+        bossMusic = FMODUnity.RuntimeManager.CreateInstance(BossMusicEvent);
+        levelMusic.start();
     }
     
 
@@ -201,6 +210,11 @@ public class PlayerController : MonoBehaviour
         {
             isAboveStari = true;
         }
+        else if (collision.tag == "BossRoom")
+        {
+            levelMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            bossMusic.start();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -211,5 +225,15 @@ public class PlayerController : MonoBehaviour
             coll.isTrigger = false;
             isFalling = false;
         }
+        else if (collision.tag == "BossRoom")
+        {
+            bossMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            levelMusic.start();
+        }
+    }
+    void OnDestroy()
+    {
+        levelMusic.release();
+        bossMusic.release();
     }
 }
