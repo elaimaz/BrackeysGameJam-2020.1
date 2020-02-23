@@ -91,6 +91,18 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "PoisonLake")
+        {
+            if (canTouchDamage == true)
+            {
+                TakeDamage(40);
+                StartCoroutine(TouchDamageReset());
+            }
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
