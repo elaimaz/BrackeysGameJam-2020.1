@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5266666053442899538}
   - component: {fileID: 2275891002577097693}
   - component: {fileID: 8814441179614891659}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ClosedGate
   m_TagString: Untagged
   m_Icon: {fileID: 0}

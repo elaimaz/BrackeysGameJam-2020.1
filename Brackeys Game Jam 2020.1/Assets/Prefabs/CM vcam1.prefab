@@ -91,7 +91,8 @@ MonoBehaviour:
     type: 3}
   EyePrefab: {fileID: 7191116101861196187, guid: 60a603c4a15304c4b95de5f662b5c96d,
     type: 3}
-  FinalPrefab: {fileID: 0}
+  FinalPrefab: {fileID: 6012054043607895832, guid: 145b8ce2c8e3d8a49ac9b1ff12d89979,
+    type: 3}
 --- !u!1 &8726430972654352695
 GameObject:
   m_ObjectHideFlags: 0

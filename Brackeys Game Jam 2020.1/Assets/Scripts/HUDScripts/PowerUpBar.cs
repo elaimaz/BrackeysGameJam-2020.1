@@ -201,9 +201,11 @@ public class PowerUpBar : MonoBehaviour
         playerControllerScript = player.GetComponent<PlayerController>();
         playerManagerScript = player.GetComponent<PlayerManager>();
         
+
+        slider.value = slider.maxValue;
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
-    
+
     /***********************Coroutines**********************/
     private IEnumerator ResetPortalJumpAtribute()
     {
