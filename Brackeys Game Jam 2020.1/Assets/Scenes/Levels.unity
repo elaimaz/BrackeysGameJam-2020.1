@@ -176,7 +176,7 @@ Transform:
   m_LocalScale: {x: 21, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &105806020
 GameObject:
@@ -311,7 +311,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1150514915 stripped
 GameObject:
@@ -322,6 +322,12 @@ GameObject:
 --- !u!4 &1154995497 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5291474184486412972, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1966599062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1278863540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8329848165285316059, guid: 1b77efe118d8e154282f2bb2d84b33a2,
     type: 3}
   m_PrefabInstance: {fileID: 1966599062}
   m_PrefabAsset: {fileID: 0}
@@ -386,7 +392,7 @@ Transform:
   m_LocalScale: {x: 24, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1445398408 stripped
 Transform:
@@ -449,7 +455,7 @@ Transform:
   m_LocalScale: {x: 20, y: 12, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1885204620
 PrefabInstance:
@@ -463,6 +469,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 521725227955454056, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 1278863540}
     - target: {fileID: 2390230546061247651, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: m_Layer
@@ -883,6 +894,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6066814409639064034, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 1278863540}
     - target: {fileID: 6160503639785315270, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: secondaryPortal
@@ -893,6 +909,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6460009203186297932, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 1278863540}
     - target: {fileID: 6600739276285127177, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: m_Layer
