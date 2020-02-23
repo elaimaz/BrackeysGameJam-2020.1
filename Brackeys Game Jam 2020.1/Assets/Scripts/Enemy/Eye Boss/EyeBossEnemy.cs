@@ -10,6 +10,12 @@ public class EyeBossEnemy : EnemyBase
 
     private bool isDead = false;
 
+    protected override void Start()
+    {
+        base.Start();
+        powerUpGate = GameObject.Find("ClosedGateEyeBossPowerUp");
+    }
+
     public override void OnDamageTaken(int damage)
     {
         base.OnDamageTaken(damage);

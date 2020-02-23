@@ -62,6 +62,10 @@ public class PlayerManager : MonoBehaviour
                 playerAlive = false;
                 playerControler.PlayerDeath();
             }
+            else
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Damage");
+            }
         }
     }
 
