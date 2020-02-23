@@ -6,6 +6,7 @@ public class Close : MonoBehaviour
 {
     public void onExitCall()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Click");
         Application.Quit();
     }
 }
