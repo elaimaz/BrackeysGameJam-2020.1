@@ -44,6 +44,7 @@ public class PlayerWeapons : MonoBehaviour
         {
             currWeapon = 1;
             ChangeWeapon();
+//            isHolding = true;
         }
         else if(Input.GetMouseButtonUp(1))
         {
@@ -64,7 +65,7 @@ public class PlayerWeapons : MonoBehaviour
         }
         else if(Input.GetMouseButtonDown(0))
         {
-
+isHolding = true;
         }
         else if(Input.GetMouseButtonUp(0))
         {
