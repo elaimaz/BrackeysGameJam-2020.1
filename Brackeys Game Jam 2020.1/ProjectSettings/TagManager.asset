@@ -45,7 +45,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - HUDCanvas
   - 
   m_SortingLayers:
   - name: Default
