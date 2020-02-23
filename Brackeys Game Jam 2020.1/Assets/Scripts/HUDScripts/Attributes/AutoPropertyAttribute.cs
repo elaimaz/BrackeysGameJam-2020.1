@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEditor;
-using UnityEditor.EditorTools;
+//using UnityEditor.EditorTools;
 namespace MyAttributes
 {
 	/// <summary>
