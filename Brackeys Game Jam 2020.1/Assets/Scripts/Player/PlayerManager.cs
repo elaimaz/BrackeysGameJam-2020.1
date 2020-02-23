@@ -76,7 +76,7 @@ public class PlayerManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if(collision.gameObject.tag == "Enemy" && collision.GetComponent<EnemyBase>().disableCollisionAttack == false)
         {
             forceVec = (collision.transform.position - transform.position).normalized * pushBackForce * -1f;
             isInEnemyRange = true;

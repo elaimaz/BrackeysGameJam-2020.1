@@ -13,6 +13,7 @@ public class SkeletonEnemy : EnemyBase
         Debug.Log("Taken " + damage + " health : " + health);
         if (health <= 0)
         {
+            disableCollisionAttack = true;
             anime.SetTrigger("Death");
             Destroy(gameObject, 1f);
         }

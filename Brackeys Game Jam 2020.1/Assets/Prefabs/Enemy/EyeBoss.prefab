@@ -201,6 +201,8 @@ MonoBehaviour:
   longRate: 0
   tStartDazed: 0.3
   TouchDamage: 0
+  roomGate: {fileID: 0}
+  powerUpGate: {fileID: 0}
   ProjectilePrefab: {fileID: 8351960021635818646, guid: 5646cdac60ac0d54cb4576653035b070,
     type: 3}
   MeleeAttackDamageRadius: 0.85

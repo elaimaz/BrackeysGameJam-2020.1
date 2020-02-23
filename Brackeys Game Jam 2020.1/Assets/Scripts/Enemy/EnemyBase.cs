@@ -28,9 +28,14 @@ public class EnemyBase : MonoBehaviour
     [Range(1, 100)]
     public int TouchDamage;
 
+    public GameObject roomGate;
+    public GameObject powerUpGate;
+
+    public bool disableCollisionAttack = false;
+
     protected Animator anime;
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         if (PlayerPos == null)
         {
@@ -84,5 +89,13 @@ public class EnemyBase : MonoBehaviour
     public virtual void DestroyEnemy()
     {
         Destroy(gameObject);
+        if (roomGate != null)
+        {
+            Destroy(roomGate);
+        }
+        if (powerUpGate != null)
+        {
+            Destroy(powerUpGate);
+        }
     }
 }

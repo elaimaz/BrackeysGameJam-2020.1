@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8726430972032790112}
   - component: {fileID: 8726430972032790113}
+  - component: {fileID: 514969191}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -67,6 +68,30 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 8726430972654352694}
+--- !u!114 &514969191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8726430972032790114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af84d87492fd5ed4881ba8d929da801d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPos: {fileID: 0}
+  BlobPrefab: {fileID: 2266982320522657614, guid: 43bb29f19cafb7742a1e3af538343ab2,
+    type: 3}
+  SkeletonPrefab: {fileID: 6852253713208135343, guid: 9858155b602bf174fb2ad767b61ba284,
+    type: 3}
+  DrillPrefab: {fileID: 5323900000033448988, guid: 38e1c3f849a18274fb1f3d9fb2a0f7b2,
+    type: 3}
+  ShieldPrefab: {fileID: 5353065107228002032, guid: 7aa2262d552712b4f9cefb8a7ad498d7,
+    type: 3}
+  EyePrefab: {fileID: 7191116101861196187, guid: 60a603c4a15304c4b95de5f662b5c96d,
+    type: 3}
+  FinalPrefab: {fileID: 0}
 --- !u!1 &8726430972654352695
 GameObject:
   m_ObjectHideFlags: 0
