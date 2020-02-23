@@ -213,6 +213,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 3
   fill: {fileID: 2390230548090259898}
   healthBarScript: {fileID: 4050224365132627301}
+  sprite: {fileID: 0}
+  colorToChangTo: {r: 0, g: 0, b: 1, a: 1}
   NumKeyPressToActivate: 3
   PortalJumpPowerUp: 0
   jumpVelocity: 0
@@ -929,6 +931,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 3
   fill: {fileID: 2390230547115021560}
   healthBarScript: {fileID: 4050224365132627301}
+  sprite: {fileID: 0}
+  colorToChangTo: {r: 0, g: 0.58560514, b: 1, a: 1}
   NumKeyPressToActivate: 2
   PortalJumpPowerUp: 0
   jumpVelocity: 0
@@ -1575,6 +1579,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 3
   fill: {fileID: 4050224364837586742}
   healthBarScript: {fileID: 4050224365132627301}
+  sprite: {fileID: 0}
+  colorToChangTo: {r: 0, g: 0, b: 1, a: 1}
   NumKeyPressToActivate: 1
   PortalJumpPowerUp: 1
   jumpVelocity: 10

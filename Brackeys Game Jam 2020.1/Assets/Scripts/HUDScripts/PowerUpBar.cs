@@ -14,6 +14,8 @@ public class PowerUpBar : MonoBehaviour
     
     public HealthBar healthBarScript;
     private GameObject player;
+    public GameObject sprite;
+    public Color colorToChangTo = Color.blue;
     
     public int NumKeyPressToActivate;
     
@@ -211,8 +213,10 @@ public class PowerUpBar : MonoBehaviour
 
     private IEnumerator ResetShieldAtribute()
     {
+        sprite.GetComponent<SpriteRenderer>().material.color = colorToChangTo;
         yield return new WaitForSeconds(PowerUpDelayTime + 1.5f);
         playerManagerScript.shieldActive = false;
+        sprite.GetComponent<SpriteRenderer>().material.color = Color.white;
     }
 
     private IEnumerator ResetSpeedAtribute()
