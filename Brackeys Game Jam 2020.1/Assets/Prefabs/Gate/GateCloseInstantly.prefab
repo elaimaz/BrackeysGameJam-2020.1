@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 7532619835075687986}
   - component: {fileID: 4445960831395133030}
   - component: {fileID: 5429355032269035691}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: GateCloseInstantly
   m_TagString: Untagged
   m_Icon: {fileID: 0}

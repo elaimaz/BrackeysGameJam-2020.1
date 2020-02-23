@@ -15,6 +15,7 @@ public class BulletScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.name);
         if(collision.tag == "Enemy")
         {
             if(collision.GetComponent<EnemyBase>() != null)

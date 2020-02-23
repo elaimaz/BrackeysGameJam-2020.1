@@ -8,6 +8,8 @@ public class SwitchScenes : MonoBehaviour
     public void GotoMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        Destroy(PlayerManager.instance.gameObject);
+        Destroy(GameManager.instance.gameObject);
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Click");
     }
 

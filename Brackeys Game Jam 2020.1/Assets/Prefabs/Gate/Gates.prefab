@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1208820758493733375}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Gates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,6 +233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate
       objectReference: {fileID: 0}
+    - target: {fileID: 2324499299039872101, guid: 032ed561cdc06bc46984de2778470f4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 2581068869789918000, guid: 032ed561cdc06bc46984de2778470f4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -388,6 +393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GateCloseInstantlyShield
       objectReference: {fileID: 0}
+    - target: {fileID: 7717681474260980071, guid: 4ae57949606dfc149ad817ecf6a9c2ce,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ae57949606dfc149ad817ecf6a9c2ce, type: 3}
 --- !u!4 &8669330085578461314 stripped
@@ -537,6 +547,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClosedGateEyeBossPowerUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559494036429749621, guid: efb0deaae9282524fb215e15555684e5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efb0deaae9282524fb215e15555684e5, type: 3}

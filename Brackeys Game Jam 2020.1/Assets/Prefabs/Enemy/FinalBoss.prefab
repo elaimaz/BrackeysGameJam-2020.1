@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 1352463281385523093}
   - component: {fileID: 6263682611197125904}
   - component: {fileID: 5793235328602124415}
+  - component: {fileID: 4830258835979589806}
   m_Layer: 9
   m_Name: FinalBoss
   m_TagString: Enemy
@@ -216,14 +217,14 @@ MonoBehaviour:
     m_Bits: 1024
   speed: 0.8
   health: 50
-  searchRange: 50
+  searchRange: 10
   meleeRange: 3
   meleeDamage: 20
   meleeRate: 1
   longRange: 5
   longDamage: 0
   longRate: 0.2
-  tStartDazed: 0
+  tStartDazed: 0.2
   TouchDamage: 1
   roomGate: {fileID: 0}
   powerUpGate: {fileID: 0}
@@ -295,3 +296,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
     type: 3}
+--- !u!114 &4830258835979589806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6012054043607895832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ed5f624fa0e6546a8a397dd35c397c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

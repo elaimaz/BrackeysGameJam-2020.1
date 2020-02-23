@@ -154,14 +154,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   speed: 2
-  health: 20
-  searchRange: 5
-  meleeRange: 0
+  health: 40
+  searchRange: 8
+  meleeRange: 2
   meleeDamage: 0
   meleeRate: 0
   longRange: 3
   longDamage: 10
-  longRate: 0
+  longRate: 0.5
   tStartDazed: 0.5
   TouchDamage: 0
   roomGate: {fileID: 0}
