@@ -8,10 +8,12 @@ public class SwitchScenes : MonoBehaviour
     public void GotoMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Click");
     }
 
     public void GotoLevel()
     {
         SceneManager.LoadScene("Levels");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Click");
     }
 }
