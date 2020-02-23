@@ -10,6 +10,13 @@ public class ShieldBossEnemy : EnemyBase
     private bool isDead = false;
     private bool isMeleeAttacking = false;
 
+    protected override void Start()
+    {
+        base.Start();
+        powerUpGate = GameObject.Find("ClosedGateShieldBossPowerUp");
+        roomGate = GameObject.Find("GateCloseInstantlyShield");
+    }
+
     public override void OnDamageTaken(int damage)
     {
         base.OnDamageTaken(damage);
