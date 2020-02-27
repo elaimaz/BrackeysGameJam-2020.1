@@ -230,7 +230,9 @@ public class PowerUpBar : MonoBehaviour
     private IEnumerator Jump()
     {
         yield return new WaitForSeconds(1.1f);
-        player.transform.position = portalMoveScript.secondaryPortal.transform.position;
+        Vector2 v = portalMoveScript.secondaryPortal.transform.position;
+        v.y += 0.7f;
+        player.transform.position = v;
     }
     /******************************************************/
 }
