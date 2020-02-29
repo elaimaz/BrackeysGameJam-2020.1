@@ -344,6 +344,31 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1966599062}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &116030342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116030341}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64bcfaf1d0873c1f388cb8ab99f5abe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pos: {x: 0, y: 0}
+  SizeOfBox: {x: 0.96, y: 0.1}
+  center: {x: 0, y: 0}
+  position: {x: 0, y: 0}
+  maxDistance: 3
+  player: {fileID: 1966599063}
+  sprite: {fileID: 717784035}
+  moveSpeed: 0.4
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  raycastDetectHorizontal: 0
+  raycastDownRayHit: 0
 --- !u!1 &180076413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2390230547884335482, guid: aa46abf75a31c772da8a3ce99f4f34c6,
@@ -1070,6 +1095,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9190835089844040697, guid: 2d9018d25d4f9b5499de727ab249b22f,
     type: 3}
   m_PrefabInstance: {fileID: 674290383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &717784035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3135210783334238229, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1966599062}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &718962636
 PrefabInstance:
@@ -3867,7 +3898,7 @@ PrefabInstance:
     - target: {fileID: 2390230547884335429, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -45.565
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2390230547884335482, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
@@ -3997,7 +4028,7 @@ PrefabInstance:
     - target: {fileID: 4050224364803392023, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.71
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4050224364837586740, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
@@ -9976,6 +10007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxDistance
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135210784522026845, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4664588625238447445, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
