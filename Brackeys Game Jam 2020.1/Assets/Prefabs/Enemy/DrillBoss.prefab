@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2244221928337784901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.024, y: 0.195, z: 0}
+  m_LocalPosition: {x: 1.024, y: 4.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4526913897622431429}
@@ -239,7 +239,7 @@ MonoBehaviour:
     type: 3}
   ProjectileOrigin: {x: 1.91, y: 4.92}
   size: {x: 17.33, y: 0.68}
-  NoOfProjectiles: 10
+  NoOfProjectiles: 40
   MeleeAttackDamageRadius: 0.4
   ProjectileSpeed: 5
 --- !u!114 &6804179837951196398
