@@ -10873,6 +10873,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawners
       objectReference: {fileID: 0}
+    - target: {fileID: 144936361442570941, guid: e2eb39505ff513cd2bb01f3ae15b64b3,
+        type: 3}
+      propertyPath: m_TagString
+      value: DrillSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 874570186678379451, guid: e2eb39505ff513cd2bb01f3ae15b64b3,
         type: 3}
       propertyPath: m_IsActive
@@ -11198,12 +11203,12 @@ PrefabInstance:
     - target: {fileID: 4998323569696441649, guid: b1cee57e4b68f2da2aed0c6d7655687a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -31.8
+      value: -31.6
       objectReference: {fileID: 0}
     - target: {fileID: 4998323569696441649, guid: b1cee57e4b68f2da2aed0c6d7655687a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30
+      value: 30.48
       objectReference: {fileID: 0}
     - target: {fileID: 4998323569696441649, guid: b1cee57e4b68f2da2aed0c6d7655687a,
         type: 3}

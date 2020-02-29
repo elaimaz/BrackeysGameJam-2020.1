@@ -75,7 +75,7 @@ public class DrillBossEnemy : EnemyBase
 
     private Vector2 GetRandomPoint()
     {
-        return new Vector2(transform.GetChild(0).position.x + ProjectileOrigin.x + (Random.Range(0,size.x) - (size.x / 2 ) ), ProjectileOrigin.y + (Random.Range(0, size.y) - (size.y / 2)));
+        return new Vector2(transform.GetChild(0).position.x + ProjectileOrigin.x + (Random.Range(0,size.x) - (size.x / 2 ) ), transform.GetChild(0).position.y + (Random.Range(0, size.y) - (size.y / 2)));
     }
 
     private void OnDrawGizmosSelected()
