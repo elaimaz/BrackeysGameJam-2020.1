@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 using MyAttributes;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class PowerUpBar : MonoBehaviour
 {
     public Slider slider;
