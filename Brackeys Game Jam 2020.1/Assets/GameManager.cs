@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
     private void SetSpawns(string tag, out Vector2[] pos)
     {
         GameObject[] Enemies = GameObject.FindGameObjectsWithTag(tag);
-
+        
         pos = new Vector2[Enemies.Length];
         for (int i = 0; i < Enemies.Length; i++)
         {

@@ -37,8 +37,8 @@ public class PlayerController : MonoBehaviour
     //0 Jump, 1 Time, 2 Shield.
     public int activePortal = 0;
 
-    [SerializeField]
-    private ChangeColor changeColor;
+//    [SerializeField]
+    public ChangeColor changeColor;
     public ChangeColor changeColorSecondary;
 
     private bool isAboveStari = false;

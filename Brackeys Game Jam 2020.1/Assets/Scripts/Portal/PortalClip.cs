@@ -45,7 +45,7 @@ public class PortalClip : MonoBehaviour
         if(Physics2D.Raycast(center, position - center, actualDistance, GroundLayer)){
             position = transform.position = prevPos;
         }
-        Collider2D coll = Physics2D.OverlapBox((Vector2)transform.position + Pos, SizeOfBox, 0, GroundLayer);
+//        Collider2D coll = Physics2D.OverlapBox((Vector2)transform.position + Pos, SizeOfBox, 0, GroundLayer);
 //        if(coll != null){
 //            position = transform.position = prevPos;
 //        }
