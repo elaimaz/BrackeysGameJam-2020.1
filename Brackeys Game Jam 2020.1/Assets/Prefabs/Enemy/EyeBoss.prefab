@@ -198,7 +198,7 @@ MonoBehaviour:
   meleeDamage: 20
   meleeRate: 0
   longRange: 3
-  longDamage: 10
+  longDamage: 100
   longRate: 0
   tStartDazed: 0.3
   TouchDamage: 0

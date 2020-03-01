@@ -222,7 +222,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   speed: 1.5
-  health: 50
+  health: 150
   searchRange: 5
   meleeRange: 2
   meleeDamage: 10
