@@ -72,14 +72,16 @@ public class PortalLayDown : MonoBehaviour
                 verticalDirection.x = 0;
                 verticalDirection.y = hit.distance;
                 
+                
                 gameObject.transform.position = center + horizontalDirection + verticalDirection;
+                gameObject.transform.position = player.transform.position - gameObject.transform.position;
                 
                 sprite.SetActive(false);
             }
         }
         
         
-        transform.position = position;
+//        transform.position = position;
     }
     
     private void OnDrawGizmos()
