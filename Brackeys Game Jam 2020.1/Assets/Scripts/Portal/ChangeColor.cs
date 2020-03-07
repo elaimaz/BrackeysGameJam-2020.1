@@ -18,7 +18,7 @@ public class ChangeColor : MonoBehaviour {
     private void Start () {
 
         // Assign Renderer component to rend variable
-        rend = GetComponent<Renderer>();
+        rend = gameObject.GetComponent<Renderer>();
 
         // Change sprite color to selected color
         rend.material.color = colorToTurnTo;
@@ -38,6 +38,6 @@ public class ChangeColor : MonoBehaviour {
         }
         
         // Change sprite color to selected color
-        rend.material.color = colorToTurnTo;
+        GetComponent<Renderer>().material.color = colorToTurnTo;
     }
 }
