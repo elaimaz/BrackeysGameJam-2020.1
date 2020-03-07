@@ -53,6 +53,7 @@ public class PortalLayDown : MonoBehaviour
         if(Physics2D.Raycast(center, horizontalDirection, horizontalDistance, GroundLayer)){
 //            sprite.SetActive(false);
             raycastDetectHorizontal = true;
+            print("raycastDetectHorizontal");
 //            return;
 //            position = transform.position = prevPos;
         }else raycastDetectHorizontal = false;
@@ -65,6 +66,8 @@ public class PortalLayDown : MonoBehaviour
         if (Physics.Raycast(downRay, out hit))
         {
             raycastDownRayHit = false;
+            
+            print("HIT DOWN");
             meanDistance = Mathf.Sqrt(horizontalDistance*horizontalDistance+(hit.distance)*(hit.distance));
             if (meanDistance<maxDistance){
                 //now portal can be placed on ground.
@@ -81,7 +84,7 @@ public class PortalLayDown : MonoBehaviour
         }
         
         
-//        transform.position = position;
+        transform.position = center;
     }
     
     private void OnDrawGizmos()
