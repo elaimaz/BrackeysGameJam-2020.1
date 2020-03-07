@@ -725,6 +725,7 @@ GameObject:
   - component: {fileID: 4664588625238447445}
   - component: {fileID: 1180385421087652299}
   - component: {fileID: 8353793046457436623}
+  - component: {fileID: 8026407606468622141}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -806,7 +807,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5291474184486412968}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3ec250b75024934c9e23c157fddcebd, type: 3}
   m_Name: 
@@ -932,6 +933,37 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.03, y: 1.71}
   m_Direction: 0
+--- !u!114 &8026407606468622141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291474184486412968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16759cb245a5e9162aa93d383a5999d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coll: {fileID: 0}
+  canMove: 1
+  defaultMoveSpeed: 3
+  moveSpeed: 3
+  defaultJumpVelocity: 6
+  jumpVelocity: 0
+  fallMultiplier: 3
+  lowJumpMultiplier: 2
+  currWeap: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  isGrounded: 0
+  activePortal: 0
+  changeColor: {fileID: 5819694563341103643}
+  changeColorSecondary: {fileID: 0}
+  BossMusicEvent: event:/Music/BossMusic
+  LevelMusicEvent: event:/Music/Area1Music
+  GameOverPanel: {fileID: 0}
 --- !u!1 &8329848165285316059
 GameObject:
   m_ObjectHideFlags: 0

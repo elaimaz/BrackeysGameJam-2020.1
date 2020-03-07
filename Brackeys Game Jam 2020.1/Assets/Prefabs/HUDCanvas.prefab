@@ -2660,6 +2660,7 @@ GameObject:
   - component: {fileID: 4050224365564549349}
   - component: {fileID: 4050224365564549348}
   - component: {fileID: 6160503639785315270}
+  - component: {fileID: 5235090553659665553}
   m_Layer: 5
   m_Name: HUDCanvas
   m_TagString: Untagged
@@ -2767,6 +2768,19 @@ MonoBehaviour:
   sheildPowerUp: {fileID: 6066814409639064034}
   speedPowerUp: {fileID: 6460009203186297932}
   secondaryPortal: {fileID: 0}
+--- !u!114 &5235090553659665553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4050224365564549275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f23fd9530905732e8ce76b99ae52e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pcontroller: {fileID: 0}
 --- !u!1 &4101069411996749355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,6 +3090,8 @@ GameObject:
   - component: {fileID: 1158357156115884332}
   - component: {fileID: 958782684920250583}
   - component: {fileID: 3247980799470592275}
+  - component: {fileID: 6766319540216589019}
+  - component: {fileID: 5251603198818311475}
   m_Layer: 5
   m_Name: Jump Button
   m_TagString: Untagged
@@ -3146,7 +3162,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4425023081319441287}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -3182,6 +3198,62 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6766319540216589019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425023081319441287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a732affd52ba028f85e25a9425d28be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 958782684920250583}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5251603198818311475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425023081319441287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1b2e348f37890e294612bd968f4e4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidHandler: {fileID: 5235090553659665553}
 --- !u!1 &4525732540629981606
 GameObject:
   m_ObjectHideFlags: 0
@@ -4554,7 +4626,7 @@ GameObject:
   - component: {fileID: 941704432003369657}
   - component: {fileID: 4760405491958902022}
   m_Layer: 5
-  m_Name: Attack Button
+  m_Name: Melee Attack Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4658,7 +4730,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 941704432003369657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5235090553659665553}
+        m_MethodName: Attack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8727673142548741526
 GameObject:
   m_ObjectHideFlags: 0

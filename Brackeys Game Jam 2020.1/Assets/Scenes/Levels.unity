@@ -571,6 +571,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5235090553659665553, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+        type: 3}
+      propertyPath: Pcontroller
+      value: 
+      objectReference: {fileID: 1966599071}
     - target: {fileID: 6026230652607468189, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1221,6 +1226,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9190835089844040697, guid: 2d9018d25d4f9b5499de727ab249b22f,
     type: 3}
   m_PrefabInstance: {fileID: 570002033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &594494122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5025172220443239831, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 68283486}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &627854854
 PrefabInstance:
@@ -9903,12 +9914,22 @@ PrefabInstance:
         type: 3}
       propertyPath: GameOverPanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 594494122}
     - target: {fileID: 5291474184486412973, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: changeColorSecondary
       value: 
       objectReference: {fileID: 1101497381}
+    - target: {fileID: 8026407606468622141, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: changeColorSecondary
+      value: 
+      objectReference: {fileID: 1101497381}
+    - target: {fileID: 8026407606468622141, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: GameOverPanel
+      value: 
+      objectReference: {fileID: 594494122}
     - target: {fileID: 8329848165285316059, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: m_Layer
@@ -9923,6 +9944,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1966599062}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1966599071 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8026407606468622141, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1966599062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966599063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16759cb245a5e9162aa93d383a5999d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1974111791
 PrefabInstance:
   m_ObjectHideFlags: 0
