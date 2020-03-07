@@ -14,6 +14,7 @@ public class SkeletonEnemy : EnemyBase
         if (health <= 0)
         {
             disableCollisionAttack = true;
+            Instantiate(healthPrefab, gameObject.transform.position, Quaternion.identity);
             anime.SetTrigger("Death");
             Destroy(gameObject, 1f);
         }

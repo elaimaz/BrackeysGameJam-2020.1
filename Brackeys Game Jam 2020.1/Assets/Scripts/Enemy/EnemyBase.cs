@@ -32,7 +32,9 @@ public class EnemyBase : MonoBehaviour
     public GameObject powerUpGate;
 
     public bool disableCollisionAttack = false;
-
+    
+    public GameObject healthPrefab;
+    
     protected Animator anime;
     // Start is called before the first frame update
     protected virtual void Start()

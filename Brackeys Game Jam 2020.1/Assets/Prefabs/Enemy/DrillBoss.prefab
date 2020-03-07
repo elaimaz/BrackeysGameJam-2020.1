@@ -75,7 +75,6 @@ GameObject:
   - component: {fileID: 4880282729366586452}
   - component: {fileID: 7799896119773246772}
   - component: {fileID: 6804179837951196398}
-  - component: {fileID: 7110213337738070970}
   m_Layer: 9
   m_Name: DrillBoss
   m_TagString: Enemy
@@ -235,6 +234,8 @@ MonoBehaviour:
   roomGate: {fileID: 0}
   powerUpGate: {fileID: 0}
   disableCollisionAttack: 0
+  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
+    type: 3}
   ProjectilePrefab: {fileID: 1153361255511650962, guid: 9e5b6be7a0b05e7499822fd2015576d9,
     type: 3}
   ProjectileOrigin: {x: 1.91, y: 4.92}
@@ -254,17 +255,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8d151ac2a5a8c42ac9435ac9a720f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7110213337738070970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5323900000033448988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a19ee038ef1bc110a43d1aa38d04af3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
-    type: 3}

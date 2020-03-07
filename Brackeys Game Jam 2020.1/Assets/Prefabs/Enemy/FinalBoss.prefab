@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 1609487135002198622}
   - component: {fileID: 1352463281385523093}
   - component: {fileID: 6263682611197125904}
-  - component: {fileID: 5793235328602124415}
   - component: {fileID: 4830258835979589806}
   m_Layer: 9
   m_Name: FinalBoss
@@ -229,6 +228,8 @@ MonoBehaviour:
   roomGate: {fileID: 0}
   powerUpGate: {fileID: 0}
   disableCollisionAttack: 0
+  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
+    type: 3}
   PullForce: 12
   DoAtHealth: 50
   ProjectileOrigin: {x: 0, y: 0.06}
@@ -282,20 +283,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.66, y: 2.21}
   m_Size: {x: 2.55, y: 4.29}
   m_Direction: 0
---- !u!114 &5793235328602124415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6012054043607895832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a19ee038ef1bc110a43d1aa38d04af3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
-    type: 3}
 --- !u!114 &4830258835979589806
 MonoBehaviour:
   m_ObjectHideFlags: 0
