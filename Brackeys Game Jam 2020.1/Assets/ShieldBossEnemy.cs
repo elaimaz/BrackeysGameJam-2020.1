@@ -27,6 +27,7 @@ public class ShieldBossEnemy : EnemyBase
             if (isDead == false)
             {
                 isDead = true;
+                Instantiate(healthPrefab, gameObject.transform.position, Quaternion.identity);
                 anime.SetTrigger("Death");
             }
         }

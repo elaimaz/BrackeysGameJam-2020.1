@@ -33,6 +33,7 @@ public class DrillBossEnemy : EnemyBase
             if (isDead == false)
             {
                 isDead = true;
+                Instantiate(healthPrefab, gameObject.transform.position, Quaternion.identity);
                 anime.SetTrigger("Death");
                 //Destroy(gameObject, 0.50f);
             }
