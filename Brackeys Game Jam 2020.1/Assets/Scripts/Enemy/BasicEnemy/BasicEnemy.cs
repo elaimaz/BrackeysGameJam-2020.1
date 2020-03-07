@@ -13,6 +13,7 @@ public class BasicEnemy : EnemyBase
         if (health <= 0)
         {
             anime.SetTrigger("Death");
+            this.enabled = false;
             Destroy(gameObject, 0.50f);
         }
         else

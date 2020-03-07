@@ -351,7 +351,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116030341}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64bcfaf1d0873c1f388cb8ab99f5abe1, type: 3}
   m_Name: 
@@ -9998,6 +9998,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3135210783334238224, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135210783334238224, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5763079367947051459, guid: 3be0f9caeddf1a5b3978c973604cd609,
+        type: 3}
     - target: {fileID: 3135210784522026819, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: m_IsActive
@@ -10011,7 +10022,7 @@ PrefabInstance:
     - target: {fileID: 3135210784522026845, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4664588625238447445, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}

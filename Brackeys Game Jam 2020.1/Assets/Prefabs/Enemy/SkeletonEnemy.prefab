@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 6852253713208135341}
   - component: {fileID: 7969986250674437651}
   - component: {fileID: 2100519845150114834}
-  - component: {fileID: 8606503982467066391}
   - component: {fileID: 158301068343873986}
   - component: {fileID: 4223107181563347759}
   m_Layer: 9
@@ -167,6 +166,8 @@ MonoBehaviour:
   roomGate: {fileID: 0}
   powerUpGate: {fileID: 0}
   disableCollisionAttack: 0
+  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
+    type: 3}
   BonePrefab: {fileID: 5600552340010305137, guid: fe0ea6075f8522d49a965498fa8e3a90,
     type: 3}
   BoneSpeed: 7
@@ -186,20 +187,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.79, y: 1.73}
   m_Direction: 0
---- !u!114 &8606503982467066391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6852253713208135343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a19ee038ef1bc110a43d1aa38d04af3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPrefab: {fileID: 9147501558474173096, guid: 8269f5ce6f98e9a40aecd97ac33f6f91,
-    type: 3}
 --- !u!50 &158301068343873986
 Rigidbody2D:
   serializedVersion: 4
