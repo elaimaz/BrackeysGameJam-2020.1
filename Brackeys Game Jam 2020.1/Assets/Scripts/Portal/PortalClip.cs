@@ -21,8 +21,10 @@ public class PortalClip : MonoBehaviour
 //    public LayerMask WallLayer;
     
     private Vector2 prevPos;
+    private Rigidbody2D rb;
     
     void Update(){
+        rb = GetComponent<Rigidbody2D>();
         prevPos = position;
         
         //These two codes move the portal depending on mousePosition.
@@ -39,12 +41,14 @@ public class PortalClip : MonoBehaviour
              position = center + centerToPosition * maxDistance;
         }
         
-        transform.position = position;
+//        transform.position = position;
         
         //Use ray cast. Reset to previous pos if detected.
-        if(Physics2D.Raycast(center, position - center, actualDistance, GroundLayer)){
-            position = transform.position = prevPos;
-        }
+//        if(Physics2D.Raycast(center, position - center, actualDistance, GroundLayer)){
+//            position = transform.position = prevPos;
+//        }
+//        rb.MovePosition(center - position);
+        rb.MovePosition( position);
 //        Collider2D coll = Physics2D.OverlapBox((Vector2)transform.position + Pos, SizeOfBox, 0, GroundLayer);
 //        if(coll != null){
 //            position = transform.position = prevPos;
