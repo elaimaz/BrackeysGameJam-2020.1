@@ -1323,6 +1323,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 627854854}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &654075442 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2547656980252716619, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 68283486}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &654075445 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9169647825714798745, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 68283486}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d71acbb147cabf6acbd632e05423bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &656339786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9930,6 +9954,21 @@ PrefabInstance:
       propertyPath: GameOverPanel
       value: 
       objectReference: {fileID: 594494122}
+    - target: {fileID: 8026407606468622141, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: coll
+      value: 
+      objectReference: {fileID: 1966599064}
+    - target: {fileID: 8026407606468622141, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: joybutton
+      value: 
+      objectReference: {fileID: 654075445}
+    - target: {fileID: 8026407606468622141, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 654075442}
     - target: {fileID: 8329848165285316059, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: m_Layer
@@ -9941,6 +9980,12 @@ PrefabInstance:
 --- !u!1 &1966599063 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5291474184486412968, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1966599062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &1966599064 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8353793046457436623, guid: 1b77efe118d8e154282f2bb2d84b33a2,
     type: 3}
   m_PrefabInstance: {fileID: 1966599062}
   m_PrefabAsset: {fileID: 0}

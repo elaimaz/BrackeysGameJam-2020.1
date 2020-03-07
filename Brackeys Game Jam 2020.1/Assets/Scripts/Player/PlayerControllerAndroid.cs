@@ -7,6 +7,9 @@ public class PlayerControllerAndroid : MonoBehaviour
     public Collider2D coll;
     public bool canMove = true;
     
+    public FixedJoystickButton joybutton;
+    public Joystick joystick;
+    
     [Range(1, 10)]
     public float defaultMoveSpeed = 3f;
     [HideInInspector]
@@ -81,9 +84,6 @@ public class PlayerControllerAndroid : MonoBehaviour
         HorizontalAxis = -1;
     }
     
-    public void Jump(){
-        jumpPressed = true;
-    }
     public void StartJump(){
         CheckGround();
         if(isGrounded) jumpPressed = true;
@@ -94,7 +94,7 @@ public class PlayerControllerAndroid : MonoBehaviour
     
     void Update()
     {
-        movement.x = HorizontalAxis * (isFalling?0:1);
+        if(joybutton.Pressed) movement.x = joystick.Horizontal * (isFalling?0:1);
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (currWeap != 0)
@@ -132,7 +132,7 @@ public class PlayerControllerAndroid : MonoBehaviour
         }
         
         //Remove this if necessary;
-        jumpPressed = false;
+//        jumpPressed = false;
         
 //        //Just for test, when we have a proper death mechanic change it. Right now it is just to show player death.
 //        if (Input.GetKeyDown(KeyCode.H))
