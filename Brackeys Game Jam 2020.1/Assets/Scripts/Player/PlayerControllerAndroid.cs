@@ -95,6 +95,7 @@ public class PlayerControllerAndroid : MonoBehaviour
     void Update()
     {
         if(joybutton.Pressed) movement.x = joystick.Horizontal * (isFalling?0:1);
+        
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (currWeap != 0)
