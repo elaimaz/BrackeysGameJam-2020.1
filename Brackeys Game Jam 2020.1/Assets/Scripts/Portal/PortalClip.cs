@@ -9,7 +9,7 @@ public class PortalClip : MonoBehaviour
     
     public Vector2 center;
     public Vector2 position;
-    public float maxDistance = 0.1f;
+    public float maxDistance = 4f;
     float actualDistance = 0;
     
     public GameObject player;
@@ -22,6 +22,8 @@ public class PortalClip : MonoBehaviour
     
     private Vector2 prevPos;
     private Rigidbody2D rb;
+    
+    public GameObject circle;
     
     void Update(){
         rb = GetComponent<Rigidbody2D>();
@@ -49,6 +51,10 @@ public class PortalClip : MonoBehaviour
 //        }
 //        rb.MovePosition(center - position);
         rb.MovePosition( position);
+        
+        circle.transform.position = center;
+        circle.transform.localScale = new Vector2(maxDistance*2, maxDistance*2);
+        
 //        Collider2D coll = Physics2D.OverlapBox((Vector2)transform.position + Pos, SizeOfBox, 0, GroundLayer);
 //        if(coll != null){
 //            position = transform.position = prevPos;

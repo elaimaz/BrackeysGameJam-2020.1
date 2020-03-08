@@ -55,7 +55,8 @@ public class PowerUpBar : MonoBehaviour
     [Range(1, 80)]
     public float coolDownTime = 10.0f;
     
-    private PlayerController playerControllerScript;
+    //Switched to android
+    private PlayerControllerAndroid playerControllerScript;
     private PlayerManager playerManagerScript;
     
     [Tooltip("ReducePartially set to false will reset upon powerup activation.")]
@@ -218,7 +219,7 @@ public class PowerUpBar : MonoBehaviour
     
     public void Start(){
         player = healthBarScript.player;
-        playerControllerScript = player.GetComponent<PlayerController>();
+        playerControllerScript = player.GetComponent<PlayerControllerAndroid>();
         playerManagerScript = player.GetComponent<PlayerManager>();
         
 
