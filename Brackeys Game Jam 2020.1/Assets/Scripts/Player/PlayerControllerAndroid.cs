@@ -2,10 +2,13 @@
 using System.Collections;
 using System;
 
-public class PlayerController : MonoBehaviour
+public class PlayerControllerAndroid : MonoBehaviour
 {
     public Collider2D coll;
     public bool canMove = true;
+    
+    public FixedJoystickButton joybutton;
+    public Joystick joystick;
     
     [Range(1, 10)]
     public float defaultMoveSpeed = 3f;
@@ -30,7 +33,7 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded = false;
     private bool isFacingRight = true;
     
-    public PlayerAnimatorController playerAnimator;
+    private PlayerAnimatorController playerAnimator;
     
     private Vector3 mousePos;
     
@@ -51,6 +54,8 @@ public class PlayerController : MonoBehaviour
     FMOD.Studio.EventInstance levelMusic;
     
     public GameObject GameOverPanel;
+    private bool jumpPressed = false;
+    int HorizontalAxis = 0;
     
     private void Start()
     {
@@ -63,20 +68,35 @@ public class PlayerController : MonoBehaviour
         levelMusic.start();
     }
     
-
+    ///Mobile used functions.
+    public void SwitchToMelee(){
+        currWeap = 0;
+    }
+    public void SwitchToRange(){
+        currWeap = 1;
+    }
+    
+    public void MoveRight(){
+        HorizontalAxis = 1;
+    }
+    
+    public void MoveLeft(){
+        HorizontalAxis = -1;
+    }
+    
+    public void StartJump(){
+        CheckGround();
+        if(isGrounded) jumpPressed = true;
+    }
+    public void EndJump(){
+        jumpPressed = false;
+    }
+    
     void Update()
     {
-        movement.x = Input.GetAxis("Horizontal") * (isFalling?0:1);
+        if(joybutton.Pressed) movement.x = joystick.Horizontal * (isFalling?0:1);
+        
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            currWeap = 1;
-        }
-        else if (Input.GetMouseButtonUp(1))
-        {
-            currWeap = 0;
-        }
 
         if (currWeap != 0)
         {
@@ -95,13 +115,14 @@ public class PlayerController : MonoBehaviour
 
         if (canMove == true)
         {
-            if (Input.GetButtonDown("Jump") && isGrounded == true)
+            if (jumpPressed && isGrounded == true)
             {
                 GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
                 playerAnimator.Jump(true);
             }
         }
-
+        
+        
         if(Input.GetAxis("Vertical") < 0)
         {
             if(isAboveStari && isFalling == false)
@@ -111,11 +132,14 @@ public class PlayerController : MonoBehaviour
             }
         }
         
-        //Just for test, when we have a proper death mechanic change it. Right now it is just to show player death.
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            playerAnimator.Death();
-        }
+        //Remove this if necessary;
+//        jumpPressed = false;
+        
+//        //Just for test, when we have a proper death mechanic change it. Right now it is just to show player death.
+//        if (Input.GetKeyDown(KeyCode.H))
+//        {
+//            playerAnimator.Death();
+//        }
     }
     
     public void OnPortalJumpPowerUPActivated(){
@@ -144,7 +168,6 @@ public class PlayerController : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot("event:/FX/Portal");
     }
     
-    
     private void FixedUpdate()
     {
         if (canMove == true)
@@ -155,7 +178,7 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
             }
-            else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
+            else if (rb.velocity.y > 0 && !jumpPressed)
             {
                 rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
             }

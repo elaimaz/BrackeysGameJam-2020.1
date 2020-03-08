@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 5692226299861660782}
   - component: {fileID: 553079927}
   - component: {fileID: 6368696462261321214}
+  - component: {fileID: 1677061079349963323}
   m_Layer: 0
   m_Name: MeleeWeapon
   m_TagString: Untagged
@@ -236,7 +237,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091719375631032925}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdc1e0d4114c9a744b707cdefc991e20, type: 3}
   m_Name: 
@@ -274,6 +275,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a61cd41632b7f504ea52805331c490e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1677061079349963323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091719375631032925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a7efa0174eeb4cf9e291eb967b5a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rps: 1.2
+  damage: 10
+  DetectionZone: {x: 0.72, y: 0.31}
+  AttackOrigin: {fileID: 5635832547513478576}
+  ememyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  playerAnime: {fileID: 487811023}
+  anime: {fileID: 8385859438168763063}
 --- !u!1 &1459695687737919521
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +441,7 @@ GameObject:
   - component: {fileID: 4177826904850581753}
   - component: {fileID: 3723926590086450272}
   - component: {fileID: 8993853372481946421}
+  - component: {fileID: 5217523354706729223}
   m_Layer: 0
   m_Name: RangedWeapon
   m_TagString: Untagged
@@ -518,7 +541,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3784091033606010580}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f3f599d6c70e0b469cf425a54ba8ef0, type: 3}
   m_Name: 
@@ -546,6 +569,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06f054117d82f24e8801549a91e8019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5217523354706729223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3784091033606010580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255cee6676a83e549ae4f7d3876de690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rps: 1
+  BulleteSpeed: 10
+  AttackOrigin: {fileID: 8547019952117966239}
+  BulletPrefab: {fileID: 1839456711131942573, guid: f3f7a05aab7c86d44847bdfee5150417,
+    type: 3}
+  ememyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  playerAnime: {fileID: 487811023}
+  anime: {fileID: 4177826904850581753}
+  angle: 0
+  joystick: {fileID: 0}
 --- !u!1 &4732653407263642308
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,6 +772,8 @@ GameObject:
   - component: {fileID: 4664588625238447445}
   - component: {fileID: 1180385421087652299}
   - component: {fileID: 8353793046457436623}
+  - component: {fileID: 8026407606468622141}
+  - component: {fileID: 1406765217821420367}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -806,7 +855,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5291474184486412968}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3ec250b75024934c9e23c157fddcebd, type: 3}
   m_Name: 
@@ -824,6 +873,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   isGrounded: 0
+  playerAnimator: {fileID: 0}
   activePortal: 0
   changeColor: {fileID: 5819694563341103643}
   changeColorSecondary: {fileID: 0}
@@ -899,7 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeadca239589694498b4d23169472f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerControler: {fileID: 5291474184486412973}
+  playerControler: {fileID: 8026407606468622141}
   pushBackForce: 30
   MaxPlayerHealth: 100
   PlayerHealth: 80
@@ -932,6 +982,73 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.03, y: 1.71}
   m_Direction: 0
+--- !u!114 &8026407606468622141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291474184486412968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16759cb245a5e9162aa93d383a5999d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coll: {fileID: 8353793046457436623}
+  canMove: 1
+  joybutton: {fileID: 0}
+  joystick: {fileID: 0}
+  defaultMoveSpeed: 3
+  moveSpeed: 3
+  defaultJumpVelocity: 6
+  jumpVelocity: 0
+  fallMultiplier: 3
+  lowJumpMultiplier: 2
+  currWeap: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  isGrounded: 0
+  activePortal: 0
+  changeColor: {fileID: 5819694563341103643}
+  changeColorSecondary: {fileID: 0}
+  BossMusicEvent: event:/Music/BossMusic
+  LevelMusicEvent: event:/Music/Area1Music
+  GameOverPanel: {fileID: 0}
+--- !u!114 &1406765217821420367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291474184486412968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4376eaa249d0f82f91895d9f98d2e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currWeapon: 0
+  MeleeWeapon: {fileID: 1091719375631032925}
+  RangedWeapon: {fileID: 3784091033606010580}
+  ArrowRef: {fileID: 3621867963890765023}
+  tStartChargeUp: 1.3
+  MinDamage: 2
+  MaxDamage: 20
+  shootEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5217523354706729223}
+        m_MethodName: Shoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ChargeStateEvent: event:/FX/RangedCharge
 --- !u!1 &8329848165285316059
 GameObject:
   m_ObjectHideFlags: 0
