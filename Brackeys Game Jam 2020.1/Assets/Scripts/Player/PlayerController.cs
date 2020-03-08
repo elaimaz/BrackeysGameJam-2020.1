@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded = false;
     private bool isFacingRight = true;
     
-    private PlayerAnimatorController playerAnimator;
+    public PlayerAnimatorController playerAnimator;
     
     private Vector3 mousePos;
     

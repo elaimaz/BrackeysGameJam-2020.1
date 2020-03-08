@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlayerManager : MonoBehaviour
+public class PlayerManagerAndroid : MonoBehaviour
 {
-    public static PlayerManager instance;
-    public PlayerControllerAndroid playerControler;
+    public static PlayerManagerAndroid instance;
+    public PlayerController playerControler;
     public float pushBackForce;
     public int MaxPlayerHealth;
     public int PlayerHealth;

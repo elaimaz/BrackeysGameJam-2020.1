@@ -74,9 +74,25 @@ public class PowerUpBar : MonoBehaviour
     
     public PortalMoveSelection portalMoveScript;
     
+    public bool AndroidBar = true;
+//    [ConditionalField("AndroidBar")]
+    private bool androidClick = false;
+    
+    public void AndroidToogleSelectPowerUp()
+    {
+        print("androidClick toogling");
+        androidClick = true;
+        if (ready ) toogleSelect();
+    }
+    
     public void Update(){
-        if (ready && playerControllerScript.isGrounded)
-        if ((Input.GetKeyDown(KeyCode.Keypad0) || Input.GetKeyDown(KeyCode.Alpha0)) && (NumKeyPressToActivate == 0)) {
+      if (ready && playerControllerScript.isGrounded){
+//        if(AndroidBar == true){
+//        //Do stuff for android.
+////            print("everything true");
+////            toogleSelect();
+//        }
+         if ((Input.GetKeyDown(KeyCode.Keypad0) || Input.GetKeyDown(KeyCode.Alpha0)) && (NumKeyPressToActivate == 0)) {
             toogleSelect();
         } else if ((Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) && (NumKeyPressToActivate == 1)) {
             toogleSelect();
@@ -97,6 +113,7 @@ public class PowerUpBar : MonoBehaviour
         } else if ((Input.GetKeyDown(KeyCode.Keypad9) || Input.GetKeyDown(KeyCode.Alpha9)) && (NumKeyPressToActivate == 9)) {
             toogleSelect();
         }
+      }
         
         if (portal_created && ready && Input.GetMouseButtonDown(0)){
             //Send player to portal.
@@ -108,6 +125,9 @@ public class PowerUpBar : MonoBehaviour
             //Deactivate the secondary portal.
             toogleSelect();
         }
+        
+        //This needs to be reset every frame.
+        androidClick = false;
     }
     
     void FixedUpdate(){
