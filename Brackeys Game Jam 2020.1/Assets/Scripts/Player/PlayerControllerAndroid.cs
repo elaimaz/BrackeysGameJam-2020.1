@@ -55,7 +55,7 @@ public class PlayerControllerAndroid : MonoBehaviour
     
     public GameObject GameOverPanel;
     private bool jumpPressed = false;
-    int HorizontalAxis = 0;
+    float HorizontalAxis = 0;
     
     private void Start()
     {
@@ -94,7 +94,9 @@ public class PlayerControllerAndroid : MonoBehaviour
     
     void Update()
     {
-        if(joybutton.Pressed) movement.x = joystick.Horizontal * (isFalling?0:1);
+        if(joystick.Horizontal > 0.5 || joystick.Horizontal < -0.5) HorizontalAxis = joystick.Horizontal;
+        else HorizontalAxis = 0;
+        if(joybutton.Pressed) movement.x = HorizontalAxis * (isFalling?0:1);
         
 //        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
