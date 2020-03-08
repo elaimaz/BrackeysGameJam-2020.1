@@ -5,13 +5,18 @@ using UnityEngine;
 public class PlayerControllerAndroidHUDHandler : MonoBehaviour
 {
     public PlayerControllerAndroid Pcontroller;
+    public PlayerWeaponsAndroid Pweapon;
     
     public void SwitchToMelee(){
         Pcontroller.SwitchToMelee();
+        Pweapon.SwitchToMelee();
+        print("SwitchToMelee");
     }
     
     public void SwitchToRange(){
         Pcontroller.SwitchToRange();
+        Pweapon.SwitchToRange();
+        print("SwitchToRange");
     }
     
     public void MoveRight(){
@@ -29,7 +34,10 @@ public class PlayerControllerAndroidHUDHandler : MonoBehaviour
         Pcontroller.EndJump();
     }
     
-    public void Attack(){
-        
+    public void StartFire(){
+        Pweapon.StartFire();
+    }
+    public void StopFire(){
+        Pweapon.StopFire();
     }
 }
