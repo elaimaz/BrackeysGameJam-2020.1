@@ -120,7 +120,8 @@ public class PlayerWeaponsAndroid : MonoBehaviour
         {
             //Do nothing please
             if (isHolding)
-            {
+            {   
+                print("Invoked fire");
                 chargeState.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 shootEvent.Invoke(Remap(tStartChargeUp - tChargeUp, 0, tStartChargeUp, MinDamage, MaxDamage));
             }

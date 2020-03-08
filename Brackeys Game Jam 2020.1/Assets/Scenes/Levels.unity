@@ -13610,6 +13610,11 @@ PrefabInstance:
       propertyPath: changeColorSecondary
       value: 
       objectReference: {fileID: 1101497381}
+    - target: {fileID: 6574192945758908345, guid: 1b77efe118d8e154282f2bb2d84b33a2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8026407606468622141, guid: 1b77efe118d8e154282f2bb2d84b33a2,
         type: 3}
       propertyPath: changeColorSecondary

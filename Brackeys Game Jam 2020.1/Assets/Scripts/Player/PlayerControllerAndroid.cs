@@ -96,16 +96,16 @@ public class PlayerControllerAndroid : MonoBehaviour
     {
         if(joybutton.Pressed) movement.x = joystick.Horizontal * (isFalling?0:1);
         
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+//        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if (currWeap != 0)
-        {
-            if (transform.position.x > mousePos.x && isFacingRight || transform.position.x < mousePos.x && !isFacingRight)
-            {
-                Flip();
-            }
-        }
-        else
+//        if (currWeap != 0)
+//        {
+//            if (transform.position.x > mousePos.x && isFacingRight || transform.position.x < mousePos.x && !isFacingRight)
+//            {
+//                Flip();
+//            }
+//        }
+//        else
         {
             if (movement.x > 0 && !isFacingRight || movement.x < 0 && isFacingRight)
             {
