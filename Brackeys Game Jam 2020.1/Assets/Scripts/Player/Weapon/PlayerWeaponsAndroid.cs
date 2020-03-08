@@ -72,6 +72,21 @@ public class PlayerWeaponsAndroid : MonoBehaviour
         ArrowRef.SetActive(false);
     }
     
+    public void FireMelee(){
+        tChargeUp = tStartChargeUp;
+        isHolding = true;
+        ArrowRef.SetActive(true);
+        MeleeWeapon.GetComponent<MeleeWeaponAndroid>().FireMelee();
+    }
+    public void StopFireMelee(){
+        if(isHolding)
+        {
+            chargeState.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            shootEvent.Invoke(Remap(tStartChargeUp - tChargeUp, 0, tStartChargeUp, MinDamage, MaxDamage));
+        }
+        isHolding = false;
+        ArrowRef.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {
