@@ -55,7 +55,8 @@ public class PowerUpBar : MonoBehaviour
     [Range(1, 80)]
     public float coolDownTime = 10.0f;
     
-    private PlayerController playerControllerScript;
+    //Switched to android
+    private PlayerControllerAndroid playerControllerScript;
     private PlayerManager playerManagerScript;
     
     [Tooltip("ReducePartially set to false will reset upon powerup activation.")]
@@ -114,8 +115,80 @@ public class PowerUpBar : MonoBehaviour
             toogleSelect();
         }
       }
+        //Now check if player clicked inside circle...
         
-        if (portal_created && ready && Input.GetMouseButtonDown(0)){
+//        if (portal_created && ready && Input.GetMouseButtonDown(0)){
+//            //Send player to portal.
+//            StartCoroutine(Jump());
+//            
+//            //Jump player and activate powerup.
+//            activatePowerUp();
+//            
+//            //Deactivate the secondary portal.
+//            toogleSelect();
+//        }
+        
+        //This needs to be reset every frame.
+        androidClick = false;
+    }
+    
+    public void Teleport(){
+        print("Teleport here");
+        bool PAI = false;
+//        if (Input.touches.Any(x=>x.phase==TouchPhase.Began))
+//        {   //If any touch began.
+//            print("" + Input.GetTouch(0).position.x + "  " + Input.GetTouch(0).position.y);
+//            Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+//            RaycastHit raycastHit;
+//            if (Physics.Raycast(raycast, out raycastHit))
+//            {
+    //            Debug.Log("Something Hit");
+    //            if (raycastHit.collider.name == "Soccer")
+    //            {
+    //                Debug.Log("Soccer Ball clicked");
+    //            }
+
+                //OR with Tag
+                
+                foreach( Touch touch in Input.touches ) {
+
+                    if( touch.phase == TouchPhase.Began ) {
+
+                        Ray ray = GetComponent<Camera>().ScreenPointToRay(new Vector3(touch.position.x, touch.position.y, 0));
+                        RaycastHit hit;
+
+                        if (Physics.Raycast(ray, out hit, Mathf.Infinity, 10)) {
+                            if (hit.collider.CompareTag("PortalAreaIndicator"))
+                            {
+                                Debug.Log("PortalAreaIndicator hit");
+                                PAI = true;
+                            }           
+                        }
+                        
+                    }   
+                }
+            if (PAI!=true && Input.GetMouseButtonDown(0)){
+                
+                Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+                RaycastHit2D hit;
+                Vector2 vec = GetComponent<Camera>().ScreenToWorldPoint(Input.mousePosition);
+                Vector3 vec2 = new Vector3();
+                
+                vec2.z = 1;
+                hit = Physics2D.Raycast(vec, vec2, Mathf.Infinity, 10);
+                if (hit) {
+                    print("HIT");
+                    if (hit.collider.CompareTag("PortalAreaIndicator"))
+                    {
+                        Debug.Log("PortalAreaIndicator hit");
+                        PAI = true;
+                    }           
+                }
+            }
+            //}
+//        }
+        
+        if (portal_created && ready && PAI){
             //Send player to portal.
             StartCoroutine(Jump());
             
@@ -125,9 +198,6 @@ public class PowerUpBar : MonoBehaviour
             //Deactivate the secondary portal.
             toogleSelect();
         }
-        
-        //This needs to be reset every frame.
-        androidClick = false;
     }
     
     void FixedUpdate(){
@@ -218,7 +288,7 @@ public class PowerUpBar : MonoBehaviour
     
     public void Start(){
         player = healthBarScript.player;
-        playerControllerScript = player.GetComponent<PlayerController>();
+        playerControllerScript = player.GetComponent<PlayerControllerAndroid>();
         playerManagerScript = player.GetComponent<PlayerManager>();
         
 

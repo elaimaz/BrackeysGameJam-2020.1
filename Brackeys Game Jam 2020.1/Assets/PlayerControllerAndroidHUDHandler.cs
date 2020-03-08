@@ -40,4 +40,7 @@ public class PlayerControllerAndroidHUDHandler : MonoBehaviour
     public void StopFire(){
         Pweapon.StopFire();
     }
+    public void FireMelee(){
+        Pweapon.FireMelee();
+    }
 }
