@@ -134,7 +134,6 @@ public class PowerUpBar : MonoBehaviour
     
     public void Teleport(){
         print("Teleport here");
-        bool PAI = false;
 //        if (Input.touches.Any(x=>x.phase==TouchPhase.Began))
 //        {   //If any touch began.
 //            print("" + Input.GetTouch(0).position.x + "  " + Input.GetTouch(0).position.y);
@@ -150,45 +149,45 @@ public class PowerUpBar : MonoBehaviour
 
                 //OR with Tag
                 
-                foreach( Touch touch in Input.touches ) {
+//                foreach( Touch touch in Input.touches ) {
 
-                    if( touch.phase == TouchPhase.Began ) {
+//                    if( touch.phase == TouchPhase.Began ) {
 
-                        Ray ray = GetComponent<Camera>().ScreenPointToRay(new Vector3(touch.position.x, touch.position.y, 0));
-                        RaycastHit hit;
+//                        Ray ray = GetComponent<Camera>().ScreenPointToRay(new Vector3(touch.position.x, touch.position.y, 0));
+//                        RaycastHit hit;
 
-                        if (Physics.Raycast(ray, out hit, Mathf.Infinity, 10)) {
-                            if (hit.collider.CompareTag("PortalAreaIndicator"))
-                            {
-                                Debug.Log("PortalAreaIndicator hit");
-                                PAI = true;
-                            }           
-                        }
-                        
-                    }   
-                }
-            if (PAI!=true && Input.GetMouseButtonDown(0)){
+//                        if (Physics.Raycast(ray, out hit, Mathf.Infinity, 10)) {
+//                            if (hit.collider.CompareTag("PortalAreaIndicator"))
+//                            {
+//                                Debug.Log("PortalAreaIndicator hit");
+//                                PAI = true;
+//                            }           
+//                        }
+//                        
+//                    }   
+//                }
+//            if (Input.GetMouseButtonDown(0)){
                 
-                Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
-                RaycastHit2D hit;
-                Vector2 vec = GetComponent<Camera>().ScreenToWorldPoint(Input.mousePosition);
-                Vector3 vec2 = new Vector3();
-                
-                vec2.z = 1;
-                hit = Physics2D.Raycast(vec, vec2, Mathf.Infinity, 10);
-                if (hit) {
-                    print("HIT");
-                    if (hit.collider.CompareTag("PortalAreaIndicator"))
-                    {
-                        Debug.Log("PortalAreaIndicator hit");
-                        PAI = true;
-                    }           
-                }
-            }
+//                Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+//                RaycastHit2D hit;
+//                Vector2 vec = GetComponent<Camera>().ScreenToWorldPoint(Input.mousePosition);
+//                Vector3 vec2 = new Vector3();
+//                
+//                vec2.z = 1;
+//                hit = Physics2D.Raycast(vec, vec2, Mathf.Infinity, 10);
+//                if (hit) {
+//                    print("HIT");
+//                    if (hit.collider.CompareTag("PortalAreaIndicator"))
+//                    {
+//                        Debug.Log("PortalAreaIndicator hit");
+//                        PAI = true;
+//                    }       
+//                }
+//            }
             //}
 //        }
         
-        if (portal_created && ready && PAI){
+        if (portal_created && ready){
             //Send player to portal.
             StartCoroutine(Jump());
             

@@ -246,6 +246,11 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 1278863540}
+    - target: {fileID: 724923833321595767, guid: aa46abf75a31c772da8a3ce99f4f34c6,
+        type: 3}
+      propertyPath: m_Name
+      value: UsePortalButton
+      objectReference: {fileID: 0}
     - target: {fileID: 1339031608414785751, guid: aa46abf75a31c772da8a3ce99f4f34c6,
         type: 3}
       propertyPath: m_textInfo.characterCount
