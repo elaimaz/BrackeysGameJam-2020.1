@@ -35,6 +35,10 @@ public class PortalClip : MonoBehaviour
         
         //These codes constrains portal to circle.
         center = player.transform.position;
+        
+        //Check if player pressed inside range
+        if (Vector2.Distance(center, mousePosition) > maxDistance) return;
+        
         actualDistance = Vector2.Distance(center, position);
         if (actualDistance > maxDistance)
         {
