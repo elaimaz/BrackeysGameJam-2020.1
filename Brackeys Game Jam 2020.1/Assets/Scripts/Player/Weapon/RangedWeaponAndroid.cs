@@ -36,7 +36,7 @@ public class RangedWeaponAndroid : MonoBehaviour
     public void Shoot(float damage)
     {
         print("Recieved command to fire");
-        this.damage = (int)damage / 2;// This needs to be changed cuz 2  bullets were spawning.
+        this.damage = (int)damage;// This needs to be changed cuz 2  bullets were spawning.
         anime.SetTrigger("isAttacking");
         playerAnime.SetTrigger("isAttacking");
     }   

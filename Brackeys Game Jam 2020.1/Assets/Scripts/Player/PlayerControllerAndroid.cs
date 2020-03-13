@@ -9,6 +9,7 @@ public class PlayerControllerAndroid : MonoBehaviour
     
     public FixedJoystickButton joybutton;
     public Joystick joystick;
+//    public HandleScript joystick;
     
     [Range(1, 10)]
     public float defaultMoveSpeed = 3f;
@@ -94,9 +95,10 @@ public class PlayerControllerAndroid : MonoBehaviour
     
     void Update()
     {
-        if(joystick.Horizontal > 0.5 || joystick.Horizontal < -0.5) HorizontalAxis = joystick.Horizontal;
-        else HorizontalAxis = 0;
-        if(joybutton.Pressed) movement.x = HorizontalAxis * (isFalling?0:1);
+//        if(joystick.Horizontal > 0.5 || joystick.Horizontal < -0.5) HorizontalAxis = joystick.Horizontal;
+//        else HorizontalAxis = 0;
+        HorizontalAxis = joystick.Horizontal;
+        movement.x = HorizontalAxis * (isFalling?0:1);
         
 //        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
